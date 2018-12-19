@@ -1,6 +1,7 @@
+<!--- by leaving layout or title null, this file wont appear in nav --->
 ---
-layout: page
-title: Theme Styles
+layout: 
+title: 
 ---
 
 ## Full Style Test
