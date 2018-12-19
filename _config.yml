@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            The Official Fealty Site
 tagline:          
-description:      "Fealty is a character-driven strategy game"
+description:      "Fealty is <i>complicated</i>"
 url:              https://oldserge.github.io/fealtyweb/
 baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
