@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Example content
+layout: 
+title: 
 ---
 
 
