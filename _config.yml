@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            The Official Fealty Site
 tagline:          
 description:      "Fealty is <i>complicated</i>"
-url:              https://oldserge.github.io/fealtyweb/
+url:              https://fealtygame.com
 baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
