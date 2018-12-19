@@ -25,8 +25,7 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <button id="open-popup">Subscribe to our mailing list</button>
+      
       <hr>
       <span class="sidebar-nav-item">Game v{{ site.gameVersion }}</span>
       <span class="sidebar-nav-item">Site v{{ site.version }}</span>
@@ -35,13 +34,3 @@
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
-
-
-<script>
-  function showMailingPopUp() {
-    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"fbbddb2990b2fab3d0435a825","lid":"d7455f6b7de6dbfb09e18b7a6"}) })
-    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-  };
-
-  document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-</script>
