@@ -4,55 +4,38 @@ title: Home
 ---
 
 <div>
-  <img id="logo" src="/public/images/fealty_logo.png" alt="Game logo">
+    <img id="logo" src="/public/images/fealty_logo.png" alt="Game logo">
 </div>
-
-<!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-  <form action="https://fealtygame.us7.list-manage.com/subscribe/post?u=fbbddb2990b2fab3d0435a825&amp;id=06ce5fc35c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-      <label for="mce-EMAIL">Subscribe to know the moment the demo is out!</label>
-      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="b_fbbddb2990b2fab3d0435a825_06ce5fc35c" tabindex="-1" value="">
-      </div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-  </form>
-</div>
-
-<!--End mc_embed_signup-->
 
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url | remove_first: '/'}}">
-        {{ post.title }}
-      </a>
-    </h1>
+    {% for post in paginator.posts %}
+    <div class="post">
+        <h1 class="post-title">
+            <a href="{{ site.baseurl }}{{ post.url | remove_first: '/'}}">
+                {{ post.title }}
+            </a>
+        </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+        <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
+        {{ post.content }}
+    </div>
+    {% endfor %}
 </div>
 
 <div class="pagination">
-  {% if paginator.next_page %}
+    {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    <span class="pagination-item older">Older</span>
     {% endif %}
-  {% else %}
+    {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+    <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+    <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+    {% else %}
     <span class="pagination-item newer">Newer</span>
-  {% endif %}
+    {% endif %}
 </div>
