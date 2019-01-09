@@ -38,6 +38,10 @@ In the next WIP I want to talk about the code architecture for the game, and go 
 
 Thanks for reading!
 
+-FealtyDev
+
+![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+
 [first_commit]: /public/images/posts/first_commit.png
 [black]: /public/images/posts/the_beginning.png
 [beginning]: /public/images/posts/beginning.png

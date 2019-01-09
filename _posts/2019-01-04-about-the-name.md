@@ -12,12 +12,16 @@ The defining characteristic of medieval feudalism was a small group of nobles ha
 
 A *vassal* was someone that had pledged fealty to a lord, promising their labor and services in exchange for the protection of the lord and use of the lord's land. In this way vassals were dependent on the lord, but also the lord was dependent on their vassals.
 
-Most vassals were commoners who worked on the lord's land in times of peace and made up the bulk of the lord's army in times of war. Other commoners might be tradesmen - blacksmiths, carpenters - which could be highly regarded depending on their skill. 
+Most vassals were commoners who worked on the lord's land in times of peace and made up the bulk of the lord's army in times of war. Other commoners might be tradesmen - blacksmiths, carpenters - which could be highly regarded depending on their skill.
 
 Between the nobility at the top, and the peasants at the bottom, was third class made up of professional warriors and were called *knights*. Lords needed knights to act as their muscle: they would act as military leaders, and also strove to be great warriors.
 
-The essential point in all of this is that the concept of *fealty* was integral to medieval society because it defined the relationships between vassal and lord. 
+The essential point in all of this is that the concept of *fealty* was integral to medieval society because it defined the relationships between vassal and lord.
 
-At the heart of **Fealty** (the game) is a discreet simulation of these relationships in a living and breathing world. I believe that these relationships provide the context for varied and interesting challenges that will help players connect to the characters in the world and care about their fates. 
+At the heart of **Fealty** (the game) is a discreet simulation of these relationships in a living and breathing world. I believe that these relationships provide the context for varied and interesting challenges that will help players connect to the characters in the world and care about their fates.
 
-So now you know where the name of the game comes from. 
+So now you know where the name of the game comes from.
+
+-FealtyDev
+
+![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }

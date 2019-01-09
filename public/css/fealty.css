@@ -4,6 +4,11 @@
   margin-right: auto;
 }
 
+.portrait{
+	width: 100px;
+	height: 100px;
+}
+
 .center {
 	display: block;
 	margin-left: auto;
