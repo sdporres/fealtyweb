@@ -7,7 +7,7 @@ title:            The Official Fealty Site
 tagline:          
 description:      "Fealty is a game about city building in a world of conflicting loyalties"
 url:              https://fealtygame.com
-baseurl:          
+baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
