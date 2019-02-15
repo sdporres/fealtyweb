@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            The Official Fealty Site
 tagline:          
-description:      "Fealty is a game about city building in a world of conflicting loyalties"
+description:      "The Dynasty-Building Strategy-RPG"
 url:              https://fealtygame.com
 baseurl:          
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
