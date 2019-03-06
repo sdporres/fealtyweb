@@ -3,13 +3,13 @@ layout: post
 title: Fealty 2 Announcement
 ---
 
-## **I am excited to announce Fealty 2!**
+# **I am excited to announce Fealty 2!**
 
 "But FealtyDev", I hear you say. "What happened to Fealty (1)?"
 
 ![Inigo's Wisdom][inigo]
 
-# The Origin of Fealty
+## The Origin of Fealty
 
 The concept for Fealty has been floating around my head for almost a decade. Many years ago, when I was knee-deep in Crusader Kings 2 and Dwarf Fortress (hard to believe it has been so long!), I wanted to bring those two together. I wanted to create a low-level simulation (ala DF) of a defined geographical space inhabited by characters that represented emotion, interests, and personal possessions. The game would play sort of like a CEO simulator, where your main actions were managing your 'human' resources indirectly to achieve things in the world: everything from resource production/refinement, to trade, and diplomacy would be driven by the character system. The idea was further bolstered when I stumbled accross a pen & paper RPG called Pendragon, which contains a system that captures personality and character choices through a Virtue/Vice system. The characters in Pendragon have tendencies to be Pious, or Brave, etc, and that determines how they react to situations. (Players can attempt to 'override' these actions, but that comes down to dice rolls - but if you succeed, that could permanently change the tendencies of that character; become more/less Brave, etc.)
 
@@ -31,7 +31,7 @@ Oh, and of course the whole thing had to be multiplayer and it would be real-tim
 
 This is my dream for Fealty.
 
-# Pain and Rebirth
+## Pain and Rebirth
 
 Over the years, the Fealty codebase has seen multiple incarnations and fits and starts. Initially I was working in Python and C++, then I moved over to XNA and C#. Today most of the Fealty game-code is in a C# library with Unity as a thing wrapper for UI and input commands, events, etc. The changes in tech came mostly out of a realization that I could work much faster in C# than in C++, and prototype quicker in Unity's Editor.
 
@@ -41,11 +41,11 @@ At this point in my career, I am happy to say that from a technical perspective 
 
 The point here is that over the last ten years, the journey of working on Fealty has mostly been getting my technical skills where they needed to be. When I forked the most recent codebase (about a year ago now), I had clean architectural plans and designs for all the systems that needed to integrate to deliver the experience I was dreaming of.
 
-# Great Strides
+## Great Strides
 
 The last year has been the most productive by far, and I am very happy with the simulation tech that has been my focus. I figured, from the start, that the simulation needs to be broad and robust in order to capture the detailed interactions between characters and characters, characters and the world, and then generate the village to village interactions at the heart of the concept. Towards November 2018 it was becoming clear that there was something here that was WORKING. The little sim people would walk around, ask you for things that they needed, and harvest resources and build out the village all on their own. It was the most incredible feeling. And as soon as I had that feeling, I started worrying that I was operating in a black-hole and that no one besides me had seen the game.
 
-# Stepping Out Into the World
+## Stepping Out Into the World
 
 So I created some social media accounts, threw together a web page, and resolved myself that moving forward into 2019 I was going to share as much as possible in order to get as much feedback as possible. Furthermore, I resolved to release some kind of playable demo by March 2019. Then a few things happened that I had not expected.
 
@@ -53,7 +53,7 @@ Firstly, primarily through Twitter, I ran headfirst into the indie/game dev comm
 
 Besides Twitter, I also wanted to write devblogs as I progressed through milestones. As I embarked on the journey towards the March demo, it all made perfect sense that this was the time to turn the spotlight on the project.
 
-# The Most Common Mistake
+## The Most Common Mistake
 
 You may have noticed that 1) I have previously not share a whole lot of information about the game 2) there haven't been any updates in some time. And this is because I have been dealing with the most common mistake in gamedev: Lack of planning/proper scoping.
 
@@ -71,7 +71,7 @@ I knew what I wanted the game to DO, but I hadn't really thought about the PLAYE
 
 Another way to put it: I had been working on a historical simulator all along and not a game. Boyued by the techincal success I was experiencing, I didn't stop to look around or smell the roses.
 
-# Round Two
+## Round Two
 
 I don't think I can get away from the original Fealty concept that has assaulted my imagination over the last ten years. I still really want to play that game, and I think it would be revolutionary as a multiplayer experience where players are drawn into conflict and competition naturally and dramatically rather than over arbitrary goals.
 
