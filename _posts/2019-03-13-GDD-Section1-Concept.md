@@ -90,6 +90,8 @@ Without further ado, here is the Fealty Concept. I will share some additional th
 
 ---
 
+## Lastly
+
 The heart of the concept is the dynamic between gaining and using Power in the (so far only 1) game mode and maximizing Prestige gain. We think that idea is interesting and is strongly supported by the long-term Dynasty management gameplay. Most importantly, we think its going to provide gameplay that maximises player collaboration (and maybe treachery).
 
 The previous concept for Fealty described an always-on persistent world with two difficult challenges. One was giving people the opportunity to step away from the game. No matter how great, with every game there is a time when getting a little break is nice. Some games try Vacation Modes, or proxy play (one player filling in for another), but there are significant tradeoffs with any solution. The other challenge was that a setback in a world that is always on and always progressing was very painful. However, "loss" is an emotion that we think is important for the "gains" to be meaningful. Combining the persisten of the player Dynasty with instanced Kingdom Games allows for the games to be more tense and dramatic - and loss should not feel as bad.
