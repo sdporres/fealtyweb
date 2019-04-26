@@ -1,6 +1,7 @@
 ---
 layout: post
 title: WIP - One Year Ago
+tags: general
 ---
 
 Welcome to the weekly Work-In-Progress post. Today is a special day because today the Fealty codebase is one year old!

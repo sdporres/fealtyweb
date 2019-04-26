@@ -10,9 +10,12 @@
     </div>
     <div id="pledgelink">
       <a href="http://eepurl.com/go8jWf">
-        <h1>Sign up to get notified about releases!</h1>
+        <h1>Join the Alpha playtest!</h1>
       </a>
     </div>
+      <!-- <span class="sidebar-nav-item"><a href="https://discord.gg/rFTHUmf">Join the Official Discord!</a></span> -->
+      <span class="sidebar-nav-item"><a href="https://twitter.com/FealtyDev">Follow us on Twitter!</a></span>
+
     <nav class="sidebar-nav">
       {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -30,8 +33,26 @@
       {% endfor %}
 
       <hr>
-      <!-- <span class="sidebar-nav-item"><a href="https://discord.gg/rFTHUmf">Join the Official Discord!</a></span> -->
-      <span class="sidebar-nav-item"><a href="https://twitter.com/FealtyDev">Follow us on Twitter!</a></span>
+
+      {% for tag in site.tags %}
+      {% assign t = tag | first %}
+      {% assign posts = tag | last %}
+
+      {{ t | downcase }}
+      <ul>
+        {% for post in posts %}
+        {% if post.tags contains t %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      {% endfor %}
+
+      <hr>
+
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

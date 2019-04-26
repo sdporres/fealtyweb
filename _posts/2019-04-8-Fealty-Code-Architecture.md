@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fealty Code Architecture
+tags: code
 ---
 
 Welcome back #FealtyFaithful.

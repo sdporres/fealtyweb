@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lessons from Design
+tags: Design
 ---
 
 If you have been following along, then you know that I finally admitted [I had a scoping problem]. Since then, I have committed to rebooting the project and document a proper design up front. I am looking forward to sharing the conceptual part of the design next week and reveal to you what I have been wrestling with over the past few weeks.

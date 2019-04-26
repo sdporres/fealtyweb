@@ -1,6 +1,7 @@
 ---
 layout: post
 title: About The Name
+tags: general
 ---
 
 More than a few people that I have spoken to about the game have told me that they are unfamiliar with the word *fealty*, so I thought it would be good to say a few things about it here.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fealty 2 Announcement
+tags: general
 ---
 
 # **I am excited to announce Fealty 2!**

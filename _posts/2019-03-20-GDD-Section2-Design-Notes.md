@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GDD Section 2 - Design Notes
+tags: Design
 ---
 
 At the heart of the challenge of communicating your fantabulous idea, wether in person or in written form (even harder!), is figuring out what actually makes it fantabulous; then you have to convince your audience that is precisely as fantabulous as you think it is fantabulous. [*That was just gratuitous, sorry*]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome!
+tags: general
 ---
 
 Welcome to the *Fealty* website!

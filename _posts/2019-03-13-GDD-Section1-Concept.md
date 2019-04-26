@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GDD Section 1 - Concept
+tags: Design
 ---
 
 A few weeks ago I announced that Fealty was in need of some dire loving. We embraced the challenge, knowing that it meant we had to revisit a lot what we were doing. I share some of the pain/fruits last time, and today I am happy to be able to share the first section of our in-progress design doc. I am going to reproduce it below, and share some thoughts at the end.
