@@ -1,15 +1,17 @@
 ---
 layout: post
-title: Alpha 1 is getting pretty damn close
+title: Alpha 1 Announcement
 ---
 
 Well, people, I have been writing lots of code for about a month. Almost exactly a month, actually - the first commit was 24 March 2019. Over the past month the project has achieved a very important milestone - it is playable! Like, holy shit, its hideous and ugly, but there is a *nugget* of an experience here!
 
 Allright, so what is going to be in this release?
 
+![Alpha Splash image][alpha-splash]
+
 ## Alpha 1 - The Kingdom Game
 
-The most basic-playable-thing I could start off with is the Kingdom Game. 
+Like I said, the goal of this first release was to get something playable, and the most basic-playable-thing we could start off with is the Kingdom Game.
 ```
 The "Kingdom Game" is the primary game mode in Fealty - it is where your characters do things and develop, and the vehicle for your Dynasty to gain Prestige.
 ```
@@ -17,7 +19,7 @@ In the next few weeks leading up to the release I will go into more detail about
 
 ## Settlements
 
-Settlements are important because controlling them is the primary way of gaining Power. 
+Settlements are important because controlling them is the primary way of gaining Power.
 ```
 Power is important because it converts into Prestige at the end of the game.
 ```
@@ -36,7 +38,7 @@ Every settlement has a Manor, which acts as the HQ of the settlement. In additio
 ```
 
 ## Characters
-Characters execute your will in the Kingdom Game. They can lead Troops to Siege and Attack your enemies.
+Characters execute your will in the Kingdom Game. They can Siege and Attack enemies, and Annex neutral settlements.
 
 ### Actions
 In this alpha we have a basic set of actions characters can perform with settlements and other characters.
@@ -57,3 +59,5 @@ Now that we have gone over the concept and our design goals, we are turning our 
 -FealtyDev
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+
+[alpha-splash]: /public/images/posts/alpha-splash.png
