@@ -11,6 +11,8 @@ Allright, so what is going to be in this release?
 
 ## Alpha 1 - The Kingdom Game
 
+Alpha 1 is special because a lot had to go into the game at once, whereas subsequent releases will be more focused. 
+
 Like I said, the goal of this first release was to get something playable, and the most basic-playable-thing we could start off with is the Kingdom Game.
 ```
 The "Kingdom Game" is the primary game mode in Fealty - it is where your characters do things and develop, and the vehicle for your Dynasty to gain Prestige.
