@@ -17,8 +17,7 @@ Check it out and let me know what you think!
 
 [ANDROID](https://install.appcenter.ms/users/fealtydev-gmail.com/apps/fealty/distribution_groups/public%20link)  
 
-[PC](/public/builds/5th-power-games-fealty-windows-32-bit-55.zip)
-
+[PC](https://developer.cloud.unity3d.com/share/share.html?shareId=WyfIzG67iE)
 
 <br/>
 
