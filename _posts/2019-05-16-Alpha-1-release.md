@@ -15,9 +15,7 @@ Check it out and let me know what you think!
 
 ### Links
 
-[ANDROID](https://install.appcenter.ms/users/fealtydev-gmail.com/apps/fealty/distribution_groups/public%20link)  
-
-[PC](https://developer.cloud.unity3d.com/share/share.html?shareId=b1FQQVHGj4)
+Removed, please see sidebar.
 
 <br/>
 
