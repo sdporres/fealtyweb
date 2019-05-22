@@ -1,3 +1,7 @@
+.smaller-text {font-size: 80%; }
+
+.smallest-text {font-size: 65%; }
+
 .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
 
 #logo {
