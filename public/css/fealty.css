@@ -1,3 +1,5 @@
+.obfuscate { unicode-bidi: bidi-override; direction: rtl; }
+
 #logo {
   display: block;
   margin-left: auto;
