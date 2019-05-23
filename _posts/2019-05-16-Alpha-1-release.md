@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Alpha 1 Release
+tags: release
 ---
 
 ![screenshot1](/public/images/posts/16MAY19/alpha1-title.jpg){: .image-left .post-image }  

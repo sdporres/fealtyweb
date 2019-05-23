@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Alpha Playtesting and Releases
-tags: alpha
+tags: general
 ---
 
 Well, people, I have been writing lots of code for about a month. Almost exactly a month, actually - the first commit was 24 March 2019. Over the past month the project has achieved a very important milestone - it is playable! Like, holy shit, its hideous and ugly, but there is a *nugget* of an experience here!

@@ -19,6 +19,11 @@ paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/my-jekyll-site/page:num' if you want to move your index pages
 
+collections:
+  domesday-entries:
+    output: true
+
+
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -26,9 +31,8 @@ plugins:
 
 # Custom vars
 google_analytics:   UA-138518196-1
-version:            0.0.1
 
-gameVersion:        0.10.1
+gameVersion:        0.1.1
 
 # github:
 #  repo:             https://github.com/karloespiritu/blackdoc

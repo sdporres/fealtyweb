@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Alpha 1 Announcement
+tags: general
 ---
 
 Dear people I am happy to finally reveal to you what is coming in Alpha 1 and to announce that it will be available to everyone on May 14.
