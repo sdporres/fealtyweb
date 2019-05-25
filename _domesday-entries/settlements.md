@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Buildings
+title: Settlements
 slug: The source of all resources in the game
 section: basics
 ---
