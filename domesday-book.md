@@ -16,15 +16,26 @@ In 1066 William I conquered England, earning his famous nickname and ending year
 This section of the site describes the various parts and mechanics of the game in the hope that it will enable YOU to go about ruling your realm.
 ```
 
-
-
-{% for entry in site.domesday-entries %}
-  <h2><a href="{{ entry.url }}">{{ entry.title }}</a></h2>
-  <p>{{ entry.slug | markdownify }}</p>
+## Basics
+{% assign basic-entries = site.domesday-entries | where: "section", "basics" %}
+<ul class="horz">
+{% for entry in basic-entries %}
+  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+  {% unless entry == basic-entries.last %} - {% endunless %}  
 {% endfor %}
+</ul>
+
+## Advanced
+{% assign adv-entries = site.domesday-entries | where: "section", "advanced" %}
+<ul class="horz">
+{% for entry in adv-entries %}
+  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+  {% unless entry == adv-entries.last %} - {% endunless %}  
+{% endfor %}
+</ul>
 
 ---
 
-<span class="smaller-text"><a name="footer"><sup>1. </sup></a>Read about the real Domesday Book: [https://en.wikipedia.org/wiki/Domesday_Book](https://en.wikipedia.org/wiki/Domesday_Book)</span>
+<span class="smaller-text"><a name="footer"><sup>1 </sup></a>Read about the real Domesday Book: [https://en.wikipedia.org/wiki/Domesday_Book](https://en.wikipedia.org/wiki/Domesday_Book)</span>
 
 
