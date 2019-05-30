@@ -6,24 +6,20 @@ section: basics
 
 ## Overview
 
-Settlements are the population centers on the Kingdom Mode map. Taking control of settlements is central to  the Kingdom Mode because settlements are the only source for Population and Food.
+> 1 Game Hour = 10 Real Seconds
 
-## Taking Control
+That's it, baby!
 
-Settlements can begin the game as **Neutral**, or aligned to one of the game dynasties.
+Ok, here is how this works out at various intervals:
 
-A dynasty can take control of a settlement with the **Siege** action. Additionally, **Neutral** settlements can be 'peacefully' taken over with the **Annex** action.
+>| Real Time  | Game Time |
+>|:-:|:-:|
+>| 10 Seconds  | 1 Hour |
+>| 4 Minutes  | 1 Day |
+>| 24.333 (repeating of course) Hours  | 1 Year |
 
-When a character completes a succesful **Siege** or **Annex** action they immediately become the new Lord of the settlement.
+We skew this in a few ways to make the game playable
 
-## Lord of the Settlement
-
-A character that is the Lord of a settlement gains 100 Prestige at the start of every month.
-
-
-
-
-
-
+* Children will reach adulthood in 1 Real Time week (~ 7 Game Years)
 
 <!-- <span style="color:blue"> blue text</span> -->
