@@ -8,17 +8,34 @@ section: basics
 
 Settlements are the population centers on the Kingdom Mode map. Taking control of settlements is central to  the Kingdom Mode because settlements are the only source for Population and Food.
 
-## Taking Control
-
-Settlements can begin the game as **Neutral**, or aligned to one of the game dynasties.
-
-A dynasty can take control of a settlement with the **Siege** action. Additionally, **Neutral** settlements can be 'peacefully' taken over with the **Annex** action.
-
-When a character completes a succesful **Siege** or **Annex** action they immediately become the new Lord of the settlement.
-
-## Lord of the Settlement
-
-A character that is the Lord of a settlement gains 100 Prestige at the start of every month.
+    buildings.Add(new KGBuildingProto
+    {
+        ID = 1,
+        Name = "Manor",
+        Description = $"Workers improve the overall efficiency of the Settlement\nIncreases population limit by {FealtyConfig.Instance.ManorPopLimit}",
+        Type = BuildingTypes.Manor,
+        CoinCost = 500,
+        ActionTicks = FealtyDefs.TICKS_IN_A_DAY * 12,
+        Unique = true
+    });
+    buildings.Add(new KGBuildingProto
+    {
+        ID = 2,
+        Name = "Cottage",
+        Description = $"Workers increase the Growth of the Settlement\nIncreases population limit by {FealtyConfig.Instance.CottagePopLimit}",
+        Type = BuildingTypes.Cottage,
+        CoinCost = 175,
+        ActionTicks = FealtyDefs.TICKS_IN_A_DAY * 5
+    });
+    buildings.Add(new KGBuildingProto
+    {
+        ID = 3,
+        Name = "Market",
+        Description = $"Workers produce {FealtyConfig.Instance.MarketDailyProduction} Coin daily",
+        Type = BuildingTypes.Market,
+        CoinCost = 200,
+        ActionTicks = FealtyDefs.TICKS_IN_A_DAY * 7
+    });
 
 
 

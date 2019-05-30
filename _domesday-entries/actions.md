@@ -10,15 +10,15 @@ Settlements are the population centers on the Kingdom Mode map. Taking control o
 
 ## Taking Control
 
-Settlements can begin the game as **Neutral**, or aligned to one of the game dynasties.
+annex
 
-A dynasty can take control of a settlement with the **Siege** action. Additionally, **Neutral** settlements can be 'peacefully' taken over with the **Annex** action.
+siege
 
-When a character completes a succesful **Siege** or **Annex** action they immediately become the new Lord of the settlement.
+attack
 
-## Lord of the Settlement
+transfer
 
-A character that is the Lord of a settlement gains 100 Prestige at the start of every month.
+bolster
 
 
 
