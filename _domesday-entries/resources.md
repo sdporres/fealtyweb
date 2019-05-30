@@ -1,6 +1,6 @@
 ---
 layout: none
-title: Buildings
+title: Resources
 section: basics
 ---
 
