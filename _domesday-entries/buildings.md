@@ -4,43 +4,18 @@ title: Buildings
 section: basics
 ---
 
-## Overview
+## Manor
 
-Settlements are the population centers on the Kingdom Mode map. Taking control of settlements is central to  the Kingdom Mode because settlements are the only source for Population and Food.
+The manor is the residence of the Lord. Workers assigned to the manor represent servants of the Lord helping to make the settlement more efficient. The manor grants a bonus to most of the activities of the settlement.
 
-    buildings.Add(new KGBuildingProto
-    {
-        ID = 1,
-        Name = "Manor",
-        Description = $"Workers improve the overall efficiency of the Settlement\nIncreases population limit by {FealtyConfig.Instance.ManorPopLimit}",
-        Type = BuildingTypes.Manor,
-        CoinCost = 500,
-        ActionTicks = FealtyDefs.TICKS_IN_A_DAY * 12,
-        Unique = true
-    });
-    buildings.Add(new KGBuildingProto
-    {
-        ID = 2,
-        Name = "Cottage",
-        Description = $"Workers increase the Growth of the Settlement\nIncreases population limit by {FealtyConfig.Instance.CottagePopLimit}",
-        Type = BuildingTypes.Cottage,
-        CoinCost = 175,
-        ActionTicks = FealtyDefs.TICKS_IN_A_DAY * 5
-    });
-    buildings.Add(new KGBuildingProto
-    {
-        ID = 3,
-        Name = "Market",
-        Description = $"Workers produce {FealtyConfig.Instance.MarketDailyProduction} Coin daily",
-        Type = BuildingTypes.Market,
-        CoinCost = 200,
-        ActionTicks = FealtyDefs.TICKS_IN_A_DAY * 7
-    });
+## Cottage
 
+Cottages provide homes for the settlement population. Workers assigned to a cottage contribute to the growth of the population of the settlement. A shortage of cottages will impair the growth of the settlement.
 
+## Market
 
+Markets enable the population of the settlement to trade. Workers assigned to a market produce **Coin** every day.
 
+## Tavern
 
-
-
-<!-- <span style="color:blue"> blue text</span> -->
+Taverns allow the recruitment of **Mercenaries**. Workers assigned to taverns increase the rate at which mercenaries become available. More Taverns allows for a greater number of mercenaries to be available at a time.

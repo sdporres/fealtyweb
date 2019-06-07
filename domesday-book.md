@@ -17,6 +17,7 @@ This section of the site describes the various parts and mechanics of the game i
 ```
 
 ## Basics
+
 {% assign basic-entries = site.domesday-entries | where: "section", "basics" %}
 <ul class="horz">
 {% for entry in basic-entries %}
@@ -25,7 +26,18 @@ This section of the site describes the various parts and mechanics of the game i
 {% endfor %}
 </ul>
 
+## Actions
+
+{% assign adv-entries = site.domesday-entries | where: "section", "actions" %}
+<ul class="horz">
+{% for entry in adv-entries %}
+  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+  {% unless entry == adv-entries.last %} - {% endunless %}  
+{% endfor %}
+</ul>
+
 ## Advanced
+
 {% assign adv-entries = site.domesday-entries | where: "section", "advanced" %}
 <ul class="horz">
 {% for entry in adv-entries %}
