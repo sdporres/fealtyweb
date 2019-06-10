@@ -1,7 +1,7 @@
 ---
-layout: none
+layout: dd-entry
 title: Annex
-section: actions
+section: Actions
 ---
 
 Independent settlements can be asked to willingly join your dynasty - for a price of **Coin**. The character performing the action will attempt to negotiate with the settlement to reduce this price until the price is accepted or negotiations run their course.

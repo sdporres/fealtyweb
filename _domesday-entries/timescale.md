@@ -1,10 +1,8 @@
 ---
-layout: none
+layout: dd-entry
 title: Time Scale
-section: basics
+section: Basics
 ---
-
-## Overview
 
 > 1 Game Hour = 10 Real Seconds
 

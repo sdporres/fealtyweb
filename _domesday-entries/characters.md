@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: dd-entry
 title: Characters
-section: basics
+section: Basics
 ---
-
-# Overview
 
 Characters are how you get anything done in the game. Characters have a range of **Actions** available to them, which they carry out according to their **Skills**.
 
@@ -28,20 +26,9 @@ Characters are how you get anything done in the game. Characters have a range of
 
 * A character with Troops consumes Food daily
 
-### Morale
+### Food & Morale
 
-When a character has Troops, the Morale of the Troops will slowly build each day. Morale growth slows as it increases until it reaches the limit of 100
-
-#### Base Morale Change
-
->| Morale Value  | Base Change  |
->|:-:|:-:|
->| 0-25  | 5 |
->| 26-50  | 3 |
->| 51-75  | 2 |
->| 76-100  | 1 |
-
-#### Food Shortage
+When a character has Troops, the Morale of the Troops will slowly increase each day as long as the army has Food. Morale growth slows as it increases until it reaches the limit of 100.
 
 If there is not enough Food to feed all the Troops, Morale will decrease instead. This can happen very quickly, specially if there are many troops!
 

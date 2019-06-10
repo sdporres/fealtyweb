@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Domesday Book (Wiki) 
+title: Game Wiki
 ---
+## The Domesday Book
 
 <div class="smaller-text">
 In 1066 William I conquered England, earning his famous nickname and ending years of Saxon and Scandavian dominance over the island. Almost 20 years later, in 1085, William sent out his stewards and scribes to travel the whole breadth of the realm and record everything they found.</div>
@@ -10,41 +11,45 @@ In 1066 William I conquered England, earning his famous nickname and ending year
 
 <span class="smaller-text">The historical Domesday Book</span><sup class="smallest-text">[1](#footer)</sup> <span class="smaller-text"> was a survey of all the lands, titles and estates throughout the British isles. The book was massive and took around two years to complete. It contained all the information William needed to govern the realm.</span>
 
----
-
 ```text
 This section of the site describes the various parts and mechanics of the game in the hope that it will enable YOU to go about ruling your realm.
 ```
 
-## Basics
+---
 
-{% assign basic-entries = site.domesday-entries | where: "section", "basics" %}
-<ul class="horz">
-{% for entry in basic-entries %}
-  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-  {% unless entry == basic-entries.last %} - {% endunless %}  
-{% endfor %}
-</ul>
+{% assign section-entries = site.domesday-entries | where: "section", "Basics" %}
+{% if section-entries.size > 0 %}
+  <h2> {{ section-entries.first.section }} </h2>
+  <ul class="horz">
+  {% for entry in section-entries %}
+    <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+    {% unless entry == section-entries.last %} - {% endunless %}  
+  {% endfor %}
+  </ul>
+{% endif %}
 
-## Actions
+{% assign section-entries = site.domesday-entries | where: "section", "Actions" %}
+{% if section-entries.size > 0 %}
+  <h2> {{ section-entries.first.section }} </h2>
+  <ul class="horz">
+  {% for entry in section-entries %}
+    <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+    {% unless entry == section-entries.last %} - {% endunless %}  
+  {% endfor %}
+  </ul>
+{% endif %}
 
-{% assign adv-entries = site.domesday-entries | where: "section", "actions" %}
-<ul class="horz">
-{% for entry in adv-entries %}
-  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-  {% unless entry == adv-entries.last %} - {% endunless %}  
-{% endfor %}
-</ul>
+{% assign section-entries = site.domesday-entries | where: "section", "Advanced" %}
+{% if section-entries.size > 0 %}
+  <h2> {{ section-entries.first.section }} </h2>
+  <ul class="horz">
+  {% for entry in section-entries %}
+    <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+    {% unless entry == section-entries.last %} - {% endunless %}  
+  {% endfor %}
+  </ul>
+{% endif %}
 
-## Advanced
-
-{% assign adv-entries = site.domesday-entries | where: "section", "advanced" %}
-<ul class="horz">
-{% for entry in adv-entries %}
-  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-  {% unless entry == adv-entries.last %} - {% endunless %}  
-{% endfor %}
-</ul>
 
 ---
 
