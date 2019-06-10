@@ -1,7 +1,7 @@
 ---
-layout: dd-entry
-title: Settlements
-section: Basics
+layout: page
+title: NAME
+section: basics | advanced
 ---
 
 Settlements are important because they produce the core resources of **Population**, **Food**, and **Coin**. Beyond the resources they produce, dynasties gain **Power** and characters gain **Honor** for the settlements they control. Therefore controlling settlements is important for the resources they provide in the short-term, but also to maximise your dynasty's **Prestige** at the end of the game.
