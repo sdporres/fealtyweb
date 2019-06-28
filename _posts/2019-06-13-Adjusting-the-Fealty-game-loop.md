@@ -72,9 +72,9 @@ Well, not really. But I do have to make changes to the actions themselves to adj
 
 ---
 
-All of this good stuff is coming in 1.4. The game will stay at 1.x until the kingdom game feels good, and the character actions are fun. Then we will get into all the cool dynasty and character stuff.
+All of this good stuff is coming in 1.3. The game will stay at 1.x until the kingdom game feels good, and the character actions are fun. Then we will get into all the cool dynasty and character stuff.
 
-I am planning to share more 1.4 details when I have some UI to show off and it all comes together. It is going to be a significant step for the game, and start to capture what I am after.
+I am planning to share more 1.3 details when I have some UI to show off and it all comes together. It is going to be a significant step for the game, and start to capture what I am after.
 
 Thanks for reading!
 
