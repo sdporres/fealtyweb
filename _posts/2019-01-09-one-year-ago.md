@@ -43,6 +43,8 @@ Thanks for reading!
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
+---
+
 [first_commit]: /public/images/posts/first_commit.png
 [black]: /public/images/posts/the_beginning.png
 [beginning]: /public/images/posts/beginning.png

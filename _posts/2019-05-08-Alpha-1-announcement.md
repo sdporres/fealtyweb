@@ -40,7 +40,7 @@ Each dynasty has three characters and you can use them to take control of settle
 
 ##### Move
 
-Characters can be outside any (friendly or not) settlement or inside a friendly settlement. You can move from one adjacent settlement to another, and from outside to inside. Having a lot of troops makes Moving take longer. 
+Characters can be outside any (friendly or not) settlement or inside a friendly settlement. You can move from one adjacent settlement to another, and from outside to inside. Having a lot of troops makes Moving take longer.
 
 ##### Annex
 
@@ -52,7 +52,7 @@ If your character has troops and is outside an enemy controlled settlement, and 
 
 ##### Attack
 
-Your character will start a Battle with a target character. The loser of the battle retreats (so that you can siege them, for example). If a battle goes horribly enough, the losing character may be killed. 
+Your character will start a Battle with a target character. The loser of the battle retreats (so that you can siege them, for example). If a battle goes horribly enough, the losing character may be killed.
 
 ## Note to iOS players
 
@@ -67,7 +67,6 @@ Your character will start a Battle with a target character. The loser of the bat
 * Most bugs are auto-reported, but you can submit bug reports/feedback via the bug-looking button
 * Alpha 1 took a little over a month to build ![github commit history](/public/images/posts/alpha-1-commit_history.PNG)
 
-
 ---
 
 Now that we have gone over the concept and our design goals, we are turning our full attention to the Kingdom Game. Next time we will talk about the Kingdom Game prototype design, and our roadmap for the near future.
@@ -75,5 +74,7 @@ Now that we have gone over the concept and our design goals, we are turning our 
 -FealtyDev
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+
+---
 
 [alpha-splash]: /public/images/posts/alpha-splash.png

@@ -4,7 +4,7 @@ title: Fealty 2 Announcement
 tags: general
 ---
 
-# **I am excited to announce Fealty 2!**
+## **I am excited to announce Fealty 2!**
 
 "But FealtyDev", I hear you say. "What happened to Fealty (1)?"
 
@@ -58,7 +58,7 @@ Besides Twitter, I also wanted to write devblogs as I progressed through milesto
 
 You may have noticed that 1) I have previously not share a whole lot of information about the game 2) there haven't been any updates in some time. And this is because I have been dealing with the most common mistake in gamedev: Lack of planning/proper scoping.
 
-Any time I thought of how to share parts of the game, I ran into the same roadblock: I didn't have very much up-to-date documentation. Most of the design has lived in my head, and whatever specs and drawings I had were old or in my journal. Which meant that share the game, or even write about, required a massive effort of explainining what the hell was going on. Anytime I thought I had a good topic, I would think of a dozen other things I thought I needed to explain beforehand for it to make any sense. 
+Any time I thought of how to share parts of the game, I ran into the same roadblock: I didn't have very much up-to-date documentation. Most of the design has lived in my head, and whatever specs and drawings I had were old or in my journal. Which meant that share the game, or even write about, required a massive effort of explainining what the hell was going on. Anytime I thought I had a good topic, I would think of a dozen other things I thought I needed to explain beforehand for it to make any sense.
 
 As I began in earnest to prepare Fealty for the public, I started to realize that although the tech worked it was very difficult to understand what was going on in the simulation. So I started adding tooltips here, and info bubbles there, and other UI elements to surface the interactions that were taking place. And once I had progressed enough in that area that the game was more legible, then I realized that the design behind the game was incoherent.
 
@@ -91,5 +91,7 @@ When I have v1 of the GDD ready I will share it here, and then I want to iterate
 -FealtyDev
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+
+---
 
 [inigo]: /public/images/posts/inigo.jpg

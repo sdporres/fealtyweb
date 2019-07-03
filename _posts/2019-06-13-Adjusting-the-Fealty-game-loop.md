@@ -82,4 +82,6 @@ Thanks for reading!
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
+---
+
 [architecture for the game]: {{ site.baseurl }}{% link _posts/2019-04-8-Fealty-Code-Architecture.md %}

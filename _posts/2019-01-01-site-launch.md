@@ -21,3 +21,5 @@ I hope you enjoyed reading a little bit about our game - we will share more news
 -FealtyDev
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+
+---

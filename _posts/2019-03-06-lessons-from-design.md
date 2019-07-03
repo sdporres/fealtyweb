@@ -64,6 +64,8 @@ If you are looking to embark on a new project, or just think you have the killer
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
+---
+
 [I had a scoping problem]: {{ site.baseurl }}{% link _posts/2019-02-15-fealty2-announcement.md %}
-[Dirty Bomb GDD]: https://bit.ly/2NJ5tcU
-[this template from Chris Taylor]: http://bit.ly/2tz2fAW
+[Dirty Bomb GDD]: <https://bit.ly/2NJ5tcU>
+[this template from Chris Taylor]: <http://bit.ly/2tz2fAW>
