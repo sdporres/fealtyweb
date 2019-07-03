@@ -10,8 +10,6 @@ If I tell you that my idea is about a medieval strategy game with characters, an
 
 So I want to follow up on the concept from last week with an insight into how we think we can manifest that idea into an attractive experience.
 
-># Design Notes
->
 >## Player Engagement in the Kingdom Game
 >
 >There are two vectors that impact player engagement in a game of this type: games that go on too long, and the perception that the game is unwinnable. Either of these on its own may lead a player to abandon a match, but there also a positive feedback loop between them. Beyond these factors, there are other countless reasons why people might leave the game - they hate it, their device exploded, they have discarded all modern technology and decided to live on top of a mountain, etc - that we cannot mitigate.
@@ -61,3 +59,5 @@ Now that we have gone over the concept and our design goals, we are turning our 
 -FealtyDev
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+
+---

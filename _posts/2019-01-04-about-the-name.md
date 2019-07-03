@@ -7,7 +7,7 @@ tags: general
 More than a few people that I have spoken to about the game have told me that they are unfamiliar with the word *fealty*, so I thought it would be good to say a few things about it here.
 
 I like the way that conversation.com puts it:
->"... if you think fealty sounds like a word King Arthur would use, you're right: It's really an outdated term that primarily describes a vassal's sworn allegiance to a feudal lord." (https://www.vocabulary.com/dictionary/fealty)
+>"... if you think fealty sounds like a word King Arthur would use, you're right: It's really an outdated term that primarily describes a vassal's sworn allegiance to a feudal lord." (Vocabulary.com)
 
 The defining characteristic of medieval feudalism was a small group of nobles had control over most of the land. Because they owned the land, and the economy was heavily agrarian, these nobles also had most of the wealth and power. However, the nobles needed someone to work the land and make it profitable. This is where *fealty* comes in.
 
@@ -26,3 +26,7 @@ So now you know where the name of the game comes from.
 -FealtyDev
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+
+---
+
+[Vocabulary.com]: <https://www.vocabulary.com/dictionary/fealty>

@@ -25,11 +25,11 @@ Some examples of whats in here:
 > **FPGLogging** -
 >In-house logging wrapper. This interface is platform agnostic and acts as a wrapper that can be called from any of the FPG code libraries. This class allows code to log from anywhere, without knowing the details about how logging is handled contextually.
 >
-> **FPGRandom** - 
+> **FPGRandom** -
 >This object helps us to create predictable "random" numbers. Everyone knows random numbers are fake, right?
 >
 > **FPGLocalization**
-> 
+>
 > **FPGMath**
 
 ### FPG.Unity
@@ -42,8 +42,8 @@ Some examples of whats in here:
 > **FPGInput** -
 >A robust state-based Input system which translates user interactions into Application-level commands.
 
-```
-You might be wondering - doesn't Unity provide a lot of stuff already?
+```comment
+You might be wondering - doesnt Unity provide a lot of stuff already?
 
 Yes, Unity is great in many ways. However, we explicitly do not use Unity functionality (outside of the UI stuff) anywhere on purpose. If we did, then we would have to 1) deploy the UnityEngine DLL everywhere, 2) would be tied to Unity (as it is, we could easily rebuild the UI in a browser, or Godot, or Monogame, etc). That has technical (as well as licensing) implications we want to avoid.
 ```
@@ -180,13 +180,15 @@ With this architecture in place it has been very easy for me to add new pieces o
 
 ---
 
-I hope this post was useful or interesting. It took longer than expected, and changed much in between drafts, but I think it ultimately provides a decent overview of the interaction between the system components. Next time I want to share with you the roadmap for Fealty as we progress through Alpha and start adding in features. 
+I hope this post was useful or interesting. It took longer than expected, and changed much in between drafts, but I think it ultimately provides a decent overview of the interaction between the system components. Next time I want to share with you the roadmap for Fealty as we progress through Alpha and start adding in features.
 
 Thanks for reading!
 
 -FealtyDev
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+
+---
 
 [unity-app]: /public/images/posts/unity-app-architecture.png
 [playermeta-1]: /public/images/posts/player-meta-message-handling.png

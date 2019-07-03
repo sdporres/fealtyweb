@@ -10,8 +10,10 @@ What I am sharing today is the Concept section of our design, and we have tweake
 
 Without further ado, here is the Fealty Concept. I will share some additional thoughts at the end.
 
-># Concept
+>## Concept
+>
 >## 1. Overview
+>
 >*Fealty* is a strategy game inspired by medieval feudalism where players lead noble families seeking to accumulate **Power** and **Prestige**. These noble families are represented by a **Dynasty** that the player creates, customizes and develops. **Dynasties** will change over time as its members learn skills and abilities, new children are born into the family and characters meet their end from old age, combat or treachery in a **Kingdom Game**.
 >
 >The **Kingdom Game** is *Fealty's* core game mode, a real-time strategy game in which players compete to claim the throne of a randomly generated kingdom. In order win the kingdom players use the characters in their **Dynasty** to gain **Power** through negotiation, trade, or military conquest. **Power** allows players to perform game-changing actions, and can also be traded to other players to negotiate for their support. Most importantly, unspent **Power** at the end of the **Kingdom Game** becomes **Prestige**. Using **Power** wisely is a vital skill for both short and long term success.
@@ -20,7 +22,7 @@ Without further ado, here is the Fealty Concept. I will share some additional th
 >
 >## 2. Player Dynasty
 >
->The Dynasty is a player’s representation in the game. Players use the members of their Dynasty to performs actions in the Kingdom Game, like attacking Settlements, trading resources, and performing diplomacy. Dynasty members age during the Kingdom Game, and will eventually die (of something). 
+>The Dynasty is a player’s representation in the game. Players use the members of their Dynasty to performs actions in the Kingdom Game, like attacking Settlements, trading resources, and performing diplomacy. Dynasty members age during the Kingdom Game, and will eventually die (of something).
 >
 >### 2.1 Family
 >
@@ -28,7 +30,7 @@ Without further ado, here is the Fealty Concept. I will share some additional th
 >
 >### 2.2 Household
 >
->Household members are characters that support your Dynasty, but are not permanent members of it. These characters only belong to a player’s Dynasty for the extent of a Kingdom Game. Players can Adopt noteworthy Household characters to permanently add them to their Dynasty. 
+>Household members are characters that support your Dynasty, but are not permanent members of it. These characters only belong to a player’s Dynasty for the extent of a Kingdom Game. Players can Adopt noteworthy Household characters to permanently add them to their Dynasty.
 >
 >### 2.3 Prestige
 >
@@ -106,3 +108,5 @@ Thank you for keeping up with us!
 -FealtyDev
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+
+---

@@ -40,4 +40,6 @@ I know most people think they are working on the best game ever, but dang #gamed
 
 ![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
+---
+
 [alpha-splash]: /public/images/posts/alpha-splash.png
