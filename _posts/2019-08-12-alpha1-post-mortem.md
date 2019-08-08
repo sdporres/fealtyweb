@@ -4,7 +4,9 @@ title: Alpha 1 Post Mortem
 tags: postmortem
 ---
 
-Some opening text here right.
+My overall take on Alpha 1 was that it went well until I began to outrun the design. Things got shaky as I lost some confidence on how to proceed. This first version has enabled me to validate some design questions, iterate on the core gameplay, and improve parts of the workflow for how this game is going to actually get done.
+
+Here are the Good, the Bad and the Ugly.
 
 ## The Good
 
@@ -51,6 +53,8 @@ This didn't surprise me - I have the advantage (or disadvantage?) of having the 
 > I had not considered "gameplay" in my design, I had instead focused on systems. Alpha 2 does it the other way around
 
 ---
+
+I have created a Roadmap on trello and added the link to the navigation on this site. I also link to everything on the Discord channel that I am going to start slowly promoting. I fiddled with Butlet, an automation tool for Trello, and came up with a way to synchronize high level roadmap tasks with lower level development tasks.
 
 The design of Alpha 2 is nearing completion and I look forward to sharing that with you.
 
