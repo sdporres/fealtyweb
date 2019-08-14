@@ -14,6 +14,8 @@ Here are the Good, the Bad and the Ugly.
 
 The most important thing about Alpha 1 is that it exists. It was important for me to put something together as soon as possible and to adopt an iterative production process
 
+The second part of this is that, though much of the gameplay implementation has to change, the simulation engine is coming along quite well - it is powerful, robust and easy to extend.
+
 ### People played it
 
 Alpha 1 was played by over 90 people and the website saw over 150 hits in aggregate for all Alpha 1 releases (1.0, 1.1, 1.2). I think that means the Twitter and reddit stuff is working. Some people played it for 3+ days
@@ -52,9 +54,19 @@ This didn't surprise me - I have the advantage (or disadvantage?) of having the 
 
 > I had not considered "gameplay" in my design, I had instead focused on systems. Alpha 2 does it the other way around
 
+## We Have The Codes!
+
+Alpha 1 was certainly a growing process. I entered Alpha 1 with a clear plan for the features and only a few ended up getting cut. The focus in Alpha 1 was putting together the core of the simulation engine which will power the game.
+
+The simulation engine code has turned out quite well and Alpha 1 has laid a foundation for what is to come. Alpha 1 also enabled me to proof core aspects of the design, such as the world economy, and revealed valuable lessons about what works and what doesn't regarding the character agency model at the heart of the game.
+
+There is more work than ever to be done, but I think the project is in the best shape it has been in yet.
+
 ---
 
-I have created a Roadmap on trello and added the link to the navigation on this site. I also link to everything on the Discord channel that I am going to start slowly promoting. I fiddled with Butlet, an automation tool for Trello, and came up with a way to synchronize high level roadmap tasks with lower level development tasks.
+I have created a Roadmap on trello and added the link to the navigation on this site for folks that want to see what my planning looks like. I fiddled with Butler, an automation tool for Trello, and came up with a way to synchronize high level roadmap tasks with lower level development tasks.
+
+Furthemore, following some common advice, I created a Discord channel that I am going to start promoting. It was recommended to use the Discord channel as the nexus of the game community. Once development on Alpha 2 picks up I intend to start driving the channel more.
 
 The design of Alpha 2 is nearing completion and I look forward to sharing that with you.
 
