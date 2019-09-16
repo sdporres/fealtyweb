@@ -36,9 +36,7 @@ In the end the team is stronger and the project is stronger for this ongoing inv
 
 Originally 1.3 was going to be the beefed up action system, and 1.4 would be characters. But that plan was going to outstrip design and lead to a bunch of rework. Instead I am axing 1.3 and 1.4 and calling Alpha 1 done.
 
-Alpha 2 is going to be the updated, more fleshed out, design of whats in Alpha 1 and then the new supporting systems around them. Alpha 2 going to be improve and change the old and bring in a lot of the new.
-
-2.0 will be the update of the code that currently exists. 2.0 will be whats in the game now but better.
+Alpha 2 is focused around the UX and player immersion, improvements to the existing settlement/economy model, and extensions to the character and family systems. My goal for 2.0 is first to improve whats there, and then do point releases as I extend existing systems and add new ones.
 
 Each point release will introduce a new module to the game that extends it. We will continue with point releases until the entire Kingdom Game design done. Alpha 2 will end when the kingdom game is feature-complete.
 
