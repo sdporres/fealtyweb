@@ -6,24 +6,35 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-<p><i>Do you like what you read? Do you have questions or feedback?</i></p>
-  <p>
-    <a href="https://discord.gg/dKJP7bY"><img class="discord-logo" style="vertical-align:middle" src="https://pbs.twimg.com/media/DCEe9aPXYAA4joh.png"> </a>      
-    <i>Join our <a href="https://discord.gg/dKJP7bY">Discord </a> to share with us directly and use the in-game report button</i></p>
+</div>
+<i>Do you like what you read? Do you have questions or feedback?</i>
+
+<div id="social-medial-buttons">
+  <div class="floatdiv">
+    <a target="new" href="https://twitter.com/intent/tweet?text=FealtyDev wrote things"
+      data-tooltip="Share on Twitter"><img class="twitter-logo" style="vertical-align:middle"
+        src="{{ site.baseurl }}/public/images/logos/twitter-logo.png"></a>
+  </div>
+  <div class="floatdiv">
+    <a target="new" href="https://discord.gg/dKJP7bY"
+      data-tooltip="Share on Twitter"><img class="discord-logo" style="vertical-align:middle"
+        src="{{ site.baseurl }}/public/images/logos/discord-logo.png"></a>
+  </div>
+</div>
 </div>
 
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.url }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
+    <li>
+      <h3>
+        <a href="{{ site.url }}{{ post.url }}">
+          {{ post.title }}
+          <small>{{ post.date | date_to_string }}</small>
+        </a>
+      </h3>
+    </li>
     {% endfor %}
   </ul>
 </div>
