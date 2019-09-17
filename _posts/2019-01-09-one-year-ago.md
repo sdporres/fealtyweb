@@ -5,12 +5,12 @@ tags: general
 comments: on
 ---
 
-Welcome to the weekly Work-In-Progress post. Today is a special day because today the Fealty codebase is one year old!
+Today is a special day because today the Fealty codebase is one year old!
 
 ![alt text][first_commit]
 
 I always enjoy looking back at my projects and taking notice of how far they have come. At the same time, it feels like just yesterday that I started.
-
+<!--more-->
 This is the earliest screenshot of Fealty.
 <button id="spoiler_btn" class="accordion btn" style="width: 200px; text-align: center;">Show</button>
 ![Earliest screenshot][black]{: .post-image .panel}

@@ -7,7 +7,7 @@ comments: on
 
 If you have been following along, then you know that I finally admitted [I had a scoping problem]. Since then, I have committed to rebooting the project and document a proper design up front. I am looking forward to sharing the conceptual part of the design next week and reveal to you what I have been wrestling with over the past few weeks.
 
-Today I want to talk about a few things that I noted over the past few weeks.
+Today I want to talk about a few things that<!--more--> I noted over the past few weeks.
 
 ## Better pain now, than pain later
 

@@ -8,7 +8,7 @@ comments: on
 Welcome back #FealtyFaithful.
 
 In today's post I am going to give a brief overview of the technical architecture behind Fealty and then share some implementation details for the game's core tech. Programming is challenging for many reasons, but I think the two most common issues budding programmers run into are syntactical (e.g. what are the things I need to type to make this work) and architectural. The former is usually a problem of knowledge - like learning the interface for a new object type - whereas the latter is a result of lack of planning. In both cases (as it often is) experience is the best teacher.
-
+<!--more-->
 ## Leaky Abstractions
 
 Architectural deficiencies become clear when you are attempting to add some new feature or functionality and have to compromise on the integrity of your abstractions (by exposing member data, or a private method, publically) - in other words, you have to expose the guts of your abstraction to another part of the code. This sort of 'hack' can not only make code difficult to modify later, but more importantly introduce hard to find bugs. Ideally, each of your code objects presents a clean and well defined interface that makes it usage simple and protects the internal data.

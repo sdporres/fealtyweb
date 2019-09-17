@@ -11,7 +11,7 @@ comments: on
 
 The first playable release of Fealty is here! We have ambitious plans for Fealty, but it all rests upon the core mechanics that we have captured in these first few months.
 
-Check it out and let me know what you think!
+Check it out and let me know what you think!<!--more-->
 
 (*Edit:* I removed the links - catch the newest version)
 

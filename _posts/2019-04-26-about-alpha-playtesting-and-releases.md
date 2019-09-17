@@ -10,7 +10,7 @@ Well, people, I have been writing lots of code for about a month. Almost exactly
 ![alpha-splash]
 
 I have a separate post about the specifics of the Alpha 1 release coming soon, but for now I want to lay out how this game is gonna get built and how you can choose to be involved.
-
+<!--more-->
 ## Releases
 
 Except for Alpha 1, which coming from nothing had a lot thrown into it, releases are going to be focused and frequent rather than large and rare releases. In general, but specially during Alpha, doing too much at once will necessarily make each thing worse and will also make the testing-feedback-improvement iterative cycle move slower because of limited throughput on the development team. In other words, doing a whole lot of crap at once will just make everything slower since its just me doing the work.

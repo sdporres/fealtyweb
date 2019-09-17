@@ -9,7 +9,7 @@ Well, I think I am finally over Total War: Three Kingdoms (phew). If you have be
 
 But besides that, and other life things, I have been working on the game. In fact, I have been knee-deep in the very core of the game which is the simulation itself. The fruits of that labor will soon bear fruit in a visual way, but if you played the game today it would all look about the same - which means all my work was a great success.
 
-Let me explain...
+Let me explain...<!--more-->
 
 ## In the beginning there was time
 

@@ -8,7 +8,7 @@ comments: on
 Dear people I am happy to finally reveal to you what is coming in Alpha 1 and to announce that it will be available to everyone on May 14.
 
 ![alpha 1 banner](/public/images/posts/fealty-web-banner-gameinset.png)
-
+<!--more-->
 It has been difficult to put this post together in a concise way because there is so much to explain about this first ever playable version of Fealty. Back when I (in hindsight, rather awkwardly) [started this project](https://fealtygame.com/2019/02/15/fealty2-announcement.html) in earnest  I realized that my previous efforts had produced a lot of cool *things* but not a *game* that people could play. So I am happy that we are here, and what you will soon be able to play is a "complete", if simple and shallow, thing. But anyway, there is a lot that I have to explain about this release since its all new to you.
 
 The playtest build is going out to the Alpha list as soon as it is done - you can still <a href="http://eepurl.com/go8jWf">sign up</a> until then!
