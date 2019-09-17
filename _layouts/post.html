@@ -5,16 +5,19 @@ layout: page
 <div class="post">
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-  <p>
-    <div>
-      <img class="portrait" src="{{ site.baseurl }}/public/images/fealtydevportrait.jpeg">
-    </div>
+  <div>
     <div>
       <a target="new" href="https://discord.gg/dKJP7bY" data-tooltip="Discord Invite"><img class="discord-logo"
-          src="{{ site.baseurl }}/public/images/logos/discord-logo-white.png"><i>Chat with me on Discord</i></a>
+          src="{{ site.baseurl }}/public/images/logos/discord-logo-white.png"></a>
+      <img class="portrait" src="{{ site.baseurl }}/public/images/fealtydevportrait.jpeg">
     </div>
-  </p>
-  <p class="simple-left">-FealtyDev</p>
+    <div class="cta-discord">
+      <p><i>Chat with me on Discord</i></p>
+    </div>
+  </div>
+  <div>
+
+  </div>
 </div>
 
 {% if page.comments %}
