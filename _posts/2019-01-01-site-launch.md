@@ -2,6 +2,7 @@
 layout: post
 title: Welcome!
 tags: general
+comments: on
 ---
 
 Welcome to the *Fealty* website!
@@ -17,9 +18,5 @@ The past year of development has been focused on the core simulation. The goal o
 At this point the game has some of our own art, but much of it is still open-sourced stuff and developer art. The UI is also functional, but not pretty (enough for me!). Our focus for the next couple of months is to replace all the art we can, improve the UI to better surface the stuff going on in the sim, and then ... share our first demo with you!
 
 I hope you enjoyed reading a little bit about our game - we will share more news and content updates as they happen, so stay tuned!
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---

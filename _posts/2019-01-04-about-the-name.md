@@ -2,6 +2,7 @@
 layout: post
 title: About The Name
 tags: general
+comments: on
 ---
 
 More than a few people that I have spoken to about the game have told me that they are unfamiliar with the word *fealty*, so I thought it would be good to say a few things about it here.
@@ -22,10 +23,6 @@ The essential point in all of this is that the concept of *fealty* was integral 
 At the heart of **Fealty** (the game) is a discreet simulation of these relationships in a living and breathing world. I believe that these relationships provide the context for varied and interesting challenges that will help players connect to the characters in the world and care about their fates.
 
 So now you know where the name of the game comes from.
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

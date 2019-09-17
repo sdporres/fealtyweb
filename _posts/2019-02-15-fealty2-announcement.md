@@ -2,6 +2,7 @@
 layout: post
 title: Fealty 2 Announcement
 tags: general
+comments: on
 ---
 
 ## **I am excited to announce Fealty 2!**
@@ -87,10 +88,6 @@ What I know for certain is going to be at the heart of the design is the charact
 Instead I will replace the low level sim with an abstraction ala most strategy games, and create a design that emphasises the gameplay resulting from the character interactions at the strategic layer. This will allow us to streamline the resource production and economic aspects of the game while fleshing out and discovering the player interactions.
 
 When I have v1 of the GDD ready I will share it here, and then I want to iterate over it with you. Rebooting this project like this is going to give me the tabula rasa I need to involve the community in the production of this baby the way I want to - from start to finish. You will see all the ugliness, and hopefully help me beautify it. And I would love that we have something playable in a few months that we can continue to talk about and get excited about together.
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

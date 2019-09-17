@@ -2,6 +2,7 @@
 layout: post
 title: Fealty Code Architecture
 tags: code
+comments: on
 ---
 
 Welcome back #FealtyFaithful.
@@ -183,10 +184,6 @@ With this architecture in place it has been very easy for me to add new pieces o
 I hope this post was useful or interesting. It took longer than expected, and changed much in between drafts, but I think it ultimately provides a decent overview of the interaction between the system components. Next time I want to share with you the roadmap for Fealty as we progress through Alpha and start adding in features.
 
 Thanks for reading!
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

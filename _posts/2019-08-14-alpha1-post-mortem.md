@@ -2,6 +2,7 @@
 layout: post
 title: Alpha 1 Post Mortem
 tags: postmortem
+comments: on
 ---
 
 My overall take on Alpha 1 was that it went well until I began to outrun the design. Things got shaky as I lost some confidence on how to proceed. This first version has enabled me to validate some design questions, iterate on the core gameplay, and improve parts of the workflow for how this game is going to actually get done.
@@ -72,6 +73,4 @@ The design of Alpha 2 is nearing completion and I look forward to sharing that w
 
 Thanks for reading!
 
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+---

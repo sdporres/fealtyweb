@@ -2,6 +2,7 @@
 layout: post
 title: GDD Section 1 - Concept
 tags: design
+comments: on
 ---
 
 A few weeks ago I announced that Fealty was in need of some dire loving. We embraced the challenge, knowing that it meant we had to revisit a lot what we were doing. I share some of the pain/fruits last time, and today I am happy to be able to share the first section of our in-progress design doc. I am going to reproduce it below, and share some thoughts at the end.
@@ -105,8 +106,5 @@ The Kingdom Game design is well along, mostly needing some T's dotted and some I
 
 Thank you for keeping up with us!
 
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
-
 ---
+

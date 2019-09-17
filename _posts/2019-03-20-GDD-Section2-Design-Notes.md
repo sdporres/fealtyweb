@@ -2,6 +2,7 @@
 layout: post
 title: GDD Section 2 - Design Notes
 tags: design
+comments: on
 ---
 
 At the heart of the challenge of communicating your fantabulous idea, wether in person or in written form (even harder!), is figuring out what actually makes it fantabulous; then you have to convince your audience that is precisely as fantabulous as you think it is fantabulous. [*That was just gratuitous, sorry*]
@@ -55,9 +56,5 @@ Last is monetization. The thing that has ruined this type of game for me, and I 
 ---
 
 Now that we have gone over the concept and our design goals, we are turning our full attention to the Kingdom Game. Next time we will talk about the Kingdom Game prototype design, and our roadmap for the near future.
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---

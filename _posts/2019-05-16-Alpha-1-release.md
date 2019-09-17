@@ -2,6 +2,7 @@
 layout: post
 title: Alpha 1 Release
 tags: release
+comments: on
 ---
 
 ![screenshot1](/public/images/posts/16MAY19/alpha1-title.jpg){: .image-left .post-image }  
@@ -50,10 +51,6 @@ Compare your progress against your enemy - don't let them get to far ahead!
 Thank you for checking it out, stay tuned to find out whats next for the game over the next few weeks.
 
 Let me know what you think!
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

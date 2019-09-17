@@ -2,6 +2,7 @@
 layout: post
 title: About Alpha Playtesting and Releases
 tags: general
+comments: on
 ---
 
 Well, people, I have been writing lots of code for about a month. Almost exactly a month, actually - the first commit was 24 March 2019. Over the past month the project has achieved a very important milestone - it is playable! Like, holy shit, its hideous and ugly, but there is a *nugget* of an experience here!
@@ -35,10 +36,6 @@ I know most people think they are working on the best game ever, but dang #gamed
  With all that business out of the way, I have a few more bugs to fix and then I cannot wait to drop on you the official Alpha 1 announcement within a week or so.
 
  Thanks for reading, and make to <a href="http://eepurl.com/go8jWf">join the playtest list</a>.
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

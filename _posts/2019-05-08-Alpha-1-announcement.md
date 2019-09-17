@@ -2,6 +2,7 @@
 layout: post
 title: Alpha 1 Announcement
 tags: general
+comments: on
 ---
 
 Dear people I am happy to finally reveal to you what is coming in Alpha 1 and to announce that it will be available to everyone on May 14.
@@ -70,10 +71,6 @@ Your character will start a Battle with a target character. The loser of the bat
 ---
 
 Now that we have gone over the concept and our design goals, we are turning our full attention to the Kingdom Game. Next time we will talk about the Kingdom Game prototype design, and our roadmap for the near future.
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 
