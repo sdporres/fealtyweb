@@ -27,6 +27,12 @@ ul.horz > li {
  
 }
 
+.simple-left {
+	float:left;
+	display: block;
+}
+
+
 .portrait{
 	width: 100px;
 	height: 100px;

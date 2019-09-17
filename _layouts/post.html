@@ -5,28 +5,34 @@ layout: page
 <div class="post">
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-  -FealtyDev
-
-  <div>
-  <img class="portrait" src="{{ site.baseurl }}/public/images/fealtydevportrait.jpeg">
-  <a target="new" href="https://discord.gg/dKJP7bY" data-tooltip="Discord Invite"><img class="discord-logo" src="{{ site.baseurl }}/public/images/logos/discord-logo-white.png"><i>Chat with me on Discord</i></a>
+  <p>
+    <div>
+      <img class="portrait" src="{{ site.baseurl }}/public/images/fealtydevportrait.jpeg">
+    </div>
+    <div>
+      <a target="new" href="https://discord.gg/dKJP7bY" data-tooltip="Discord Invite"><img class="discord-logo"
+          src="{{ site.baseurl }}/public/images/logos/discord-logo-white.png"><i>Chat with me on Discord</i></a>
+    </div>
+  </p>
+  <p class="simple-left">-FealtyDev</p>
 </div>
 
-</div>
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
-// var disqus_developer = 1; // Comment out when the site is live
+  // var disqus_developer = 1; // Comment out when the site is live
 
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://fealtygame.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
+  (function () { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://fealtygame.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+    Disqus.</a></noscript>
 {% endif %}
+
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
