@@ -27,9 +27,27 @@ ul.horz > li {
  
 }
 
+.simple-left {
+	float:left;
+	display: block;
+}
+
+
+.cta-discord{
+	/* width: 64px; */
+	height: 64px;
+	display: block;
+	/* margin-left: auto; */
+	margin-left: 100px;
+	margin-right: 25px;
+	/* margin-bottom:auto; */
+	float: left;
+}
+
 .portrait{
 	width: 100px;
 	height: 100px;
+	/* float:left; */
 }
 
 #main
@@ -49,6 +67,7 @@ ul.horz > li {
 	height: 64px;
 	display: block;
 	/* margin-left: auto; */
+	margin-left: 50px;
 	margin-right: 25px;
 	/* margin-bottom:auto; */
 	float: left;

@@ -2,11 +2,12 @@
 layout: post
 title: GDD Section 2 - Design Notes
 tags: design
+comments: on
 ---
 
 At the heart of the challenge of communicating your fantabulous idea, wether in person or in written form (even harder!), is figuring out what actually makes it fantabulous; then you have to convince your audience that is precisely as fantabulous as you think it is fantabulous. [*That was just gratuitous, sorry*]
 
-If I tell you that my idea is about a medieval strategy game with characters, and resources, and villages, etc. that pretty much sounds like every other game ever made that contains those things. But mechanics alone dont make a game great, of course, and games are more than the sum of their parts. Collectively, the components of the game deliver an *experience* which is what makes us enjoy them. If any of those components is weak, then the whole thing can suffer - but rarely can one or two great components make up for the rest being poor. As an example,  great graphics alone wont make a great game, but crap graphics can limit the enjoyment of a game.
+If I tell you that my idea is about a medieval strategy game with characters, and resources, and villages, etc. that pretty much sounds like every other game ever made that contains those things. But mechanics alone dont make a game great, of course, and games are more than the sum of their parts. <!--more-->Collectively, the components of the game deliver an *experience* which is what makes us enjoy them. If any of those components is weak, then the whole thing can suffer - but rarely can one or two great components make up for the rest being poor. As an example,  great graphics alone wont make a great game, but crap graphics can limit the enjoyment of a game.
 
 So I want to follow up on the concept from last week with an insight into how we think we can manifest that idea into an attractive experience.
 
@@ -55,9 +56,5 @@ Last is monetization. The thing that has ruined this type of game for me, and I 
 ---
 
 Now that we have gone over the concept and our design goals, we are turning our full attention to the Kingdom Game. Next time we will talk about the Kingdom Game prototype design, and our roadmap for the near future.
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---

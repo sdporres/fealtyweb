@@ -2,13 +2,14 @@
 layout: post
 title: Adjusting the Fealty game loop
 tags: code design
+comments: on
 ---
 
 Well, I think I am finally over Total War: Three Kingdoms (phew). If you have been following it along you don't need me to tell you CA did an incredible job - and I am hoping to steal all their best ideas. I almost uninstalled it last night, feeling great satisfaction from my time with it, but I didn't actually do it. But at any rate, its pull on me is much weaker now that I've had my fill.
 
 But besides that, and other life things, I have been working on the game. In fact, I have been knee-deep in the very core of the game which is the simulation itself. The fruits of that labor will soon bear fruit in a visual way, but if you played the game today it would all look about the same - which means all my work was a great success.
 
-Let me explain...
+Let me explain...<!--more-->
 
 ## In the beginning there was time
 
@@ -77,10 +78,6 @@ All of this good stuff is coming in 1.3. The game will stay at 1.x until the kin
 I am planning to share more 1.3 details when I have some UI to show off and it all comes together. It is going to be a significant step for the game, and start to capture what I am after.
 
 Thanks for reading!
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

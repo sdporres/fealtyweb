@@ -2,9 +2,10 @@
 layout: post
 title: What has been and what is next
 tags: general
+comments: on
 ---
 
-Hello everybody. It has been an effort to get some kind of update out because 1) there is a lot going on and 2) I couldn't decide on what to post about from all that is going on. So I will summarize here what has been going on since the end of June, what is happening now, and what will happen next.
+Hello everybody. It has been an effort to get some kind of update out because 1) there is a lot going on and 2) I couldn't decide on what to post about from all that is going on. So I will summarize here what has been going on since the end of June, what is happening now, and what will happen next.<!--more-->
 
 ## Feature Creep
 
@@ -52,6 +53,4 @@ Now that Alpha 1 is dead, I will prepare a post mortem for next time.
 
 Thanks for reading!
 
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
+---

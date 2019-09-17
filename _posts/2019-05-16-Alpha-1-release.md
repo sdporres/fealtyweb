@@ -2,6 +2,7 @@
 layout: post
 title: Alpha 1 Release
 tags: release
+comments: on
 ---
 
 ![screenshot1](/public/images/posts/16MAY19/alpha1-title.jpg){: .image-left .post-image }  
@@ -10,7 +11,7 @@ tags: release
 
 The first playable release of Fealty is here! We have ambitious plans for Fealty, but it all rests upon the core mechanics that we have captured in these first few months.
 
-Check it out and let me know what you think!
+Check it out and let me know what you think!<!--more-->
 
 (*Edit:* I removed the links - catch the newest version)
 
@@ -50,10 +51,6 @@ Compare your progress against your enemy - don't let them get to far ahead!
 Thank you for checking it out, stay tuned to find out whats next for the game over the next few weeks.
 
 Let me know what you think!
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

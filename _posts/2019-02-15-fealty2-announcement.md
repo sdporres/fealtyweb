@@ -2,6 +2,7 @@
 layout: post
 title: Fealty 2 Announcement
 tags: general
+comments: on
 ---
 
 ## **I am excited to announce Fealty 2!**
@@ -12,7 +13,7 @@ tags: general
 
 ## The Origin of Fealty
 
-The concept for Fealty has been floating around my head for almost a decade. Many years ago, when I was knee-deep in Crusader Kings 2 and Dwarf Fortress (hard to believe it has been so long!), I wanted to bring those two together. I wanted to create a low-level simulation (ala DF) of a defined geographical space inhabited by characters that represented emotion, interests, and personal possessions. The game would play sort of like a CEO simulator, where your main actions were managing your 'human' resources indirectly to achieve things in the world: everything from resource production/refinement, to trade, and diplomacy would be driven by the character system. The idea was further bolstered when I stumbled accross a pen & paper RPG called Pendragon, which contains a system that captures personality and character choices through a Virtue/Vice system. The characters in Pendragon have tendencies to be Pious, or Brave, etc, and that determines how they react to situations. (Players can attempt to 'override' these actions, but that comes down to dice rolls - but if you succeed, that could permanently change the tendencies of that character; become more/less Brave, etc.)
+The concept for Fealty has been floating around my head for almost a decade. Many years ago, when I was knee-deep in Crusader Kings 2 and Dwarf Fortress (hard to believe it has been so long!), I wanted to bring those two together. I wanted to<!--more--> create a low-level simulation (ala DF) of a defined geographical space inhabited by characters that represented emotion, interests, and personal possessions. The game would play sort of like a CEO simulator, where your main actions were managing your 'human' resources indirectly to achieve things in the world: everything from resource production/refinement, to trade, and diplomacy would be driven by the character system. The idea was further bolstered when I stumbled accross a pen & paper RPG called Pendragon, which contains a system that captures personality and character choices through a Virtue/Vice system. The characters in Pendragon have tendencies to be Pious, or Brave, etc, and that determines how they react to situations. (Players can attempt to 'override' these actions, but that comes down to dice rolls - but if you succeed, that could permanently change the tendencies of that character; become more/less Brave, etc.)
 
 The example that I used often to demonstrate the concept was to imagine that you had two characters - Brung the meaty warrior and Clarence the squirrely merchant. If Brung and Clarence had an interaction, a number of things could happen, including:
 
@@ -87,10 +88,6 @@ What I know for certain is going to be at the heart of the design is the charact
 Instead I will replace the low level sim with an abstraction ala most strategy games, and create a design that emphasises the gameplay resulting from the character interactions at the strategic layer. This will allow us to streamline the resource production and economic aspects of the game while fleshing out and discovering the player interactions.
 
 When I have v1 of the GDD ready I will share it here, and then I want to iterate over it with you. Rebooting this project like this is going to give me the tabula rasa I need to involve the community in the production of this baby the way I want to - from start to finish. You will see all the ugliness, and hopefully help me beautify it. And I would love that we have something playable in a few months that we can continue to talk about and get excited about together.
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

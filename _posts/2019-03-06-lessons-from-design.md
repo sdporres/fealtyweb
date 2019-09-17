@@ -2,11 +2,12 @@
 layout: post
 title: Lessons from Design
 tags: design
+comments: on
 ---
 
 If you have been following along, then you know that I finally admitted [I had a scoping problem]. Since then, I have committed to rebooting the project and document a proper design up front. I am looking forward to sharing the conceptual part of the design next week and reveal to you what I have been wrestling with over the past few weeks.
 
-Today I want to talk about a few things that I noted over the past few weeks.
+Today I want to talk about a few things that<!--more--> I noted over the past few weeks.
 
 ## Better pain now, than pain later
 
@@ -59,10 +60,6 @@ When the project is small and there is little code, or little art, changing and 
 So take breaks often as you need to in order to refresh your momentum, and shoot for high quality early in order to mitigate inertia.
 
 If you are looking to embark on a new project, or just think you have the killer idea, I would encourage you to start purposefully designing and documenting it. In a way, its like writing a program for humans :p
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

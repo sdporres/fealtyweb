@@ -2,11 +2,12 @@
 layout: post
 title: GDD Section 1 - Concept
 tags: design
+comments: on
 ---
 
 A few weeks ago I announced that Fealty was in need of some dire loving. We embraced the challenge, knowing that it meant we had to revisit a lot what we were doing. I share some of the pain/fruits last time, and today I am happy to be able to share the first section of our in-progress design doc. I am going to reproduce it below, and share some thoughts at the end.
 
-What I am sharing today is the Concept section of our design, and we have tweaked and revised it to the point where we think it captures the *"WHAT"* of Fealty. As I share the rest of the document in the near future, we will also go over the *"WHY"* and *"HOW"*.
+What I am sharing today is the Concept section of our design, and we have tweaked and revised it to the point where we think it captures the *"WHAT"* of Fealty. As I share the rest of the document in the near future, we will also go over the *"WHY"* and *"HOW"*.<!--more-->
 
 Without further ado, here is the Fealty Concept. I will share some additional thoughts at the end.
 
@@ -105,8 +106,5 @@ The Kingdom Game design is well along, mostly needing some T's dotted and some I
 
 Thank you for keeping up with us!
 
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
-
 ---
+

@@ -2,14 +2,15 @@
 layout: post
 title: WIP - One Year Ago
 tags: general
+comments: on
 ---
 
-Welcome to the weekly Work-In-Progress post. Today is a special day because today the Fealty codebase is one year old!
+Today is a special day because today the Fealty codebase is one year old!
 
 ![alt text][first_commit]
 
 I always enjoy looking back at my projects and taking notice of how far they have come. At the same time, it feels like just yesterday that I started.
-
+<!--more-->
 This is the earliest screenshot of Fealty.
 <button id="spoiler_btn" class="accordion btn" style="width: 200px; text-align: center;">Show</button>
 ![Earliest screenshot][black]{: .post-image .panel}
@@ -38,10 +39,6 @@ Looking back at it now, it's funny to realize both how much is the same and how 
 In the next WIP I want to talk about the code architecture for the game, and go into [some] details on how the *Fealty* simulation engine is able to support thousands of players at the same time.
 
 Thanks for reading!
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

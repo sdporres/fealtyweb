@@ -2,6 +2,7 @@
 layout: post
 title: About Alpha Playtesting and Releases
 tags: general
+comments: on
 ---
 
 Well, people, I have been writing lots of code for about a month. Almost exactly a month, actually - the first commit was 24 March 2019. Over the past month the project has achieved a very important milestone - it is playable! Like, holy shit, its hideous and ugly, but there is a *nugget* of an experience here!
@@ -9,7 +10,7 @@ Well, people, I have been writing lots of code for about a month. Almost exactly
 ![alpha-splash]
 
 I have a separate post about the specifics of the Alpha 1 release coming soon, but for now I want to lay out how this game is gonna get built and how you can choose to be involved.
-
+<!--more-->
 ## Releases
 
 Except for Alpha 1, which coming from nothing had a lot thrown into it, releases are going to be focused and frequent rather than large and rare releases. In general, but specially during Alpha, doing too much at once will necessarily make each thing worse and will also make the testing-feedback-improvement iterative cycle move slower because of limited throughput on the development team. In other words, doing a whole lot of crap at once will just make everything slower since its just me doing the work.
@@ -35,10 +36,6 @@ I know most people think they are working on the best game ever, but dang #gamed
  With all that business out of the way, I have a few more bugs to fix and then I cannot wait to drop on you the official Alpha 1 announcement within a week or so.
 
  Thanks for reading, and make to <a href="http://eepurl.com/go8jWf">join the playtest list</a>.
-
--FealtyDev
-
-![FealtyDevPortrait](/public/images/fealtydevportrait.jpeg){: .portrait }
 
 ---
 

@@ -11,9 +11,14 @@ baseurl:
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
+excerpt_separator: <!--more-->                  
+
 author:
   name:           FealtyDev
   url:            https://twitter.com/FealtyDev
+
+# disqus
+comments:         true
 
 paginate:         5
 # paginate_path:    '/page:num'
