@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Game Wiki
+title: Wiki
 ---
 ## The Domesday Book
 

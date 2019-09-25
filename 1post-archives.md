@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Post Archives
+title: All Posts
 ---
 
 <hr>

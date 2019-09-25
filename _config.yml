@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            The Official Fealty Site
 tagline:          
-description:      "The Dynasty-Building Strategy-RPG"
+description:      "The strategy RPG about feudalism"
 url:              https://fealtygame.com
 baseurl:          
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
@@ -21,7 +21,7 @@ author:
 comments:         true
 
 paginate:         5
-# paginate_path:    '/page:num'
+paginate_path:    '/page:num'
                     # Or '/my-jekyll-site/page:num' if you want to move your index pages
 
 collections:
@@ -37,7 +37,7 @@ plugins:
 # Custom vars
 google_analytics:   UA-138518196-1
 
-gameVersion:        0.1.1
+gameVersion:        0.1.3
 
 # github:
 #  repo:             https://github.com/karloespiritu/blackdoc
