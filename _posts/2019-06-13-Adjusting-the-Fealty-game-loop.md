@@ -59,7 +59,7 @@ This was a rather demoralizing event, as you might imagine. I had thought I had 
 
 In times like this it is good to remember that you are probably the one that created the mess you are in. By extension, I think, you can most likely figure it out. And in this case, as so often it is, the problem turned out to be rather stupid.
 
-In case you are not familiar with the [architecture for the game], the relevant thing here is that the the simulation actually runs in two places - your device and on the server. Since there is no server right now, the game creates a faked local server that gets the job done. This is important because every command from a player (human or AI) is validated and executed twice - once locally, and once by the authoritative server.
+In case you are not familiar with the [architecture for the game](architecture), the relevant thing here is that the the simulation actually runs in two places - your device and on the server. Since there is no server right now, the game creates a faked local server that gets the job done. This is important because every command from a player (human or AI) is validated and executed twice - once locally, and once by the authoritative server.
 
 When a command is created it is timestamped with the *game* time for when the commands is to resolve. The client validates the command first, so we can shortcircuit the whole business and let the player know right away. If the command is valid on the client, then it gets sent to and processed by the server.
 
@@ -81,4 +81,5 @@ Thanks for reading!
 
 ---
 
-[architecture for the game]: {{ site.baseurl }}{% link _posts/2019-04-8-Fealty-Code-Architecture.md %}
+[architecture]: {{ site.baseurl }}{% link _posts/2019-04-8-Fealty-Code-Architecture.md %}
+
