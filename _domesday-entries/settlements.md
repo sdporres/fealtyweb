@@ -4,21 +4,17 @@ title: Settlements
 section: Basics
 ---
 
-Settlements are important because they produce the core resources of **Population**, **Food**, and **Coin**. Beyond the resources they produce, dynasties gain **Power** and characters gain **Honor** for the settlements they control. Therefore controlling settlements is important for the resources they provide in the short-term, but also to maximise your dynasty's **Prestige** at the end of the game.
-
-Settlements can be **independent** or under the rule of [Lord](lords).
+Settlements are important because they produce the core resources of **Population**, **Food**, and **Coin**. Beyond the resources they produce, families gain **Power** and characters gain **Honor** for the settlements they control. Therefore controlling settlements is important for the resources they provide in the short-term, but also to maximise your family's **Prestige** at the end of the game.
 
 ---
 
 ## Taking Control
 
-Independent settlements are not held by any character or dynasty. They can be persuaded to join a dynasty peacefully through the [Annex](annex) command.
+If a character [Raids](raid) a settlement without someone to defend it then the settlement is taken over.
 
-Settlements, independent or not, can also be taken militarilty through the [Siege](siege command).
+However a character comes to take control of a settlement, they then become the Lord there, on behalf of their family.
 
-However a character comes to take control of a settlement, they then become the Lord there, on behalf of their dynasty.
-
-When dynasty controls a settlement, they can manage the population, construct buildings, create armies and collect taxes there.
+When a family controls a settlement, they can manage the population, construct buildings, create armies and collect taxes there.
 
 ---
 
@@ -44,7 +40,7 @@ Settlement population growth occurs once a game day. The rate of growth is affec
 
 ### Food
 
-Food is consumed by the settlement population once a game day. A lack of Food can lead to Unrest problems.
+Food is consumed by the settlement population once a game day. A lack of **Food** can lead to Unrest problems.
 
 ### Unrest
 
