@@ -4,7 +4,7 @@ title: Characters
 section: Basics
 ---
 
-Characters are how you get anything done in the game. Characters have a range of **Actions** available to them, which they carry out according to their **Skills**.
+Characters are how you get anything done in the game. You can give characters under your control **Commands** which they carry out according to their **Skills**.
 
 ---
 
@@ -12,25 +12,13 @@ Characters are how you get anything done in the game. Characters have a range of
 
 ### Age
 
-* A character's age increases during the Kingdom Game on their birth day and month
+* A character's age, affects their Skills
 
 ### Honor
 
-* Character's gain Honor primarily when they are Lords of a Settlement, but also as a result of actions
+* Character's gain Honor primarily when they are Lords of a Settlement, but also as a result of actions in the game
 
-* Character Honor is converted to Dynasty Prestige at the end of the Kingdom Game
-
-### Troops & Food
-
-* Characters can be assigned Troops from the settlement population.
-
-* A character with Troops consumes Food daily
-
-### Food & Morale
-
-When a character has Troops, the Morale of the Troops will slowly increase each day as long as the army has Food. Morale growth slows as it increases until it reaches the limit of 100.
-
-If there is not enough Food to feed all the Troops, Morale will decrease instead. This can happen very quickly, specially if there are many troops!
+* Character Honor is converted to family **Prestige** at the end of the game
 
 ---
 
@@ -40,11 +28,7 @@ If there is not enough Food to feed all the Troops, Morale will decrease instead
 
 Leadership represents the ability of the character to influence others.
 
-Currently, Leadership modifies the results of Annexation negotiations, and the pre and post-battle events.
+### Combat
 
-### War
-
-War represents how well the character understands the vagaries of battle and combat.
-
-Currently, War modifies the results of combat during battles and Siege sabotage missions.
+Combat represents how good the character is in direct confrontation with others.
 <!-- <span style="color:blue"> blue text</span> -->
