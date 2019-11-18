@@ -1,7 +1,7 @@
 ---
 layout: dd-entry
 title: Train
-section: Commands
+section: Captain Commands
 ---
 
 The Train command instructs a Captain to take a set number of days to try and improve the   of their troops.

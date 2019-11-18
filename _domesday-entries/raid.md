@@ -1,7 +1,7 @@
 ---
 layout: dd-entry
 title: Raid
-section: Commands
+section: Captain Commands
 ---
 
 The Raid command instructs a Captain to go to an enemy settlement and burn crops and destroy buildings.
