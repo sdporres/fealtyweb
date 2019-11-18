@@ -1,7 +1,7 @@
 ---
 layout: dd-entry
 title: Deliver Food
-section: Commands
+section: Personal Commands
 ---
 
 The Deliver **Food** command orders a character to take **Food** from a settlement and deliver it to another friendly settlement. The amount of Food impacts the amount of time it takes to travel.

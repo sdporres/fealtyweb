@@ -18,7 +18,18 @@ This section of the site describes the various parts and mechanics of the game i
   </ul>
 {% endif %}
 
-{% assign section-entries = site.domesday-entries | where: "section", "Actions" %}
+{% assign section-entries = site.domesday-entries | where: "section", "Personal Commands" %}
+{% if section-entries.size > 0 %}
+  <h2> {{ section-entries.first.section }} </h2>
+  <ul class="horz">
+  {% for entry in section-entries %}
+    <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+    {% unless entry == section-entries.last %} - {% endunless %}  
+  {% endfor %}
+  </ul>
+{% endif %}
+
+{% assign section-entries = site.domesday-entries | where: "section", "Captain Commands" %}
 {% if section-entries.size > 0 %}
   <h2> {{ section-entries.first.section }} </h2>
   <ul class="horz">
