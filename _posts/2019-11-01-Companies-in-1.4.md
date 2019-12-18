@@ -18,10 +18,10 @@ A **company** is a body of troops under the command of a character. A character 
 
 ## Types
 
-A character can recruit companies of two different types:
+A character can recruit companies of two different types:<!--more-->
 ![levy]
 ![merc]
-<!--more-->
+
 A **Levy** is a company recruited from the Serfs in the settlement. Serfs don't own the land they live on, but they get to make use of it in exchange for agreeing to work the fields and show up for military service. Therefore, recruiting many companies of Levies will mean that there will be fewer people to do the important work of planting and harvesting.
 
 Another thing about Levy companies is that their term of service is limited to 45 days. This meas that if you do not disband the company after 45 days then the unrest of their settlement will begin to increase. One way to manage this unrest is to **Extend** a levy's term. This will negatively affect the morale of the unit, but limit the impact on the folks back home.

@@ -12,6 +12,24 @@ ul.horz > li {
 
 .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
 
+.preText {
+	display: inline-block;
+	word-wrap: break-word;
+	max-width: 350px;
+}
+
+
+
+.top-margin
+{
+	margin-top: 50px;
+}
+
+.bottom-margin
+{
+	margin-bottom: 50px;
+}
+
 #logo {
   display: block;
   margin-left: auto;
@@ -20,9 +38,8 @@ ul.horz > li {
 
 .image-left {
   display: block;
-  margin-left: auto;
+  margin-left: 100px;
 	margin-right: 25px;
-	margin-bottom: 50px;
   float: left;
  
 }
