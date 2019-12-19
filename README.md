@@ -1,5 +1,6 @@
 # BlackDoc
-
+  
+  
 ![Jekyll version](https://img.shields.io/badge/Jekyll-3.x-brightgreen.svg?style=flat-square)
 
 BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for websites that require a master-detail layout for viewing of content. It's based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme.
@@ -8,18 +9,19 @@ BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for we
 
 ## Contents
 
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Scrolling sidebar content](#scrolling-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
-- [Thanks](#thanks)
+- [BlackDoc](#blackdoc)
+  - [Contents](#contents)
+  - [Features](#features)
+  - [Quick Start](#quick-start)
+  - [Usage](#usage)
+  - [Options](#options)
+    - [Sidebar menu](#sidebar-menu)
+    - [Scrolling sidebar content](#scrolling-sidebar-content)
+    - [Themes](#themes)
+    - [Reverse layout](#reverse-layout)
+  - [Author](#author)
+  - [License](#license)
+  - [Thanks](#thanks)
 
 ## Features
 
