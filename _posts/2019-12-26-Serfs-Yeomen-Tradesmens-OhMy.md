@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Settlements in 0.1.5
+title: Serfs, Yeomen and Tradesmen - Oh My!
 tags: design
 comments: on
 ---
@@ -11,7 +11,7 @@ This post is about a week late and I am putting the last bits of 0.1.5 together.
 * (2) Delay 0.1.5 until next-year and do the remaining work properly
 * (3) Leave the scope of 0.1.5 as-is and release before New Year
 
-I really don't want to delay 0.1.5 because want to leave 0.1.x behind and do a big 0.2.0 release (targeting May) that would be revisions of existing plus multiplayer and meta progression with a fresh coat of paint. I think a post-mortem of the last year will be interesting and I plan to do that to kick off 2020.
+I really don't want to delay 0.1.5 because want to leave 0.1.x behind and do a big 0.2.0 release (targeting May) that would be revisions of existing plus multiplayer and meta progression with a fresh coat of paint.<!--more--> I think a post-mortem of the last year will be interesting and I plan to do that to kick off 2020.
 
 Today I want to bring the focus to the core of 0.1.5 which is broad changes to the management and development of your settlements. Like all other things the system still has to mature and grow but I think the idea has serious potential. I need you to tell me if that is or isn't the case. (Seriously - help me to not waste my time.)
 
