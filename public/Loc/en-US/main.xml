@@ -25,8 +25,8 @@
   <LocString key="PasswordReset.Error.Title">Missing something?</LocString>
 
   <!-- CHARACTER INTERACTION-->
-  <LocString key="CharacterInteraction.Self1">What do I need to do right now?</LocString>
-  <LocString key="CharacterInteraction.Self2">If you want something done right you need to do it yourself.</LocString>
+  <LocString key="CharacterInteraction.SelectSelf1">What do I need to do right now?</LocString>
+  <LocString key="CharacterInteraction.SelectSelf2">If you want something done right you need to do it yourself.</LocString>
   <LocString key="CharacterInteraction.SelectOther1">[[CHARACTER_NAME]], I have a task for you.</LocString>
   <LocString key="CharacterInteraction.SelectOther2">I need you to do something for me, [[CHARACTER_NAME]]</LocString>
   <LocString key="CharacterInteraction.OtherIsSelected1">What do you want from me, [[RELATIONSHIP]]?</LocString>
