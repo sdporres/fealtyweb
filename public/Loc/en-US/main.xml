@@ -58,8 +58,6 @@
   <LocString key="Company.Property.InSupply">In Supply\n Next Supply in [[NEXT_SUPPLY]] days</LocString>
   <LocString key="Company.Property.OutOfSupply">Last Supply [[LAST_SUPPLY]]\nDays OOS [[DAYS_OUT_OF_SUPPLY]]</LocString>
   <LocString key="Company.Property.MoraleCapModifiers">Morale Modifier [[MODIFIERS]]</LocString>
-  <LocString key="Company.Property.CurrentLocation">Currently in [[SETTLEMENT_NAME]]</LocString>
-  
 
   <!-- BUILDING PROPERTIES -->
   <LocString key="Manor.Name">Manor</LocString>
