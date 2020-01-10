@@ -5,7 +5,14 @@
   <LocString key="Tutorial.FamilyButton">This button shows your family tree. Nice.</LocString>
   <LocString key="Settlement.Detail.Tutorial">Settlements are made up of 'Commoners'. Tap the blue buttons to learn more.</LocString>
   <LocString key="Settlement.Commands.Tutorial">The command panel is how you can make changes to the settlement policies.</LocString>
-  
+
+  <!-- NOUNS -->
+  <LocString key="Noun.Serf">Serf</LocString>
+  <LocString key="Noun.Serfs">Serfs</LocString>
+  <LocString key="Noun.Freemen">Freemen</LocString>
+  <LocString key="Noun.Retinue">Retinue</LocString>
+  <LocString key="Noun.Retinuess">Retinues</LocString>
+
   <!-- APP -->
   <LocString key="Itch.NewVersion.Title">New Version Available</LocString>
 
@@ -30,8 +37,8 @@
   <LocString key="SettlementInteraction.SlotIsBrush.Body">We cannot build here until we clear this brush.\nIf only there was a way to clear brush...\n\n(...there isn't)</LocString>
 
   <!-- CHARACTER PROPERTIES -->
-  <LocString key="Character.Property.CurrentLocation">Is currently in [[SETTLEMENT_NAME]].</LocString> 
-  
+  <LocString key="Character.Property.CurrentLocation">Is currently in [[SETTLEMENT_NAME]].</LocString>
+
   <!-- SETTLEMENT PROPERTIES -->
   <LocString key="TabPageSerfs.Population.Title">Serf Population</LocString>
   <LocString key="TabPageSerfs.Population.Body">This is the total number of Serfs in the settlement. Serfs are your direct servants, and the population will grow as long as there is room in a Cottage</LocString>
@@ -43,7 +50,7 @@
   <LocString key="TabPageSerfs.Support.Body">Serfs in the Support job perform construction, shuttle resources where they are needed, and... ahem... help the population grow faster.</LocString>
   <LocString key="TabPageSerfs.Farmers.Title">Farmer Job</LocString>
   <LocString key="TabPageSerfs.Farmers.Body">Serfs in the Farmer job are necessary to plant the crops and harvest the food. The greater the number of farmers, however, the slower the serf population and wealth level will grow.</LocString>
-  
+
   <!-- COMPANY PROPERTIES -->
   <LocString key="Unit.Type.LevyContract">Militia</LocString>
   <LocString key="Unit.Type.RetinueContract">Retinue</LocString>
@@ -54,12 +61,14 @@
   <LocString key="Workshop.Name">Workshop</LocString>
   <LocString key="Tavern.Name">Tavern</LocString>
 
-<!-- COMMAND VALIDATION -->
+  <!-- COMMAND VALIDATION -->
   <!-- ACTION -->
   <LocString key="Validation.Action.NotFound">Action not found</LocString>
   <LocString key="Validation.Action.CannotCancel">I cannot stop that, its too late</LocString>
 
   <!-- RESOURCES -->
+  <LocString key="Validation.Cottage.NotAvailable">There isn't a Serf cottage to sellc, my lord</LocString>
+  <LocString key="Validation.Yeomen.NotAvailable">There isn't a Yeoman cottage to buy, my lord</LocString>
   <LocString key="Validation.Serfs.NotAvailable">There aren't Serfs available to work there, my lord</LocString>
   <LocString key="Validation.Mercenaries.NotAvailable">There aren't Mercenaries available here</LocString>
   <LocString key="Validation.Coin.NotEnough">We do not have enough Coin</LocString>
@@ -83,7 +92,7 @@
 
   <!-- COMPANIES -->
   <LocString key="Validation.Company.Busy">The company is not free to perform this task at this moment</LocString>
-<!-- -->
+  <!-- -->
 
   <!-- COMMAND PROPERTIES -->
   <LocString key="Command.CancelAction.Name">Cancel</LocString>
@@ -138,7 +147,7 @@
   <LocString key="RecruitTroopsAction.Intro">Each of us can lead their own contingent of troops. Troops can be militia, drafted from the commoners in a settlement, or professional warriors recruited from the free folk.</LocString>
   <LocString key="RecruitTroopsAction.Name">Recruit Troops</LocString>
   <LocString key="RecruitTroopsAction.Start">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
-  <LocString key="RecruitTroopsAction.Levy.Report">How long should the training last? Longer training can be more effective, but everyone has their limit.</LocString>  
+  <LocString key="RecruitTroopsAction.Levy.Report">How long should the training last? Longer training can be more effective, but everyone has their limit.</LocString>
   <LocString key="RecruitTroopsAction.Goal">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
 </List>
 
