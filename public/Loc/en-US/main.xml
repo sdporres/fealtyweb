@@ -52,8 +52,14 @@
   <LocString key="TabPageSerfs.Farmers.Body">Serfs in the Farmer job are necessary to plant the crops and harvest the food. The greater the number of farmers, however, the slower the serf population and wealth level will grow.</LocString>
 
   <!-- COMPANY PROPERTIES -->
-  <LocString key="Unit.Type.LevyContract">Militia</LocString>
-  <LocString key="Unit.Type.RetinueContract">Retinue</LocString>
+  <LocString key="Company.Property.CurrentLocation">Currently in [[SETTLEMENT_NAME]]</LocString>
+  <LocString key="Company.Property.Paid">Paid\n Next Payment in [[NEXT_PAYMENT]] days</LocString>
+  <LocString key="Company.Property.NeedsPayment">Last Payment [[LAST_PAYMENT]]\nDays Unpaid [[DAYS_UNPAID]]</LocString>
+  <LocString key="Company.Property.InSupply">In Supply\n Next Supply in [[NEXT_SUPPLY]] days</LocString>
+  <LocString key="Company.Property.OutOfSupply">Last Supply [[LAST_SUPPLY]]\nDays OOS [[DAYS_OUT_OF_SUPPLY]]</LocString>
+  <LocString key="Company.Property.MoraleCapModifiers">Morale Modifier [[MODIFIERS]]</LocString>
+  <LocString key="Company.Property.CurrentLocation">Currently in [[SETTLEMENT_NAME]]</LocString>
+  
 
   <!-- BUILDING PROPERTIES -->
   <LocString key="Manor.Name">Manor</LocString>
@@ -146,8 +152,11 @@
 
   <LocString key="RecruitTroopsAction.Intro">Each of us can lead their own contingent of troops. Troops can be militia, drafted from the commoners in a settlement, or professional warriors recruited from the free folk.</LocString>
   <LocString key="RecruitTroopsAction.Name">Recruit Troops</LocString>
-  <LocString key="RecruitTroopsAction.Start">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
-  <LocString key="RecruitTroopsAction.Levy.Report">How long should the training last? Longer training can be more effective, but everyone has their limit.</LocString>
+  <LocString key="RecruitTroopsAction.Start">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>  
   <LocString key="RecruitTroopsAction.Goal">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
+  <LocString key="RecruitTroopsAction.Running">Goal:[[TROOP_GOAL]] ETA:[[TIME_UNTIL_COMPLETE]]
+  <LocString key="RecruitTroopsAction.History.Title">Retinue Recruiting</LocString>
+  <LocString key="RecruitTroopsAction.History.Detail">[[REPORT]]</LocString>
+</LocString>
 </List>
 
