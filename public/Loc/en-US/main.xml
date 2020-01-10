@@ -11,7 +11,7 @@
   <LocString key="Noun.Serfs">Serfs</LocString>
   <LocString key="Noun.Freemen">Freemen</LocString>
   <LocString key="Noun.Retinue">Retinue</LocString>
-  <LocString key="Noun.Retinuess">Retinues</LocString>
+  <LocString key="Noun.Retinues">Retinues</LocString>
 
   <!-- APP -->
   <LocString key="Itch.NewVersion.Title">New Version Available</LocString>
@@ -124,7 +124,7 @@
   <LocString key="ConstructBuildingAction.Intro">We can construct new buildings to develop our settlements. Serfs can be assigned to a construction project to help complete it. Construction will take time and money, my lord.</LocString>
   <LocString key="ConstructBuildingAction.Start">What building do you want constructed?</LocString>
   <LocString key="ConstructBuildingAction.History.Title">Construction</LocString>
-
+(
   <LocString key="DisbandCompanyAction.Name">Disband</LocString>
   <LocString key="DisbandCompanyAction.ActiveForm">disbanding</LocString>
   <LocString key="DisbandCompanyAction.Intro">We can disband companies we no longer require to return the troops to the population of the local settlement.</LocString>
