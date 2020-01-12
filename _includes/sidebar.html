@@ -28,7 +28,6 @@
       {% if node.title != null %}
       {% if node.layout == "page" %}
       <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
-        href="/{{ site.baseurl }}{{ node.url  | remove_first: '/' }}">{{ node.title }}</a>
       {% endif %}
       {% endif %}
       {% endfor %}
@@ -40,13 +39,11 @@
       </div>
     </div>
   </p>
-    <div>
-      Join us:
+    <div>     
       <span class="sidebar-nav-item">> <a href="https://discord.gg/dKJP7bY"> Discord</a></span>
     </div>
   </p>
     <div>
-      Contact
       <span class="sidebar-nav-item">> <a href="https://twitter.com/FealtyDev"> Twitter</a></span>
       <!-- <span class="sidebar-nav-item">> <a href="https://www.instagram.com/fealtydev/"> Instagram</a></span> -->
     </div>
