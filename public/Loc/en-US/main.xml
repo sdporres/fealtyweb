@@ -110,6 +110,11 @@
 
 
   <!-- ACTIONS -->
+  <LocString key="AttractCommonerAction.Confirm">I will attempt to attract new [[COMMONER_TYPE]] to [[SETTLEMENT_NAME]]. I should report back in [[TIME_UNTIL_COMPLETE]]</LocString>
+  <LocString key="AttractCommonerAction.History.Title">Attract commoners report</LocString>
+  <LocString key="AttractCommonerAction.History.Detail">I finished attracting [[COMMONER_TYPE]] after [[ELAPSED_DURATION]]. Growth: [[GROWTH_ADDED]] (Every 100 growth increases population)</LocString>
+
+
   <LocString key="TearDownBuildingAction.Name">Demolish</LocString>
   <LocString key="TearDownBuildingAction.ActiveForm">demolition</LocString>
   <LocString key="TearDownBuildingAction.Intro">We can demolish buildings to make room for new ones. This will take time, however.</LocString>
@@ -133,6 +138,24 @@
   <LocString key="RaidSettlementAction.Start">A raid, huh? Who should feel the heat?</LocString>
   <LocString key="RaidSettlementAction.Running.Activity">We are eagerly awaiting to hear news from the raid.</LocString>
 
+
+  <LocString key="RaidSettlementAction.Attacker.Depart">We departed on [[DEPART_START]]</LocString>
+  <LocString key="RaidSettlementAction.Attacker.Detection">We were detected! The defenders are upon us!</LocString>
+  <LocString key="RaidSettlementAction.Attacker.Failure.CasualtiesSustained">They killed too many of us, lets get out of here!</LocString>
+  <LocString key="RaidSettlementAction.Attacker.Failure.Outnumbered">There's too many of them, lets get out of here!</LocString>
+  <LocString key="RaidSettlementAction.Attacker.Fled.Failed">[[ROUTED_NAME]] tried to flee, but was killed.</LocString>
+  <LocString key="RaidSettlementAction.Attacker.PrePhase.Fail">Failed in prephase</LocString>
+  <LocString key="RaidSettlementAction.Attacker.Success.LootGoalMet">We are carrying all the loot we can, lets get out of here</LocString>
+  <LocString key="RaidSettlementAction.Confirm">I will raid [[SETTLENAME_NAME]]. Do you wish it?</LocString>
+  <LocString key="RaidSettlementAction.History.Detail">We raided [[SETTLEMENT_NAME]]. [[REPORT]]</LocString>
+  <LocString key="RaidSettlementAction.Target.AttackerDrivenOff">We drove the attacker off</LocString>
+  <LocString key="RaidSettlementAction.Target.BuildingsDamaged">Buildings damaged</LocString>
+  <LocString key="RaidSettlementAction.Target.FirstDetection">[[RESPONDER_NAME]] detected the enemy at [[DETECTION_TIME]]</LocString>
+  <LocString key="RaidSettlementAction.Target.Fled.Failed">[[ROUTED_NAME]] has fled the battle</LocString>
+  <LocString key="RaidSettlementAction.Target.GarrisonDestroyed">[[GARRISON_NAME]] has been destroyed</LocString>
+  <LocString key="RaidSettlementAction.Target.LootGoalMet">The enemy broke off their attack - they had all the loot they could carry.</LocString>
+
+
   <LocString key="MoveCharacterAction.Name">Move</LocString>
   <LocString key="MoveCharacterAction.ActiveForm">moving</LocString>
   <LocString key="MoveCharacterAction.Intro">We can move our people between settlements that we control. Go capture some settlements!</LocString>
@@ -150,11 +173,11 @@
 
   <LocString key="RecruitTroopsAction.Intro">Each of us can lead their own contingent of troops. Troops can be militia, drafted from the commoners in a settlement, or professional warriors recruited from the free folk.</LocString>
   <LocString key="RecruitTroopsAction.Name">Recruit Troops</LocString>
-  <LocString key="RecruitTroopsAction.Start">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>  
+  <LocString key="RecruitTroopsAction.Start">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
   <LocString key="RecruitTroopsAction.Goal">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
   <LocString key="RecruitTroopsAction.Running">Goal:[[TROOP_GOAL]] ETA:[[TIME_UNTIL_COMPLETE]]
-  <LocString key="RecruitTroopsAction.History.Title">Retinue Recruiting</LocString>
-  <LocString key="RecruitTroopsAction.History.Detail">[[REPORT]]</LocString>
-</LocString>
+    <LocString key="RecruitTroopsAction.History.Title">Retinue Recruiting</LocString>
+    <LocString key="RecruitTroopsAction.History.Detail">[[REPORT]]</LocString>
+  </LocString>
 </List>
 
