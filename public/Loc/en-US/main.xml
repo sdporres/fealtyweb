@@ -61,9 +61,13 @@
 
   <!-- BUILDING PROPERTIES -->
   <LocString key="Manor.Name">Manor</LocString>
+  <LocString key="Manor.Description">This is your house. The buck stops with you.</LocString>
   <LocString key="Cottage.Name">Cottage</LocString>
+  <LocString key="Cottage.Description">Cottages provides homes for Serfs. Serfs will grow plant and grow Food on your lands</LocString>
   <LocString key="Workshop.Name">Workshop</LocString>
+  <LocString key="Workshop.Description">Workshops create Tradesmen job. Tradesmen pay Coin every day to you in taxes</LocString>
   <LocString key="Tavern.Name">Tavern</LocString>
+  <LocString key="Tavern.Description">A Tavern makes recruiting civilians easier</LocString>
 
   <!-- COMMAND VALIDATION -->
   <!-- ACTION -->
@@ -120,6 +124,7 @@
   <LocString key="TearDownBuildingAction.Intro">We can demolish buildings to make room for new ones. This will take time, however.</LocString>
   <LocString key="TearDownBuildingAction.Start">What building do you want demolished?</LocString>
   <LocString key="TearDownBuildingAction.History.Title">Demolition</LocString>
+  <LocString key="TearDownBuildingAction.Confirm">Demolish this building? It will cost [[DEMOLISH_COST_COIN]] Coin, and take [[TIME_UNTIL_COMPLETE]]</LocString>
 
 
   <LocString key="ConstructBuildingAction.Name">Construct</LocString>
