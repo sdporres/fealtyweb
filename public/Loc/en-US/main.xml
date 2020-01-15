@@ -1,8 +1,5 @@
 <List>
-
-<LocString key="Itch.NewVersion.Body">
-A new version is available on Itch!\n
-New version: [[VERSION_MSG]]</LocString>
+  <LocString key="Itch.NewVersion.Body">A new version is available on Itch!\nNew version: [[VERSION_MSG]]</LocString>
   <!-- TUTORIAL -->
   <LocString key="Game.Intro">Your family controls a fledgling settlement in a fertile valley. Grow your settlement, defend your lands, and defeat the other families. When a family has gained control over the entire map, everyone is rewarded Prestige based on their performance.</LocString>
   <LocString key="Tutorial.FeedbackButton">This button is the best way to let me know what you think. It will send me logs, a screenshot, and whatever you write.</LocString>
@@ -73,48 +70,24 @@ New version: [[VERSION_MSG]]</LocString>
   <LocString key="Tavern.Name">Tavern</LocString>
   <LocString key="Tavern.Description">A Tavern makes recruiting civilians easier</LocString>
 
-  <!-- COMMAND VALIDATION -->
-  <!-- ACTION -->
-  <LocString key="Validation.Action.NotFound">Action not found</LocString>
-  <LocString key="Validation.Action.CannotCancel">I cannot stop that, its too late</LocString>
-
-  <!-- RESOURCES -->
-  <LocString key="Validation.Cottage.NotAvailable">There isn't a Serf cottage to sellc, my lord</LocString>
-  <LocString key="Validation.Yeomen.NotAvailable">There isn't a Yeoman cottage to buy, my lord</LocString>
-  <LocString key="Validation.Serfs.NotAvailable">There aren't Serfs available to work there, my lord</LocString>
-  <LocString key="Validation.Mercenaries.NotAvailable">There aren't Mercenaries available here</LocString>
-  <LocString key="Validation.Coin.NotEnough">We do not have enough Coin</LocString>
-  <LocString key="Validation.Food.NotEnough">We do not have enough Food</LocString>
-
-  <!-- BUILDING -->
-  <LocString key="Validation.Building.NotFound">Building not found</LocString>
-  <LocString key="Validation.Building.Full">That building cannot accomodate any more workers</LocString>
-  <LocString key="Validation.Building.Empty">That building does not have any workers</LocString>
-
-  <!-- SETTLEMENT -->
-  <LocString key="Validation.Settlement.SlotInUse">There is already a building there</LocString>
-  <LocString key="Validation.Settlement.NotRightLevelForSlot">We cannot build there yet</LocString>
-  <LocString key="Validation.Settlement.IsFriendly">That is a friendly settlement, my lord!</LocString>
-  <LocString key="Validation.Settlement.IsNotFriendly">My lord! That settlement is not under our control.</LocString>
-
-  <!-- CHARACTERS -->
-  <LocString key="Validation.Character.Busy">I cannot take on another task at this moment!</LocString>
-  <LocString key="Validation.Character.IsNotCaptain">I am not in command of a company!</LocString>
-  <LocString key="Validation.Character.IsCaptain">I am *already* in command of a company!</LocString>
-
-  <!-- COMPANIES -->
-  <LocString key="Validation.Company.Busy">The company is not free to perform this task at this moment</LocString>
-  <!-- -->
-
-  <!-- COMMAND PROPERTIES -->
-  <LocString key="Command.CancelAction.Name">Cancel</LocString>
-
-  <LocString key="Command.ExtendLevy.Name">Extend Levy</LocString>
-  <LocString key="Command.ExtendLevy.Intro">A Levy company that is not disbanded before 45 days will cause unrest in their settlement. Extending their term will prevent unrest, but the Levy will have lower morale</LocString>
 
 
-  <LocString key="Command.PayMercenary.Name">Pay Mercs</LocString>
-  <LocString key="Command.PayMercenary.Intro">Unpaid mercenaries are not happy and will desert until nobody is left. Mercenaries will also 'pay themselves' from a succesful raid.</LocString>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <!-- ACTIONS -->
@@ -136,7 +109,7 @@ New version: [[VERSION_MSG]]</LocString>
   <LocString key="ConstructBuildingAction.Intro">We can construct new buildings to develop our settlements. Serfs can be assigned to a construction project to help complete it. Construction will take time and money, my lord.</LocString>
   <LocString key="ConstructBuildingAction.Start">What building do you want constructed?</LocString>
   <LocString key="ConstructBuildingAction.History.Title">Construction</LocString>
-(
+  (
   <LocString key="DisbandCompanyAction.Name">Disband</LocString>
   <LocString key="DisbandCompanyAction.ActiveForm">disbanding</LocString>
   <LocString key="DisbandCompanyAction.Intro">We can disband companies we no longer require to return the troops to the population of the local settlement.</LocString>
@@ -184,9 +157,61 @@ New version: [[VERSION_MSG]]</LocString>
   <LocString key="RecruitTroopsAction.Name">Recruit Troops</LocString>
   <LocString key="RecruitTroopsAction.Start">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
   <LocString key="RecruitTroopsAction.Goal">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
-  <LocString key="RecruitTroopsAction.Running">Goal:[[TROOP_GOAL]] ETA:[[TIME_UNTIL_COMPLETE]]
-    <LocString key="RecruitTroopsAction.History.Title">Retinue Recruiting</LocString>
-    <LocString key="RecruitTroopsAction.History.Detail">[[REPORT]]</LocString>
-  </LocString>
+  <LocString key="RecruitTroopsAction.Running">Goal:[[TROOP_GOAL]] ETA:[[TIME_UNTIL_COMPLETE]]</LocString>
+  <LocString key="RecruitTroopsAction.History.Title">Retinue Recruiting</LocString>
+  <LocString key="RecruitTroopsAction.History.Detail">[[REPORT]]</LocString>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- COMMAND VALIDATION -->
+  <!-- ACTION -->
+  <LocString key="Validation.Action.NotFound">Action not found</LocString>
+  <LocString key="Validation.Action.CannotCancel">I cannot stop that, its too late</LocString>
+
+  <!-- RESOURCES -->
+  <LocString key="Validation.Cottage.NotAvailable">There isn't a Serf cottage to sellc, my lord</LocString>
+  <LocString key="Validation.Yeomen.NotAvailable">There isn't a Yeoman cottage to buy, my lord</LocString>
+  <LocString key="Validation.Serfs.NotAvailable">There aren't Serfs available to work there, my lord</LocString>
+  <LocString key="Validation.Mercenaries.NotAvailable">There aren't Mercenaries available here</LocString>
+  <LocString key="Validation.Coin.NotEnough">We do not have enough Coin</LocString>
+  <LocString key="Validation.Food.NotEnough">We do not have enough Food</LocString>
+
+  <!-- BUILDING -->
+  <LocString key="Validation.Building.NotFound">Building not found</LocString>
+  <LocString key="Validation.Building.Full">That building cannot accomodate any more workers</LocString>
+  <LocString key="Validation.Building.Empty">That building does not have any workers</LocString>
+
+  <!-- SETTLEMENT -->
+  <LocString key="Validation.Settlement.SlotInUse">There is already a building there</LocString>
+  <LocString key="Validation.Settlement.NotRightLevelForSlot">We cannot build there yet</LocString>
+  <LocString key="Validation.Settlement.IsFriendly">That is a friendly settlement, my lord!</LocString>
+  <LocString key="Validation.Settlement.IsNotFriendly">My lord! That settlement is not under our control.</LocString>
+
+  <!-- CHARACTERS -->
+  <LocString key="Validation.Character.Busy">I cannot take on another task at this moment!</LocString>
+  <LocString key="Validation.Character.IsNotCaptain">I am not in command of a company!</LocString>
+  <LocString key="Validation.Character.IsCaptain">I am *already* in command of a company!</LocString>
+
+  <!-- COMPANIES -->
+  <LocString key="Validation.Company.Busy">The company is not free to perform this task at this moment</LocString>
+  <!-- -->
+
+  <!-- COMMAND PROPERTIES -->
+  <LocString key="Command.CancelAction.Name">Cancel</LocString>
+
+  <LocString key="Command.PayMercenary.Name">Pay Mercs</LocString>
+  <LocString key="Command.PayMercenary.Intro">Unpaid mercenaries are not happy and will desert until nobody is left. Mercenaries will also 'pay themselves' from a succesful raid.</LocString>
 </List>
 
