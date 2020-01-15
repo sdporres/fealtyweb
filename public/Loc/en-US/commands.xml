@@ -32,14 +32,7 @@
   <LocString key="Validation.Company.Busy">The company is not free to perform this task at this moment</LocString>
   <!-- -->
 
-  <!-- COMMAND PROPERTIES -->
-  <LocString key="Command.CancelAction.Name">Cancel</LocString>
-
-  <LocString key="Command.PayMercenary.Name">Pay Mercs</LocString>
-  <LocString key="Command.PayMercenary.Intro">Unpaid mercenaries are not happy and will desert until nobody is left. Mercenaries will also 'pay themselves' from a succesful raid.</LocString>
-
-
-
+  <!-- COMMANDS-->
   <LocString key="COMMAND-CLASS-NAME.Name">Cancel</LocString>
   <LocString key="COMMAND-CLASS-NAME.Tutorial">Cancel</LocString>
   <LocString key="COMMAND-CLASS-NAME.Start">Cancel</LocString>
