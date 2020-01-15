@@ -1,4 +1,8 @@
 <List>
+
+<LocString key="Itch.NewVersion.Body">
+A new version is available on Itch!\n
+New version: [[VERSION_MSG]]</LocString>
   <!-- TUTORIAL -->
   <LocString key="Game.Intro">Your family controls a fledgling settlement in a fertile valley. Grow your settlement, defend your lands, and defeat the other families. When a family has gained control over the entire map, everyone is rewarded Prestige based on their performance.</LocString>
   <LocString key="Tutorial.FeedbackButton">This button is the best way to let me know what you think. It will send me logs, a screenshot, and whatever you write.</LocString>
