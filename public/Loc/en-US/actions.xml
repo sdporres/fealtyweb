@@ -1,26 +1,24 @@
 <List>
-  <!-- ACTIONS -->
-  <LocString key="AttractCommonerAction.Confirm">I will attempt to attract new [[COMMONER_TYPE]] to [[SETTLEMENT_NAME]]. I should report back in [[TIME_UNTIL_COMPLETE]]</LocString>
-  <LocString key="AttractCommonerAction.History.Title">Attract commoners report</LocString>
-  <LocString key="AttractCommonerAction.History.Detail">I finished attracting [[COMMONER_TYPE]] after [[ELAPSED_DURATION]]. Growth: [[GROWTH_ADDED]] (Every 100 growth increases population)</LocString>
+  <!--
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
+  [TEMPLATE]
+  <LocString key="ACTION-CLASS-NAME.Name">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Tutorial">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Start">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Goal">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Confirm">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Running">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Report.Title">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Report.Detail">Cancel</LocString>  
+
+  [COMMON CONTEXT]
+  STARTED_DATETIME | COMPLETED_DATETIME | ELAPSED_DURATION | PERCENT_COMPLETED | TIME_UNTIL_COMPLETE
+  ACTOR_NAME | RETINUE_NAME | CAPTAIN_NAME | SETTLEMENT_NAME | LOCATION_NAME
+  -->
 
 
-  <LocString key="TearDownBuildingAction.Name">Demolish</LocString>
-  <LocString key="TearDownBuildingAction.ActiveForm">demolition</LocString>
-  <LocString key="TearDownBuildingAction.Intro">We can demolish buildings to make room for new ones. This will take time, however.</LocString>
-  <LocString key="TearDownBuildingAction.Start">What building do you want demolished?</LocString>
-  <LocString key="TearDownBuildingAction.History.Title">Demolition</LocString>
-  <LocString key="TearDownBuildingAction.Confirm">Demolish this building? It will cost [[DEMOLISH_COST_COIN]] Coin, and take [[TIME_UNTIL_COMPLETE]]</LocString>
-
-  <LocString key="ConstructBuildingAction.Name">Construct</LocString>
-  <LocString key="ConstructBuildingAction.ActiveForm">construction</LocString>
-  <LocString key="ConstructBuildingAction.Intro">We can construct new buildings to develop our settlements. Serfs can be assigned to a construction project to help complete it. Construction will take time and money, my lord.</LocString>
-  <LocString key="ConstructBuildingAction.Start">What building do you want constructed?</LocString>
-  <LocString key="ConstructBuildingAction.History.Title">Construction</LocString>
-  
-  <LocString key="DisbandCompanyAction.Name">Disband</LocString>
-  <LocString key="DisbandCompanyAction.ActiveForm">disbanding</LocString>
-  <LocString key="DisbandCompanyAction.Intro">We can disband companies we no longer require to return the troops to the population of the local settlement.</LocString>
 
   <LocString key="RaidSettlementAction.Name">Raid</LocString>
   <LocString key="RaidSettlementAction.ActiveForm">raiding</LocString>
@@ -45,110 +43,6 @@
   <LocString key="RaidSettlementAction.Target.GarrisonDestroyed">[[GARRISON_NAME]] has been destroyed</LocString>
   <LocString key="RaidSettlementAction.Target.LootGoalMet">The enemy broke off their attack - they had all the loot they could carry.</LocString>
 
-
-  <LocString key="MoveCharacterAction.Name">Move</LocString>
-  <LocString key="MoveCharacterAction.ActiveForm">moving</LocString>
-  <LocString key="MoveCharacterAction.Intro">We can move our people between settlements that we control. Go capture some settlements!</LocString>
-  <LocString key="MoveCharacterAction.Start">I can leave immediately. Where should I go?</LocString>
-
-  <!-- ACTIONS W/ GOALS -->
-  <LocString key="TrainCompanyAction.Name">Train</LocString>
-  <LocString key="TrainCompanyAction.ActiveForm">training</LocString>
-  <LocString key="TrainCompanyAction.Intro">By training hard we will triumph in combat! We should not train for more than {0}, but a couple of days won't cut it either.</LocString>
-  <LocString key="TrainCompanyAction.Start">How long should the training last? Longer training can be more effective, but everyone has their limit.</LocString>
-
-  <LocString key="DeliverFoodAction.Name">Deliver Food</LocString>
-  <LocString key="DeliverFoodAction.ActiveForm">delivering food</LocString>
-  <LocString key="DeliverFoodAction.Intro">If one of our settlements is running out of Food, we can deliver it from a nearby settlement.</LocString>
-
-  <LocString key="RecruitTroopsAction.Intro">Each of us can lead their own contingent of troops. Troops can be militia, drafted from the commoners in a settlement, or professional warriors recruited from the free folk.</LocString>
-  <LocString key="RecruitTroopsAction.Name">Recruit Troops</LocString>
-  <LocString key="RecruitTroopsAction.Start">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
-  <LocString key="RecruitTroopsAction.Goal">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
-  <LocString key="RecruitTroopsAction.Running">Goal:[[TROOP_GOAL]] ETA:[[TIME_UNTIL_COMPLETE]]</LocString>
-  <LocString key="RecruitTroopsAction.History.Title">Retinue Recruiting</LocString>
-  <LocString key="RecruitTroopsAction.History.Detail">[[REPORT]]</LocString>
-
-
-  <LocString key="ACTION-CLASS-NAME.Name">Cancel</LocString>
-  <LocString key="ACTION-CLASS-NAME.Tutorial">Cancel</LocString>
-  <LocString key="ACTION-CLASS-NAME.Start">Cancel</LocString>
-  <LocString key="ACTION-CLASS-NAME.Goal">Cancel</LocString>
-  <LocString key="ACTION-CLASS-NAME.Confirm">Cancel</LocString>
-  <LocString key="ACTION-CLASS-NAME.Running">Cancel</LocString>
-  SKIP THIS <LocString key="ACTION-CLASS-NAME.Completed">Cancel</LocString>
-  <LocString key="ACTION-CLASS-NAME.Report.Title">Cancel</LocString>
-  <LocString key="ACTION-CLASS-NAME.Report.Detail">Cancel</LocString>
-  <LocString key="ACTION-CLASS-NAME.Report.Target.Detail">Cancel</LocString>
-
-  STARTED_DATETIME | COMPLETED_DATETIME | ELAPSED_DURATION | PERCENT_COMPLETED | TIME_UNTIL_COMPLETE
-  ACTOR_NAME | RETINUE_NAME | CAPTAIN_NAME | SETTLEMENT_NAME | LOCATION_NAME
-
-
-  TrainTroopsAction         TRAINING_LENGTH_DAYS | TRAINING_DONE_DAYS | SKILL_DELTA
-  DisbandCompanyAction      RETURNED_SERFS
-  DeliverMessageAction      RECIPIENT_NAME
-  InspireCommonersAction    INSPIRED_ADVERB { amused instead of, slightly, greatly }
-  AttractCommonerAction     COMMONER_TYPE | GROWTH_ADVERB { almost barely, slightly, noticeably, greatly, mightily }
-  DeliverFoodAction         AVAILABLE_FOOD | FOOD_TO_MOVE
-
-  TearDownBuildingAction    BUILDING_NAME | DEMOLISH_COST_COIN
-  ConstructBuildingAction   BUILDING_NAME
-
-  ApplyCombatExperience     MORALE_DELTA  | SKILL_DELTA
-
-  RecruitTroopsAction       TROOP_GOAL |RECRUIT_PRIORITY { Serfs, Freemen} |RECRUIT_ROLL_BASE| RECRUIT_ROLL_GOVERNOR_BONUS |RECRUIT_ROLL_TAVERN_BONUS|RECRUIT_ROLL_TOTAL_BONUS|RECRUIT_ROLL_CHANCE
-  FAILURE_FRAGMENT       { RecruitTroopsAction.Fragment.NoRecruitsLeft,   RecruitTroopsAction.Fragment.AtTroopCapacity }
-
-  RaidSettlementAction.Running.RaidWasSuccess-True.
-  RaidSettlementAction.Running.RaidWasSuccess-False.
-  ATTACKER_REPORT
-  DEFENDER_REPORT
-  {
-  RaidSettlementAction.Report.EndState.SettlementTaken.Attacker locContext
-  RaidSettlementAction.Report.EndState.SettlementTaken.Defender locContext
-  RaidSettlementAction.Report.EndState.LootGoalMet.Attacker locContext
-  RaidSettlementAction.Report.EndState.LootGoalMet.Defender locContext
-  RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker   CASUALTIES | locContext
-  RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender   locContext
-  RaidSettlementAction.Report.EndState.BugOut.Attacker   locContext
-  RaidSettlementAction.Report.EndState.BugOut.Defender   locContext
-  RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker   CASUALTIES
-  RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender
-
-  RaidSettlementAction.Report.RaidDetected.Attacker     RESPONDER_NAME | DETECTION_TIME | loccontext
-  RaidSettlementAction.Report.RaidDetected.Defender     RESPONDER_NAME | DETECTION_TIME
-
-  RaidSettlementAction.Report.MilitiaRallied.Attacker   RESPONDER_NAME | RALLY_STRENGTH | loccontext
-  RaidSettlementAction.Report.MilitiaRallied.Defender   RESPONDER_NAME | RALLY_STRENGTH
-
-  RaidSettlementAction.Report.RetinueResponds.Attacker  RESPONDER_NAME | DETECTION_TIME | loccontext
-  RaidSettlementAction.Report.RetinueResponds.Defender  RESPONDER_NAME | DETECTION_TIME
-
-  RaidSettlementAction.Report.GarrisonDestroyed.Attacker  GARRISON_NAME | CAPTAIN_NAME
-  RaidSettlementAction.Report.GarrisonDestroyed.Defender  GARRISON_NAME | CAPTAIN_NAME
-
-  RaidSettlementAction.Report.AttackerCaptainFled.Attacker  ROUTED_NAME | FLED_TO_NAME
-  RaidSettlementAction.Report.AttackerCaptainFled.Defender  ROUTED_NAME | FLED_TO_NAME
-
-  RaidSettlementAction.Report.DefenderCaptainFled.Attacker  ROUTED_NAME | FLED_TO_NAME
-  RaidSettlementAction.Report.DefenderCaptainFled.Defender  ROUTED_NAME | FLED_TO_NAME
-
-  RaidSettlementAction.Report.AttackerCaptainCaughtFleeing.Attacker  ROUTED_NAME | FLED_TO_NAME
-  RaidSettlementAction.Report.AttackerCaptainCaughtFleeing.Defender  ROUTED_NAME | FLED_TO_NAME
-
-  RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Attacker  ROUTED_NAME | FLED_TO_NAME
-  RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Defender  ROUTED_NAME | FLED_TO_NAME
-
-  RaidSettlementAction.Report.RaidingUnitSummary.Header
-  RaidSettlementAction.Report.RaidingUnitSummary.Unit  "\n\n -- UNIT --\n [[UNIT_NAME]]\n Casualties: [[CASUALTIES]] | Enemy Killed: [[CASUALTIES_INFLICTED]]"
-
-  RaidSettlementAction.Report.GarrisonUnitSummary.Header
-  RaidSettlementAction.Report.GarrisonUnitSummary.Unit "\n\n -- UNIT --\n [[UNIT_NAME]]\n Casualties: [[CASUALTIES]] | Enemy Killed: [[CASUALTIES_INFLICTED]]"
-
-  RaidSettlementAction.Report.RaidSpoils  looted enough to count as paid
-
-  RaidSettlementAction.Report.BuildingsDestroyed.Header
-  RaidSettlementAction.Report.BuildingsDestroyed.Building
+  
 </List>
 

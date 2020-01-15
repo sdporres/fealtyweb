@@ -77,6 +77,12 @@
   <LocString key="Tavern.Name">Tavern</LocString>
   <LocString key="Tavern.Description">A Tavern makes recruiting civilians easier</LocString>
 
+  <!--
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// COMMANDS
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// COMMANDS
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// COMMANDS
+  -->
+
   <!-- COMMAND VALIDATION -->
   <!-- ACTION -->
   <LocString key="Validation.Action.NotFound">Action not found</LocString>
@@ -108,16 +114,15 @@
 
   <!-- COMPANIES -->
   <LocString key="Validation.Company.Busy">The company is not free to perform this task at this moment</LocString>
-  <!-- -->
 
-  <!-- COMMANDS-->
-  <!-- TEMPLATE
+  <!-- 
+  //////////////////////////////////// COMMANDS 
+  [TEMPLATE]
   <LocString key="COMMAND-CLASS-NAME.Name">Cancel</LocString>
   <LocString key="COMMAND-CLASS-NAME.Tutorial">Cancel</LocString>
   <LocString key="COMMAND-CLASS-NAME.Start">Cancel</LocString>
   <LocString key="COMMAND-CLASS-NAME.Confirm">Cancel</LocString>
   -->
-
   <LocString key="PayCompanyCommand.Name">Pay Troops</LocString>
   <LocString key="PayCompanyCommand.Tutorial">Troops should be paid at least every 6 months, or they will not fight as hard. We can pay them now, if you wish.</LocString>
   <LocString key="PayCompanyCommand.Start">My lord, oaying these troops will cost [[PAY_COST]] Coin from our treasury.</LocString>
@@ -148,6 +153,196 @@
   <LocString key="SetSerfFarmerPercentage.Start">My lord, you can determine how many Serfs should be farming.</LocString>
   <LocString key="SetSerfFarmerPercentage.Confirm">Should we set [[NEW_PERCENTAGE]] of the Serfs to farming, sire??</LocString>
 
+  <!--
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
+  [TEMPLATE]
+  <LocString key="ACTION-CLASS-NAME.Name">NAME</LocString>
+  <LocString key="ACTION-CLASS-NAME.Tutorial">TUTORIAL</LocString>
+  <LocString key="ACTION-CLASS-NAME.Setup">START</LocString>
+  <LocString key="ACTION-CLASS-NAME.Confirm">CONFIRM</LocString>
+  <LocString key="ACTION-CLASS-NAME.Running">RUNNING</LocString>
+  <LocString key="ACTION-CLASS-NAME.Report.Title">REPORT.TITLE</LocString>
+  <LocString key="ACTION-CLASS-NAME.Report.Detail">REPORT.DETAIL</LocString>
+  
+  [COMMON CONTEXT]
+  STARTED_DATETIME | COMPLETED_DATETIME | ELAPSED_DURATION | PERCENT_COMPLETED | TIME_UNTIL_COMPLETE
+  ACTOR_NAME | RETINUE_NAME | CAPTAIN_NAME | SETTLEMENT_NAME | LOCATION_NAME
+  -->
+  <!--TRAINING_LENGTH_DAYS | TRAINING_DONE_DAYS | SKILL_DELTA-->
+  <LocString key="TrainTroopsAction.Name">Train</LocString>
+  <LocString key="TrainTroopsAction.Tutorial">By training hard we will triumph in combat! We should not train for more than {0}, but a couple of days won't cut it either.</LocString>
+  <LocString key="TrainTroopsAction.Setup">My lord, how long should the training last? Longer training can be more effective, but everyone has their limit.\n[[TRAINING_LENGTH_DAYS]] days</LocString>
+  <LocString key="TrainTroopsAction.Confirm">Should we begin training [[RETINUE_NAME]] for [[TRAINING_LENGTH_DAYS]] days, sire?</LocString>
+  <LocString key="TrainTroopsAction.Running">My lord,\n[[ACTOR_NAME]] has been training the troops for [[TRAINING_DONE_DAYS]]. The retinue's Skill has increased by [[SKILL_DELTA]] so far.</LocString>
+  <LocString key="TrainTroopsAction.Report.Title">Unit Training</LocString>
+  <LocString key="TrainTroopsAction.Report.Detail">My lord,\n I trained my troops as you wished. We trained for [[TRAINING_DONE_DAYS]] and improved our Skill by [[SKILL_DELTA]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
+
+  <!--RETURNED_SERFS-->
+  <LocString key="DisbandCompanyAction.Name">Disband</LocString>
+  <LocString key="DisbandCompanyAction.Tutorial">We can disband companies we no longer require, or do not want to supply and pay. Some of the troops will return to the population of the settlement.</LocString>
+  <LocString key="DisbandCompanyAction.Setup">My lord, if I disband my troops it will take time and train them again.</LocString>
+  <LocString key="DisbandCompanyAction.Confirm">Should I disband my troops, sire?</LocString>
+  <LocString key="DisbandCompanyAction.Running">My lord,\n[[ACTOR_NAME]] is disbanding the troops. I believe [[RETURNED_SERFS]] will rejoin the settlement as Serfs.</LocString>
+  <LocString key="DisbandCompanyAction.Report.Title">Troops Disbanded</LocString>
+  <LocString key="DisbandCompanyAction.Report.Detail">My lord,\n I disbanded my troops as you wished. Of them, [[RETURNED_SERFS]] became Serfs.\n\n Your servant, [[ACTOR_NAME]]</LocString>
+
+  <!--RECIPIENT_NAME-->
+  <LocString key="DeliverMessageAction.Name">Disband</LocString>
+  <LocString key="DeliverMessageAction.Tutorial">We can disband companies we no longer require, or do not want to supply and pay. Some of the troops will return to the population of the settlement.</LocString>
+  <LocString key="DeliverMessageAction.Setup">My lord, if I disband my troops it will take time and train them again.</LocString>
+  <LocString key="DeliverMessageAction.Confirm">Should I disband my troops, sire?</LocString>
+  <LocString key="DeliverMessageAction.Running">My lord,\n[[ACTOR_NAME]] is disbanding the troops. I believe [[RETURNED_SERFS]] will rejoin the settlement as Serfs.</LocString>
+  <LocString key="DeliverMessageAction.Report.Title">Troops Disbanded</LocString>
+  <LocString key="DeliverMessageAction.Report.Detail">My lord,\n I disbanded my troops as you wished. Of them, [[RETURNED_SERFS]] became Serfs.\n\n Your servant, [[ACTOR_NAME]]</LocString>
+
+  <!--TRAVEL_TIME_DAYS-->
+  <LocString key="MoveCharacterAction.Name">Travel</LocString>
+  <LocString key="MoveCharacterAction.Tutorial">Travel between settlements we control is relatively safe and quick. Large retinues will move slower than smaller ones.</LocString>
+  <LocString key="MoveCharacterAction.Setup">My lord, I can leave immediately. Where do you need me?</LocString>
+  <LocString key="MoveCharacterAction.Confirm">The journey will take [[TRAVEL_TIME_DAYS]] days.\nShould I travel to [[LOCATION_NAME]], sire?</LocString>
+  <LocString key="MoveCharacterAction.Running">My lord,\n[[ACTOR_NAME]] is traveling from [[SETTLEMENT_NAME]] to [[LOCATION_NAME]]. I believe they will arrive in [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="MoveCharacterAction.Report.Title">Travel Report</LocString>
+  <LocString key="MoveCharacterAction.Report.Detail">My lord,\n I left [[SETTLEMENT_NAME]] at [[STARTED_DATETIME]] for [[LOCATION_NAME]].\nI arrived after [[ELAPSED_DURATION]] at [[COMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
+
+  <!--INSPIRED_ADVERB { amused instead of, slightly, greatly }-->
+  <LocString key="InspireCommonersAction.Name">Inspire</LocString>
+  <LocString key="InspireCommonersAction.Tutorial">It's sometimes possible to get a little extra productivity by paying a close eye to the commoners.</LocString>
+  <LocString key="InspireCommonersAction.Setup">My lord, I can oversee the work to you satisfaction.</LocString>
+  <LocString key="InspireCommonersAction.Confirm">Should I oversee the commoners, sire?</LocString>
+  <LocString key="InspireCommonersAction.Running">My lord,\n[[ACTOR_NAME]] is overseeing the commoners. So far it seems they have [[INSPIRED_ADVERB]] inspired them.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="InspireCommonersAction.Report.Title">Inspire Report</LocString>
+  <LocString key="InspireCommonersAction.Report.Detail">My lord,\n I began to inspire the commoners in [[SETTLEMENT_NAME]], and they indeed seemed [INSPIRED_ADVERB]] inspired at my efforts. I finished at at [[cOMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
+
+  <!--COMMONER_TYPE | GROWTH_ADVERB { almost barely, slightly, noticeably, greatly, mightily }-->
+  <LocString key="AttractCommonerAction.Name">Inspire</LocString>
+  <LocString key="AttractCommonerAction.Tutorial">It's sometimes possible to get a little extra productivity by paying a close eye to the commoners.</LocString>
+  <LocString key="AttractCommonerAction.Setup">My lord, I can oversee the work to you satisfaction.</LocString>
+  <LocString key="AttractCommonerAction.Confirm">Should I attempt to attract new [[COMMONER_TYPE]] to [[SETTLEMENT_NAME]], sire?\nI should report back in [[TIME_UNTIL_COMPLETE]]</LocString>
+  <LocString key="AttractCommonerAction.Running">My lord,\n[[ACTOR_NAME]] is overseeing the commoners. So far it seems they have [[INSPIRED_ADVERB]] inspired them.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="AttractCommonerAction.Report.Title">Attract Commoners Report</LocString>
+  <LocString key="AttractCommonerAction.Report.Detail">My lord,\n I finished attracting [[COMMONER_TYPE]] after [[ELAPSED_DURATION]], and you should notice [[GROWTH_ADVERB]] improved migration soon thanks to me.\n\n Your servant, [[ACTOR_NAME]]</LocString>
+
+  <!--AVAILABLE_FOOD | FOOD_TO_MOVE-->
+  <LocString key="DeliverFoodAction.Name">Deliver Food</LocString>
+  <LocString key="DeliverFoodAction.Tutorial">If one of our settlements is running out of Food, we can supply them manually. It takes time, and troops help to carry more Food at once.</LocString>
+  <LocString key="DeliverFoodAction.Setup">My lord, there is [[AVAILABLE_FOOD]] in [[SETTLEMENT_NAME]]. How much should we move to [[LOCATION_NAME]]?</LocString>
+  <LocString key="DeliverFoodAction.Confirm">Should I attempt to deliver [[FOOD_TO_MOVE]] from [[SETTLEMENT_NAME]] to [[LOCATION_NAME]], sire?\nI should report back in [[TIME_UNTIL_COMPLETE]]</LocString>
+  <LocString key="DeliverFoodAction.Running">My lord,\n[[ACTOR_NAME]] is delivering [[FOOD_TO_MOVE]] to [[LOCATION_NAME]].\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="DeliverFoodAction.Report.Title">Deliver Food Report</LocString>
+  <LocString key="DeliverFoodAction.Report.Detail">My lord,\n I finished delivering [[FOOD_TO_MOVE]] Food to [[LOCATION_NAME]] after [[ELAPSED_DURATION]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
+
+  <!--BUILDING_NAME | DEMOLISH_COST_COIN-->
+  <LocString key="TearDownBuildingAction.Name">Demolish</LocString>
+  <LocString key="TearDownBuildingAction.Tutorial">We can demolish buildings to make room for new ones. This will take time, however, and cost some Coin.</LocString>
+  <LocString key="TearDownBuildingAction.Setup">My lord, what building do you want demolished?</LocString>
+  <LocString key="TearDownBuildingAction.Confirm">Should we demolist this [[BUILDING_NAME]], sire?\n It will cost [[DEMOLISH_COST_COIN]] Coin, and take [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="TearDownBuildingAction.Running">Progress: [[PERCENT_COMPLETED]]\n Time Left:[[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="TearDownBuildingAction.Report.Title">Demolition</LocString>
+  <LocString key="TearDownBuildingAction.Report.Detail">My lord,\n The [[BUILDING_NAME]] in [[SETTLEMENT_NAME]] was demolished after [[ELAPSED_DURATION]].</LocString>
+
+  <!--COIN_COST | BUILDING_NAME-->
+  <LocString key="ConstructBuildingAction.Name">Construct</LocString>
+  <LocString key="ConstructBuildingAction.Tutorial">We can construct new buildings to develop our settlements. Serfs can be assigned to a construction project to help complete it. Construction will take time and money, my lord.</LocString>
+  <LocString key="ConstructBuildingAction.Setup">What building do you want constructed?</LocString>
+  <LocString key="ConstructBuildingAction.Confirm">Should we construct a [[BUILDING_NAME]], sire?\n It will cost [[COST_COIN]] Coin, and take [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="ConstructBuildingAction.Running">Progress: [[PERCENT_COMPLETED]]\n Time Left:[[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="ConstructBuildingAction.Report.Title">Construction</LocString>
+  <LocString key="ConstructBuildingAction.Report.Detail">My lord,\n A [[BUILDING_NAME]] in [[SETTLEMENT_NAME]] was constructed after [[ELAPSED_DURATION]].</LocString>
+
+  <!--MORALE_DELTA  | SKILL_DELTA-->
+  <!--ApplyCombatExperience-->
+
+  <!--
+  TROOP_GOAL | RECRUIT_PRIORITY { Serfs, Freemen}
+  RECRUIT_ROLL_BASE | RECRUIT_ROLL_TOTAL_BONUS | RECRUIT_ROLL_CHANCE
+  RECRUIT_ROLL_GOVERNOR_BONUS | RECRUIT_ROLL_TAVERN_BONUS
+  FAILURE_FRAGMENT       { RecruitTroopsAction.Fragment.NoRecruitsLeft,   RecruitTroopsAction.Fragment.AtTroopCapacity }
+  -->
+  <LocString key="RecruitTroopsAction.Name">Recruit Troops</LocString>
+  <LocString key="RecruitTroopsAction.Tutorial">Each of us can lead their own troops. We can recruit from the Serfs or the Freemen of the settlement. The wealth level of the recruit determines their starting quality.</LocString>
+  <LocString key="RecruitTroopsAction.Setup">My lord, should I recruit Serfs or Freemen? A Tavern makes it easier to recruit troops.</LocString>
+  <LocString key="RecruitTroopsAction.Confirm">My lord, I will attempt to recruit [[TROOP_GOAL]] [[RECRUIT_PRIORITY]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_ROLL_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
+  <LocString key="RecruitTroopsAction.Running">My lord,\n[[ACTOR_NAME]] is recruiting troops.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="RecruitTroopsAction.Report.Title">Retinue Recruiting</LocString>
+  <LocString key="RecruitTroopsAction.Report.Detail">My lord,\n I finished recruiting [[RECRUIT_PRIORITY]] after [[ELAPSED_DURATION]], and raised the strength of my retinue by [[TROOP_GOAL]][[FAILURE_FRAGMENT]]\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  <LocString key="RecruitTroopsAction.Fragment.NoRecruitsLeft">\n I stopped because there was no one left to recruit.</LocString>
+  <LocString key="RecruitTroopsAction.Fragment.AtTroopCapacity">\n I stopped beecause I cannot command any more troops.</LocString>
+
+
+
+  <LocString key="RaidSettlementAction.Name">Recruit Troops</LocString>
+  <LocString key="RaidSettlementAction.Tutorial">Each of us can lead their own troops. We can recruit from the Serfs or the Freemen of the settlement. The wealth level of the recruit determines their starting quality.</LocString>
+  <LocString key="RaidSettlementAction.Setup">My lord, should I recruit Serfs or Freemen? A Tavern makes it easier to recruit troops.</LocString>
+  <LocString key="RaidSettlementAction.Confirm">My lord, I will attempt to recruit [[TROOP_GOAL]] [[RECRUIT_PRIORITY]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_ROLL_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
+  <LocString key="RaidSettlementAction.Running">My lord,\n[[ACTOR_NAME]] is recruiting troops.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="RaidSettlementAction.Report.Title">Retinue Recruiting</LocString>
+  <LocString key="RaidSettlementAction.Report.Detail">My lord,\n I finished recruiting [[RECRUIT_PRIORITY]] after [[ELAPSED_DURATION]], and raised the strength of my retinue by [[TROOP_GOAL]][[FAILURE_FRAGMENT]]\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  
+  
+  <!--ARRIVE_IN | locContext-->
+  <LocString key="RaidSettlementAction.Fragment.OnTheWay">\n I stopped because there was no one left to recruit.</LocString>
+  <!--RETURN_IN | locContext-->
+  <LocString key="RaidSettlementAction.Fragment.Returning">\n I stopped beecause I cannot command any more troops.</LocString>
+  <!--locContext-->
+  <LocString key="RaidSettlementAction.Fragment.WaitingNews">\nWe are eagerly awaiting to hear news from the raid.</LocString>
+
+
+  REPORT
+  {
+  RaidSettlementAction.Report.EndState.SettlementTaken.Attacker locContext
+  RaidSettlementAction.Report.EndState.SettlementTaken.Defender locContext
+  RaidSettlementAction.Report.EndState.LootGoalMet.Attacker locContext
+  RaidSettlementAction.Report.EndState.LootGoalMet.Defender locContext
+  RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker   CASUALTIES | locContext
+  RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender   locContext
+  RaidSettlementAction.Report.EndState.BugOut.Attacker   locContext
+  RaidSettlementAction.Report.EndState.BugOut.Defender   locContext
+  RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker   CASUALTIES
+  RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender
+
+  RaidSettlementAction.Report.RaidDetected.Attacker     RESPONDER_NAME | DETECTION_TIME | loccontext
+  RaidSettlementAction.Report.RaidDetected.Defender     RESPONDER_NAME | DETECTION_TIME
+
+  RaidSettlementAction.Report.MilitiaRallied.Attacker   RESPONDER_NAME | RALLY_STRENGTH | loccontext
+  RaidSettlementAction.Report.MilitiaRallied.Defender   RESPONDER_NAME | RALLY_STRENGTH
+
+  RaidSettlementAction.Report.RetinueResponds.Attacker  RESPONDER_NAME | DETECTION_TIME | loccontext
+  RaidSettlementAction.Report.RetinueResponds.Defender  RESPONDER_NAME | DETECTION_TIME
+
+  RaidSettlementAction.Report.GarrisonDestroyed.Attacker  GARRISON_NAME | CAPTAIN_NAME
+  RaidSettlementAction.Report.GarrisonDestroyed.Defender  GARRISON_NAME | CAPTAIN_NAME
+
+  RaidSettlementAction.Report.AttackerCaptainFled.Attacker  ROUTED_NAME | FLED_TO_NAME
+  RaidSettlementAction.Report.AttackerCaptainFled.Defender  ROUTED_NAME | FLED_TO_NAME
+
+  RaidSettlementAction.Report.DefenderCaptainFled.Attacker  ROUTED_NAME | FLED_TO_NAME
+  RaidSettlementAction.Report.DefenderCaptainFled.Defender  ROUTED_NAME | FLED_TO_NAME
+
+  RaidSettlementAction.Report.AttackerCaptainCaughtFleeing.Attacker  ROUTED_NAME | FLED_TO_NAME
+  RaidSettlementAction.Report.AttackerCaptainCaughtFleeing.Defender  ROUTED_NAME | FLED_TO_NAME
+
+  RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Attacker  ROUTED_NAME | FLED_TO_NAME
+  RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Defender  ROUTED_NAME | FLED_TO_NAME
+
+  RaidSettlementAction.Report.RaidingUnitSummary.Header
+  RaidSettlementAction.Report.RaidingUnitSummary.Unit  "\n\n -- UNIT --\n [[UNIT_NAME]]\n Casualties: [[CASUALTIES]] | Enemy Killed: [[CASUALTIES_INFLICTED]]"
+
+  RaidSettlementAction.Report.GarrisonUnitSummary.Header
+  RaidSettlementAction.Report.GarrisonUnitSummary.Unit "\n\n -- UNIT --\n [[UNIT_NAME]]\n Casualties: [[CASUALTIES]] | Enemy Killed: [[CASUALTIES_INFLICTED]]"
+
+  RaidSettlementAction.Report.RaidSpoils  looted enough to count as paid
+
+  RaidSettlementAction.Report.BuildingsDestroyed.Header
+  RaidSettlementAction.Report.BuildingsDestroyed.Building
+
+
+  RaidSettlementAction.Report.RaiderDepart DEPART_START_ON
+  RaidSettlementAction.Report.Report.RaiderStealth.Fail
+  RaidSettlementAction.Report.Report.RaiderStealth.Success
+  RaidSettlementAction.Report.Report.RaiderStealth.Critical
+  RaidSettlementAction.Report.RaiderReturn RETURN_END_ON
 
 
 </List>
