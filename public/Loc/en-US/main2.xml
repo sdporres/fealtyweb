@@ -189,6 +189,7 @@
   <LocString key="DisbandCompanyAction.Report.Detail">My lord,\n I disbanded my troops as you wished. Of them, [[RETURNED_SERFS]] became Serfs.\n\n Your servant, [[ACTOR_NAME]]</LocString>
 
   <!--RECIPIENT_NAME-->
+  <!--
   <LocString key="DeliverMessageAction.Name">Disband</LocString>
   <LocString key="DeliverMessageAction.Tutorial">We can disband companies we no longer require, or do not want to supply and pay. Some of the troops will return to the population of the settlement.</LocString>
   <LocString key="DeliverMessageAction.Setup">My lord, if I disband my troops it will take time and train them again.</LocString>
@@ -196,6 +197,7 @@
   <LocString key="DeliverMessageAction.Running">My lord,\n[[ACTOR_NAME]] is disbanding the troops. I believe [[RETURNED_SERFS]] will rejoin the settlement as Serfs.</LocString>
   <LocString key="DeliverMessageAction.Report.Title">Troops Disbanded</LocString>
   <LocString key="DeliverMessageAction.Report.Detail">My lord,\n I disbanded my troops as you wished. Of them, [[RETURNED_SERFS]] became Serfs.\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  -->
 
   <!--TRAVEL_TIME_DAYS-->
   <LocString key="MoveCharacterAction.Name">Travel</LocString>
