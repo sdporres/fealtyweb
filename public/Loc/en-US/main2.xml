@@ -291,60 +291,61 @@
   <LocString key="RaidSettlementAction.Report.RaiderStealth.Success">We approached the outskirts of the settlements without alerting them.</LocString>
   <LocString key="RaidSettlementAction.Report.RaiderStealth.Critical">In the middle of a moonless night, we approached the settlement entirely undetected.</LocString>
   <LocString key="RaidSettlementAction.Report.RaiderReturn">We left [[LOCATION_NAME]] and will return to [[SETTLEMENT_NAME]] by [[RETURN_END_ON]]</LocString>
+  <LocString key="RaidSettlementAction.Report.RaidingUnitSummary.Unit">\n\n -- UNIT --\n [[UNIT_NAME]]\n Casualties: [[CASUALTIES]] | Enemy Killed: [[CASUALTIES_INFLICTED]]</LocString>
+  <LocString key="RaidSettlementAction.Report.GarrisonUnitSummary.Unit">\n\n -- UNIT --\n [[UNIT_NAME]]\n Casualties: [[CASUALTIES]] | Enemy Killed: [[CASUALTIES_INFLICTED]]</LocString>
 
-  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--locContext-->
+
+  <!--<LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Attacker">We departed on [[DEPART_START_ON]]</LocString>
+  --><!--locContext--><!--
   <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--locContext-->
+  --><!--locContext--><!--
   <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--locContext-->
+  --><!--locContext--><!--
   <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--locContext-->
+  --><!--locContext--><!--
   <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--CASUALTIES | locContext-->
+  --><!--CASUALTIES | locContext--><!--
   <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--locContext-->
+  --><!--locContext--><!--
   <LocString key="RaidSettlementAction.Report.EndState.BugOut.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--locContext-->
+  --><!--locContext--><!--
   <LocString key="RaidSettlementAction.Report.EndState.BugOut.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--locContext-->
+  --><!--locContext--><!--
   <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--CASUALTIES-->
+  --><!--CASUALTIES--><!--
   <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender">We departed on [[DEPART_START_ON]]</LocString>
   <LocString key="RaidSettlementAction.Report.RaidDetected.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--RESPONDER_NAME | DETECTION_TIME | loccontext-->
+  --><!--RESPONDER_NAME | DETECTION_TIME | loccontext--><!--
   <LocString key="RaidSettlementAction.Report.RaidDetected.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--RESPONDER_NAME | DETECTION_TIME-->
+  --><!--RESPONDER_NAME | DETECTION_TIME--><!--
   <LocString key="RaidSettlementAction.Report.MilitiaRallied.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--RESPONDER_NAME | RALLY_STRENGTH | loccontext-->
+  --><!--RESPONDER_NAME | RALLY_STRENGTH | loccontext--><!--
   <LocString key="RaidSettlementAction.Report.MilitiaRallied.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--RESPONDER_NAME | RALLY_STRENGTH-->
+  --><!--RESPONDER_NAME | RALLY_STRENGTH--><!--
   <LocString key="RaidSettlementAction.Report.RetinueResponds.Atta1776r">We departed on [[DEPART_START_ON]]</LocString>
-  <!--GARRISON_NAME | CAPTAIN_NAME-->
+  --><!--GARRISON_NAME | CAPTAIN_NAME--><!--
   <LocString key="RaidSettlementAction.Report.AttackerCaptainFled.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--ROUTED_NAME | FLED_TO_NAME-->
+  --><!--ROUTED_NAME | FLED_TO_NAME--><!--
   <LocString key="RaidSettlementAction.Report.AttackerCaptainFled.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--ROUTED_NAME | FLED_TO_NAME-->
+  --><!--ROUTED_NAME | FLED_TO_NAME--><!--
   <LocString key="RaidSettlementAction.Report.DefenderCaptainFled.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--ROUTED_NAME | FLED_TO_NAME-->
+  --><!--ROUTED_NAME | FLED_TO_NAME--><!--
   <LocString key="RaidSettlementAction.Report.DefenderCaptainFled.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--ROUTED_NAME | FLED_TO_NAME-->
+  --><!--ROUTED_NAME | FLED_TO_NAME--><!--
   <LocString key="RaidSettlementAction.Report.AttackerCaptainCaughtFleeing.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--ROUTED_NAME | FLED_TO_NAME-->
+  --><!--ROUTED_NAME | FLED_TO_NAME--><!--
   <LocString key="RaidSettlementAction.Report.AttackerCaptainCaughtFleeing.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--ROUTED_NAME | FLED_TO_NAME-->
+  --><!--ROUTED_NAME | FLED_TO_NAME--><!--
   <LocString key="RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Attacker">We departed on [[DEPART_START_ON]]</LocString>
-  <!--ROUTED_NAME | FLED_TO_NAME-->
+  --><!--ROUTED_NAME | FLED_TO_NAME--><!--
   <LocString key="RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Defender">We departed on [[DEPART_START_ON]]</LocString>
-  <!--ROUTED_NAME | FLED_TO_NAME-->
+  --><!--ROUTED_NAME | FLED_TO_NAME--><!--
   <LocString key="RaidSettlementAction.Report.RaidingUnitSummary.Header">We departed on [[DEPART_START_ON]]</LocString>
-  <LocString key="RaidSettlementAction.Report.RaidingUnitSummary.Unit">\n\n -- UNIT --\n [[UNIT_NAME]]\n Casualties: [[CASUALTIES]] | Enemy Killed: [[CASUALTIES_INFLICTED]]</LocString>
   <LocString key="RaidSettlementAction.Report.GarrisonUnitSummary.Header">We departed on [[DEPART_START_ON]]</LocString>
-  <LocString key="RaidSettlementAction.Report.GarrisonUnitSummary.Unit">\n\n -- UNIT --\n [[UNIT_NAME]]\n Casualties: [[CASUALTIES]] | Enemy Killed: [[CASUALTIES_INFLICTED]]</LocString>
   <LocString key="RaidSettlementAction.Report.RaidSpoils">We departed on [[DEPART_START_ON]]</LocString>
-  <!--looted enough to count as paid-->
+  --><!--looted enough to count as paid--><!--
   <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Header">We departed on [[DEPART_START_ON]]</LocString>
-  <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Building">We departed on [[DEPART_START_ON]]</LocString>
+  <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Building">We departed on [[DEPART_START_ON]]</LocString>-->
 
   <!--
   <LocString key="RaidSettlementAction.Attacker.Detection">We were detected! The defenders are upon us!</LocString>
