@@ -2,15 +2,19 @@
   <LocString key="Itch.NewVersion.Body">A new version is available on Itch!\nNew version: [[VERSION_MSG]]</LocString>
   <LocString key="Game.Intro">You are [[LEADER_NAME]], and you control the settlement of [[FAMILY_NAME]] - from where your family gets its name.\nGrow your settlement, defend your lands, and defeat the other families. When a family has gained control over the entire map the game will end, your family will earn Prestige, and you can play the same characters in a new game.\n Have fun!</LocString>
   <!-- TUTORIAL -->
-  <LocString key="Tutorial.FeedbackButton">This button is the best way to let me know what you think. It will send me logs, a screenshot, and whatever you write.</LocString>
-  <LocString key="Tutorial.FamilyButton">This button shows your family tree. Nice.</LocString>
-  <LocString key="Settlement.Detail.Tutorial">The heart of your settlement are the Serfs. These hard working people will plant and harvest your fields in exhchange for a place to live.\nGrow your Serf population to 65.\nTap the blue buttons to learn more.</LocString>
-  <LocString key="Settlement.Commands.Tutorial">The command panel is how you can manage the settlement.\nClick on an empty grid to construct a Cottage.</LocString>
+  <LocString key="Tutorial.UIBasics.FeedbackButton">This button is the best way to let me know what you think. It will send me logs, a screenshot, and whatever you write.</LocString>
+  <LocString key="Tutorial.UIBasics.FamilyButton">This button shows your family tree. Nice.</LocString>
+  <LocString key="Tutorial.SettlementBasics.SerfDetails">The heart of your settlement are the Serfs. These hard working people will plant and harvest your fields in exhchange for a place to live.\nGrow your Serf population to 65.\nTap the blue buttons to learn more.</LocString>
+  <LocString key="Tutorial.SettlementBasics.SerfCommands">The command panel is how you can manage the settlement. You can increase how many Serfs are assigned to Farming and Support.\nClick on an empty grid to construct a Cottage.</LocString>
+  <LocString key="Tutorial.SettlementBasics.SettlementResources">Population\nUnrest\nTroops\nFood\nDaily Coin</LocString>
 
   <!-- NOUNS -->
   <LocString key="Noun.Serf">Serf</LocString>
   <LocString key="Noun.Serfs">Serfs</LocString>
+  <LocString key="Noun.Freeman">Freeman</LocString>
   <LocString key="Noun.Freemen">Freemen</LocString>
+  <LocString key="Noun.Tradesman">Tradesman</LocString>
+  <LocString key="Noun.Tradesmen">Tradesmen</LocString>
   <LocString key="Noun.Retinue">Retinue</LocString>
   <LocString key="Noun.Retinues">Retinues</LocString>
 
@@ -107,7 +111,7 @@
   <LocString key="Validation.Settlement.NotRightLevelForSlot">We cannot build there yet</LocString>
   <LocString key="Validation.Settlement.IsFriendly">That is a friendly settlement, my lord!</LocString>
   <LocString key="Validation.Settlement.IsNotFriendly">My lord! That settlement is not under our control.</LocString>
-
+  <LocString key="Validation.Settlement.AtPopulationLimit">My lord! We cannot accomodate any more people at the moment.</LocString>
   <!-- CHARACTERS -->
   <LocString key="Validation.Character.Busy">I cannot take on another task at this moment!</LocString>
   <LocString key="Validation.Character.IsNotCaptain">I am not in command of a company!</LocString>
@@ -305,28 +309,29 @@
   <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Building">\n ->[[BUILDING_TYPE]] [[COUNT]]x</LocString>
 
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Attacker">\nWe slayed all the defenders and captured [[LOCATION_NAME]] for you, my lord!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Attacker">\n\nWe slayed all the defenders and captured [[LOCATION_NAME]] for you, my lord!</LocString>
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Defender">\nWe lost the settlement of [[LOCATION_NAME]] my lord, it was captured by [[ACTOR_NAME]] of [[ACTOR_FAMILY_NAME]]!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Defender">\n\nWe lost the settlement of [[LOCATION_NAME]] my lord, it was captured by [[ACTOR_NAME]] of [[ACTOR_FAMILY_NAME]]!</LocString>
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Attacker">\nWe looted all we could carry, and got out while we had the chance.</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Attacker">\n\nWe looted all we could carry, and got out while we had the chance.</LocString>
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Defender">\nThe raiders had their fill and finally departed.</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Defender">\n\nThe raiders had their fill and finally departed.</LocString>
   <!--CASUALTIES | locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker">\nWe lost too many troops! We had to get out of there!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker">\n\nWe lost too many troops! We had to get out of there!</LocString>
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender">\nWe killed many of them and put them to flight!</LocString>
-  <LocString key="RaidSettlementAction.Report.EndState.BugOut.Attacker">\nThe odds didn't look good and the troops didn't think it was worth the risk, so we called off the raid.</LocString>
-  <LocString key="RaidSettlementAction.Report.EndState.BugOut.Defender">\nI guess they didn't like their chances - the raiders fled!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender">\n\nWe killed many of them and put them to flight!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.BugOut.Attacker">\n\nThe odds didn't look good and the troops didn't think it was worth the risk, so we called off the raid.</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.BugOut.Defender">\n\nI guess they didn't like their chances - the raiders fled!</LocString>
     <!--RESPONDER_NAME | DETECTION_TIME | loccontext-->
-  <LocString key="RaidSettlementAction.Report.RaidDetected.Attacker">\nWe heard shouting, and knew they had detected us. I recognized [[RESPONDER_NAME]] among them.</LocString>
-  <LocString key="RaidSettlementAction.Report.RaidDetected.Defender">\n[[RESPONDER_NAME]] noticed the raiders and raised the alarm at [[DETECTION_TIME]].</LocString>
+  <LocString key="RaidSettlementAction.Report.RaidDetected.Attacker">\n\nWe heard shouting, and knew they had detected us. I recognized [[RESPONDER_NAME]] among them.</LocString>
+  <LocString key="RaidSettlementAction.Report.RaidDetected.Defender">\n\n[[RESPONDER_NAME]] noticed the raiders and raised the alarm at [[DETECTION_TIME]].</LocString>
   <!--RESPONDER_NAME | RALLY_STRENGTH | loccontext-->
   <LocString key="RaidSettlementAction.Report.MilitiaRallied.Attacker">\n[[RESPONDER_NAME]] rallied the commoners and [[RALLY_STRENGTH]] of them charged at us!</LocString>
   <!--RESPONDER_NAME | RALLY_STRENGTH-->
   <LocString key="RaidSettlementAction.Report.MilitiaRallied.Defender">\n[[RESPONDER_NAME]] rallied the commoners and [[RALLY_STRENGTH]] of them charged [[COMPANY_NAME]]!</LocString>
   <!--RETINUE_NAME-->
-  <LocString key="RaidSettlementAction.Report.RetinueResponds.Attacker">\n[[RESPONDER_NAME]] and their retinue heard the commotion and [[RETINUE_NAME]] joined the battle.</LocString>
+  <LocString key="RaidSettlementAction.Report.RetinueResponds.Attacker">\n[[RESPONDER_NAME]] heard the commotion and [[RETINUE_NAME]] joined the battle.</LocString>
+  <LocString key="RaidSettlementAction.Report.RetinueResponds.Defender">\n[[RESPONDER_NAME]] heard the commotion and [[RETINUE_NAME]] joined the battle.</LocString>
   <!--ROUTED_NAME | FLED_TO_NAME-->
   <LocString key="RaidSettlementAction.Report.AttackerCaptainFled.Attacker">[[ROUTED_NAME]] fled the battle heading towards [[FLED_TO_NAME]].</LocString>
   <LocString key="RaidSettlementAction.Report.AttackerCaptainFled.Defender">[[ROUTED_NAME]] fled the battle heading towards [[FLED_TO_NAME]].</LocString>
@@ -336,5 +341,8 @@
   <LocString key="RaidSettlementAction.Report.AttackerCaptainCaughtFleeing.Defender">[[ROUTED_NAME]] tried to flee but was caught and killed!</LocString>
   <LocString key="RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Attacker">[[ROUTED_NAME]] tried to flee but was caught and killed!</LocString>
   <LocString key="RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Defender">[[ROUTED_NAME]] tried to flee but was caught and killed!</LocString>
+<!-- GARRISON_NAME -->
+   <LocString key="RaidSettlementAction.Report.GarrisonDestroyed.Attacker">\n[[GARRISON_NAME]] was destroyed down to the last man!</LocString>
+   <LocString key="RaidSettlementAction.Report.GarrisonDestroyed.Defender">\n[[GARRISON_NAME]] was destroyed down to the last man!</LocString>
 </List>
 
