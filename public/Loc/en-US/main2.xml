@@ -32,6 +32,7 @@
   <LocString key="CharacterInteraction.SelectOther2">I need you to do something for me, [[CHARACTER_NAME]]</LocString>
   <LocString key="CharacterInteraction.OtherIsSelected1">What do you want from me, [[RELATIONSHIP]]?</LocString>
   <LocString key="CharacterInteraction.OtherIsSelected2">Hello [[RELATIONSHIP]]...\nHow can I be of service?</LocString>
+  <LocString key="CharacterInteraction.SelectedIsDead">My lord, your [[RELATIONSHIP]] is dead.</LocString>
   <LocString key="CharacterInteraction.Category.Personal1">I can do whatever you need</LocString>
   <LocString key="CharacterInteraction.Category.Personal2">I want to see the world</LocString>
   <LocString key="CharacterInteraction.Category.Retinue1">Tough and well-trained troops are necessary for victory</LocString>
@@ -189,15 +190,14 @@
   <LocString key="DisbandCompanyAction.Report.Detail">My lord,\n I disbanded my troops as you wished. Of them, [[RETURNED_SERFS]] became Serfs.\n\n Your servant, [[ACTOR_NAME]]</LocString>
 
   <!--RECIPIENT_NAME-->
-  <!--
-  <LocString key="DeliverMessageAction.Name">Disband</LocString>
-  <LocString key="DeliverMessageAction.Tutorial">We can disband companies we no longer require, or do not want to supply and pay. Some of the troops will return to the population of the settlement.</LocString>
-  <LocString key="DeliverMessageAction.Setup">My lord, if I disband my troops it will take time and train them again.</LocString>
-  <LocString key="DeliverMessageAction.Confirm">Should I disband my troops, sire?</LocString>
-  <LocString key="DeliverMessageAction.Running">My lord,\n[[ACTOR_NAME]] is disbanding the troops. I believe [[RETURNED_SERFS]] will rejoin the settlement as Serfs.</LocString>
-  <LocString key="DeliverMessageAction.Report.Title">Troops Disbanded</LocString>
-  <LocString key="DeliverMessageAction.Report.Detail">My lord,\n I disbanded my troops as you wished. Of them, [[RETURNED_SERFS]] became Serfs.\n\n Your servant, [[ACTOR_NAME]]</LocString>
-  -->
+  <LocString key="DeliverMessageAction.Name">Deliver Message</LocString>
+  <LocString key="DeliverMessageAction.Tutorial">Characters can deliver messages personally. That might make them go better - or worse.\nOther times messages are delivered by couriers.</LocString>
+  <LocString key="DeliverMessageAction.Setup">My lord, to whom do you want me to deliver a message?</LocString>
+  <LocString key="DeliverMessageAction.Confirm">Should I deliver this message, sire?</LocString>
+  <LocString key="DeliverMessageAction.Running">My lord,\n[[ACTOR_NAME]] is delivering a message.</LocString>
+  <LocString key="DeliverMessageAction.Report.Title">Message Delivered by [[ACTOR_NAME]]</LocString>
+  <LocString key="DeliverMessageAction.Report.Detail">My lord, I delivered your message to [[RECIPIENT_NAME]] on [[COMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  
 
   <!--TRAVEL_TIME_DAYS-->
   <LocString key="MoveCharacterAction.Name">Travel</LocString>
@@ -215,7 +215,7 @@
   <LocString key="InspireCommonersAction.Confirm">Should I oversee the commoners, sire?</LocString>
   <LocString key="InspireCommonersAction.Running">My lord,\n[[ACTOR_NAME]] is overseeing the commoners. So far it seems they have [[INSPIRED_ADVERB]] inspired them.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="InspireCommonersAction.Report.Title">Inspire Report</LocString>
-  <LocString key="InspireCommonersAction.Report.Detail">My lord,\n I began to inspire the commoners in [[SETTLEMENT_NAME]], and they indeed seemed [INSPIRED_ADVERB]] inspired at my efforts. I finished at at [[cOMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  <LocString key="InspireCommonersAction.Report.Detail">My lord,\n I began to inspire the commoners in [[SETTLEMENT_NAME]], and they indeed seemed [INSPIRED_ADVERB]] inspired at my efforts. I finished at at [[COMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
 
   <!--COMMONER_TYPE | GROWTH_ADVERB { almost barely, slightly, noticeably, greatly, mightily }-->
   <LocString key="AttractCommonerAction.Name">Inspire</LocString>
@@ -281,7 +281,8 @@
   <LocString key="RaidSettlementAction.Confirm">My lord, I will raid the settlement of [[LOCATION_NAME]]!</LocString>
   <LocString key="RaidSettlementAction.Running">My lord,\n[[ACTOR_NAME]] is raiding [[LOCATION_NAME]].\n[[ACTIVITY]]</LocString>
   <LocString key="RaidSettlementAction.Report.Title">Raid Report</LocString>
-  <LocString key="RaidSettlementAction.Report.Detail">My lord,\n[[LOCATION_NAME]] was raided.\n[[REPORT]]\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  <LocString key="RaidSettlementAction.Report.Detail">My lord,\nI raided [[LOCATION_NAME]] as you commanded.\n[[REPORT]]\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  <LocString key="RaidSettlementAction.TargetReport.Detail">My lord,\n[[LOCATION_NAME]] was raided by [[ACTOR_NAME]] of [[ACTOR_FAMILY_NAME]].\n[[REPORT]]\n\n Your servant, [[GOVERNOR_NAME]]</LocString>
   <!--ARRIVE_IN | locContext-->
   <LocString key="RaidSettlementAction.Fragment.OnTheWay">\nThey are on the way to raid and should arrive in [[ARRIVE_IN]].</LocString>
   <!--RETURN_IN | locContext-->
@@ -290,42 +291,42 @@
   <LocString key="RaidSettlementAction.Fragment.WaitingNews">\nWe are eagerly awaiting to hear news from the raid.</LocString>
 
   <!-- REPORT BITS-->
-  <LocString key="RaidSettlementAction.Report.RaiderDepart">We departed on [[DEPART_START_ON]]</LocString>
+  <LocString key="RaidSettlementAction.Report.RaiderDepart">We departed on [[DEPART_START_ON]].</LocString>
   <LocString key="RaidSettlementAction.Report.RaiderStealth.Fail">We made a lot of noise, and it seemed likely they heard us.</LocString>
   <LocString key="RaidSettlementAction.Report.RaiderStealth.Success">We approached the outskirts of the settlements without alerting them.</LocString>
   <LocString key="RaidSettlementAction.Report.RaiderStealth.Critical">In the middle of a moonless night, we approached the settlement entirely undetected.</LocString>
   <LocString key="RaidSettlementAction.Report.RaiderReturn">We left [[LOCATION_NAME]] and will return to [[SETTLEMENT_NAME]] by [[RETURN_END_ON]]</LocString>
-  <LocString key="RaidSettlementAction.Report.RaidingUnitSummary.Unit"> ->[[UNIT_NAME]]\n Casualties: [[CASUALTIES]]/[[STRENGTH]] | Enemy Killed: [[CASUALTIES_INFLICTED]]</LocString>
-  <LocString key="RaidSettlementAction.Report.GarrisonUnitSummary.Unit"> ->[[UNIT_NAME]]\n Casualties: [[CASUALTIES]]/[[STRENGTH]] | Enemy Killed: [[CASUALTIES_INFLICTED]]</LocString>
-  <LocString key="RaidSettlementAction.Report.RaidingUnitSummary.Header">-- Unit Status --</LocString>
-  <LocString key="RaidSettlementAction.Report.GarrisonUnitSummary.Header">-- Unit Status --</LocString>
-  <LocString key="RaidSettlementAction.Report.RaidSpoils">The troops looted plenty, and consider it a pay-day.</LocString>
-  <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Header">-- Buildings Destroyed --</LocString>
-  <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Building"> ->[[BUILDING_TYPE]] [[COUNT]]x</LocString>
+  <LocString key="RaidSettlementAction.Report.RaidingUnitSummary.Unit">\n ->[[UNIT_NAME]]\n Casualties: [[CASUALTIES]]/[[STRENGTH]] | Enemy Killed: [[CASUALTIES_INFLICTED]]\n</LocString>
+  <LocString key="RaidSettlementAction.Report.GarrisonUnitSummary.Unit">\n ->[[UNIT_NAME]]\n Casualties: [[CASUALTIES]]/[[STRENGTH]] | Enemy Killed: [[CASUALTIES_INFLICTED]]\n</LocString>
+  <LocString key="RaidSettlementAction.Report.RaidingUnitSummary.Header">\n\n-- Unit Status --</LocString>
+  <LocString key="RaidSettlementAction.Report.GarrisonUnitSummary.Header">\n\n-- Unit Status --</LocString>
+  <LocString key="RaidSettlementAction.Report.RaidSpoils">\nThe troops looted plenty, and consider it a pay-day.</LocString>
+  <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Header">\n\n-- Buildings Destroyed --</LocString>
+  <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Building">\n ->[[BUILDING_TYPE]] [[COUNT]]x</LocString>
 
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Attacker">We slayed all the defenders and captured [[LOCATION_NAME]] for you, my lord!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Attacker">\nWe slayed all the defenders and captured [[LOCATION_NAME]] for you, my lord!</LocString>
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Defender">We lost the settlement of [[LOCATION_NAME]] my lord, it was captured by [[ACTOR_NAME]] of [[ACTOR_FAMILY_NAME]]!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Defender">\nWe lost the settlement of [[LOCATION_NAME]] my lord, it was captured by [[ACTOR_NAME]] of [[ACTOR_FAMILY_NAME]]!</LocString>
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Attacker">We looted all we could carry, and got out while we had the chance.</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Attacker">\nWe looted all we could carry, and got out while we had the chance.</LocString>
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Defender">The raiders had their fill and finally departed.</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Defender">\nThe raiders had their fill and finally departed.</LocString>
   <!--CASUALTIES | locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker">We lost too many troops! We had to get out of there!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker">\nWe lost too many troops! We had to get out of there!</LocString>
   <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender">We killed many of them and put them to flight!</LocString>
-  <LocString key="RaidSettlementAction.Report.EndState.BugOut.Attacker">The odds didn't look good and the troops didn't think it was worth the risk, so we called off the raid.</LocString>
-  <LocString key="RaidSettlementAction.Report.EndState.BugOut.Defender">I guess they didn't like their chances - the raiders fled!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender">\nWe killed many of them and put them to flight!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.BugOut.Attacker">\nThe odds didn't look good and the troops didn't think it was worth the risk, so we called off the raid.</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.BugOut.Defender">\nI guess they didn't like their chances - the raiders fled!</LocString>
     <!--RESPONDER_NAME | DETECTION_TIME | loccontext-->
-  <LocString key="RaidSettlementAction.Report.RaidDetected.Attacker">We heard shouting, and knew they had detected us. I recognized [[RESPONDER_NAME]] among them.</LocString>
-  <LocString key="RaidSettlementAction.Report.RaidDetected.Defender">[[RESPONDER_NAME]] noticed the raiders and raised the alarm at [[DETECTION_TIME]].</LocString>
+  <LocString key="RaidSettlementAction.Report.RaidDetected.Attacker">\nWe heard shouting, and knew they had detected us. I recognized [[RESPONDER_NAME]] among them.</LocString>
+  <LocString key="RaidSettlementAction.Report.RaidDetected.Defender">\n[[RESPONDER_NAME]] noticed the raiders and raised the alarm at [[DETECTION_TIME]].</LocString>
   <!--RESPONDER_NAME | RALLY_STRENGTH | loccontext-->
-  <LocString key="RaidSettlementAction.Report.MilitiaRallied.Attacker">[[RESPONDER_NAME]] rallied the commoners and [[RALLY_STRENGTH]] of them charged at us!</LocString>
+  <LocString key="RaidSettlementAction.Report.MilitiaRallied.Attacker">\n[[RESPONDER_NAME]] rallied the commoners and [[RALLY_STRENGTH]] of them charged at us!</LocString>
   <!--RESPONDER_NAME | RALLY_STRENGTH-->
-  <LocString key="RaidSettlementAction.Report.MilitiaRallied.Defender">[[RESPONDER_NAME]] rallied the commoners and [[RALLY_STRENGTH]] of them charged [[COMPANY_NAME]]!</LocString>
+  <LocString key="RaidSettlementAction.Report.MilitiaRallied.Defender">\n[[RESPONDER_NAME]] rallied the commoners and [[RALLY_STRENGTH]] of them charged [[COMPANY_NAME]]!</LocString>
   <!--RETINUE_NAME-->
-  <LocString key="RaidSettlementAction.Report.RetinueResponds.Attacker">[[RESPONDER_NAME]] and their retinue heard the commotion and [[RETINUE_NAME]] joined the battle.</LocString>
+  <LocString key="RaidSettlementAction.Report.RetinueResponds.Attacker">\n[[RESPONDER_NAME]] and their retinue heard the commotion and [[RETINUE_NAME]] joined the battle.</LocString>
   <!--ROUTED_NAME | FLED_TO_NAME-->
   <LocString key="RaidSettlementAction.Report.AttackerCaptainFled.Attacker">[[ROUTED_NAME]] fled the battle heading towards [[FLED_TO_NAME]].</LocString>
   <LocString key="RaidSettlementAction.Report.AttackerCaptainFled.Defender">[[ROUTED_NAME]] fled the battle heading towards [[FLED_TO_NAME]].</LocString>
