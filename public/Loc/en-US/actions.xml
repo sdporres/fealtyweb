@@ -1,79 +1,26 @@
 <List>
-  <!-- ACTIONS -->
-  <LocString key="AttractCommonerAction.Confirm">I will attempt to attract new [[COMMONER_TYPE]] to [[SETTLEMENT_NAME]]. I should report back in [[TIME_UNTIL_COMPLETE]]</LocString>
-  <LocString key="AttractCommonerAction.History.Title">Attract commoners report</LocString>
-  <LocString key="AttractCommonerAction.History.Detail">I finished attracting [[COMMONER_TYPE]] after [[ELAPSED_DURATION]]. Growth: [[GROWTH_ADDED]] (Every 100 growth increases population)</LocString>
+  <!--
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
+  [TEMPLATE]
+  <LocString key="ACTION-CLASS-NAME.Name">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Tutorial">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Start">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Goal">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Confirm">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Running">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Report.Title">Cancel</LocString>
+  <LocString key="ACTION-CLASS-NAME.Report.Detail">Cancel</LocString>  
+
+  [COMMON CONTEXT]
+  STARTED_DATETIME | COMPLETED_DATETIME | ELAPSED_DURATION | PERCENT_COMPLETED | TIME_UNTIL_COMPLETE
+  ACTOR_NAME | RETINUE_NAME | CAPTAIN_NAME | SETTLEMENT_NAME | LOCATION_NAME
+  -->
 
 
-  <LocString key="TearDownBuildingAction.Name">Demolish</LocString>
-  <LocString key="TearDownBuildingAction.ActiveForm">demolition</LocString>
-  <LocString key="TearDownBuildingAction.Intro">We can demolish buildings to make room for new ones. This will take time, however.</LocString>
-  <LocString key="TearDownBuildingAction.Start">What building do you want demolished?</LocString>
-  <LocString key="TearDownBuildingAction.History.Title">Demolition</LocString>
-  <LocString key="TearDownBuildingAction.Confirm">Demolish this building? It will cost [[DEMOLISH_COST_COIN]] Coin, and take [[TIME_UNTIL_COMPLETE]]</LocString>
 
 
-  <LocString key="ConstructBuildingAction.Name">Construct</LocString>
-  <LocString key="ConstructBuildingAction.ActiveForm">construction</LocString>
-  <LocString key="ConstructBuildingAction.Intro">We can construct new buildings to develop our settlements. Serfs can be assigned to a construction project to help complete it. Construction will take time and money, my lord.</LocString>
-  <LocString key="ConstructBuildingAction.Start">What building do you want constructed?</LocString>
-  <LocString key="ConstructBuildingAction.History.Title">Construction</LocString>
-  (
-  <LocString key="DisbandCompanyAction.Name">Disband</LocString>
-  <LocString key="DisbandCompanyAction.ActiveForm">disbanding</LocString>
-  <LocString key="DisbandCompanyAction.Intro">We can disband companies we no longer require to return the troops to the population of the local settlement.</LocString>
-
-  <LocString key="RaidSettlementAction.Name">Raid</LocString>
-  <LocString key="RaidSettlementAction.ActiveForm">raiding</LocString>
-  <LocString key="RaidSettlementAction.Intro">We can raid our enemies to destroy and plunder their resources! If their settlements is undefended we can capture it!</LocString>
-  <LocString key="RaidSettlementAction.Start">A raid, huh? Who should feel the heat?</LocString>
-  <LocString key="RaidSettlementAction.Running.Activity">We are eagerly awaiting to hear news from the raid.</LocString>
-
-
-  <LocString key="RaidSettlementAction.Attacker.Depart">We departed on [[DEPART_START]]</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Detection">We were detected! The defenders are upon us!</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Failure.CasualtiesSustained">They killed too many of us, lets get out of here!</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Failure.Outnumbered">There's too many of them, lets get out of here!</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Fled.Failed">[[ROUTED_NAME]] tried to flee, but was killed.</LocString>
-  <LocString key="RaidSettlementAction.Attacker.PrePhase.Fail">Failed in prephase</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Success.LootGoalMet">We are carrying all the loot we can, lets get out of here</LocString>
-  <LocString key="RaidSettlementAction.Confirm">I will raid [[SETTLENAME_NAME]]. Do you wish it?</LocString>
-  <LocString key="RaidSettlementAction.History.Detail">We raided [[SETTLEMENT_NAME]]. [[REPORT]]</LocString>
-  <LocString key="RaidSettlementAction.Target.AttackerDrivenOff">We drove the attacker off</LocString>
-  <LocString key="RaidSettlementAction.Target.BuildingsDamaged">Buildings damaged</LocString>
-  <LocString key="RaidSettlementAction.Target.FirstDetection">[[RESPONDER_NAME]] detected the enemy at [[DETECTION_TIME]]</LocString>
-  <LocString key="RaidSettlementAction.Target.Fled.Failed">[[ROUTED_NAME]] has fled the battle</LocString>
-  <LocString key="RaidSettlementAction.Target.GarrisonDestroyed">[[GARRISON_NAME]] has been destroyed</LocString>
-  <LocString key="RaidSettlementAction.Target.LootGoalMet">The enemy broke off their attack - they had all the loot they could carry.</LocString>
-
-
-  <LocString key="MoveCharacterAction.Name">Move</LocString>
-  <LocString key="MoveCharacterAction.ActiveForm">moving</LocString>
-  <LocString key="MoveCharacterAction.Intro">We can move our people between settlements that we control. Go capture some settlements!</LocString>
-  <LocString key="MoveCharacterAction.Start">I can leave immediately. Where should I go?</LocString>
-
-  <!-- ACTIONS W/ GOALS -->
-  <LocString key="TrainCompanyAction.Name">Train</LocString>
-  <LocString key="TrainCompanyAction.ActiveForm">training</LocString>
-  <LocString key="TrainCompanyAction.Intro">By training hard we will triumph in combat! We should not train for more than {0}, but a couple of days won't cut it either.</LocString>
-  <LocString key="TrainCompanyAction.Start">How long should the training last? Longer training can be more effective, but everyone has their limit.</LocString>
-
-  <LocString key="DeliverFoodAction.Name">Deliver Food</LocString>
-  <LocString key="DeliverFoodAction.ActiveForm">delivering food</LocString>
-  <LocString key="DeliverFoodAction.Intro">If one of our settlements is running out of Food, we can deliver it from a nearby settlement.</LocString>
-
-  <LocString key="RecruitTroopsAction.Intro">Each of us can lead their own contingent of troops. Troops can be militia, drafted from the commoners in a settlement, or professional warriors recruited from the free folk.</LocString>
-  <LocString key="RecruitTroopsAction.Name">Recruit Troops</LocString>
-  <LocString key="RecruitTroopsAction.Start">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
-  <LocString key="RecruitTroopsAction.Goal">My lord, I will attempt to recruit [[TROOP_GOAL]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
-  <LocString key="RecruitTroopsAction.Running">Goal:[[TROOP_GOAL]] ETA:[[TIME_UNTIL_COMPLETE]]</LocString>
-  <LocString key="RecruitTroopsAction.History.Title">Retinue Recruiting</LocString>
-  <LocString key="RecruitTroopsAction.History.Detail">[[REPORT]]</LocString>
-
-
-  <LocString key="COMMAND-CLASS-NAME.Name">Cancel</LocString>
-  <LocString key="COMMAND-CLASS-NAME.Tutorial">Cancel</LocString>
-  <LocString key="COMMAND-CLASS-NAME.Start">Cancel</LocString>
-  <LocString key="COMMAND-CLASS-NAME.Confirm">Cancel</LocString>
+  
 </List>
 
