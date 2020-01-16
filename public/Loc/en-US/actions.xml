@@ -20,28 +20,6 @@
 
 
 
-  <LocString key="RaidSettlementAction.Name">Raid</LocString>
-  <LocString key="RaidSettlementAction.ActiveForm">raiding</LocString>
-  <LocString key="RaidSettlementAction.Intro">We can raid our enemies to destroy and plunder their resources! If their settlements is undefended we can capture it!</LocString>
-  <LocString key="RaidSettlementAction.Start">A raid, huh? Who should feel the heat?</LocString>
-  <LocString key="RaidSettlementAction.Running.Activity">We are eagerly awaiting to hear news from the raid.</LocString>
-
-
-  <LocString key="RaidSettlementAction.Attacker.Depart">We departed on [[DEPART_START]]</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Detection">We were detected! The defenders are upon us!</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Failure.CasualtiesSustained">They killed too many of us, lets get out of here!</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Failure.Outnumbered">There's too many of them, lets get out of here!</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Fled.Failed">[[ROUTED_NAME]] tried to flee, but was killed.</LocString>
-  <LocString key="RaidSettlementAction.Attacker.PrePhase.Fail">Failed in prephase</LocString>
-  <LocString key="RaidSettlementAction.Attacker.Success.LootGoalMet">We are carrying all the loot we can, lets get out of here</LocString>
-  <LocString key="RaidSettlementAction.Confirm">I will raid [[SETTLENAME_NAME]]. Do you wish it?</LocString>
-  <LocString key="RaidSettlementAction.History.Detail">We raided [[SETTLEMENT_NAME]]. [[REPORT]]</LocString>
-  <LocString key="RaidSettlementAction.Target.AttackerDrivenOff">We drove the attacker off</LocString>
-  <LocString key="RaidSettlementAction.Target.BuildingsDamaged">Buildings damaged</LocString>
-  <LocString key="RaidSettlementAction.Target.FirstDetection">[[RESPONDER_NAME]] detected the enemy at [[DETECTION_TIME]]</LocString>
-  <LocString key="RaidSettlementAction.Target.Fled.Failed">[[ROUTED_NAME]] has fled the battle</LocString>
-  <LocString key="RaidSettlementAction.Target.GarrisonDestroyed">[[GARRISON_NAME]] has been destroyed</LocString>
-  <LocString key="RaidSettlementAction.Target.LootGoalMet">The enemy broke off their attack - they had all the loot they could carry.</LocString>
 
   
 </List>
