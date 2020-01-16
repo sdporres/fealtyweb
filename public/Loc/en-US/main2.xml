@@ -219,17 +219,18 @@
 
   <!--COMMONER_TYPE | GROWTH_ADVERB { almost barely, slightly, noticeably, greatly, mightily }-->
   <LocString key="AttractCommonerAction.Name">Inspire</LocString>
-  <LocString key="AttractCommonerAction.Tutorial">It's sometimes possible to get a little extra productivity by paying a close eye to the commoners.</LocString>
-  <LocString key="AttractCommonerAction.Setup">My lord, I can oversee the work to you satisfaction.</LocString>
+  <LocString key="AttractCommonerAction.Tutorial">We can attract new people to our settlements by word of mouth.</LocString>
+  <LocString key="AttractCommonerAction.Setup">My lord, I can attempt to attract new Serfs or Tradesmen to [[SETTLEMENT_NAME]].</LocString>
   <LocString key="AttractCommonerAction.Confirm">Should I attempt to attract new [[COMMONER_TYPE]] to [[SETTLEMENT_NAME]], sire?\nI should report back in [[TIME_UNTIL_COMPLETE]]</LocString>
-  <LocString key="AttractCommonerAction.Running">My lord,\n[[ACTOR_NAME]] is overseeing the commoners. So far it seems they have [[INSPIRED_ADVERB]] inspired them.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="AttractCommonerAction.Running">My lord,\n[[ACTOR_NAME]] is attracting new people to [[SETTLEMENT_NAME]]. So far it seems they have been [[GROWTH_ADVERB]] effective.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="AttractCommonerAction.Report.Title">Attract Commoners Report</LocString>
   <LocString key="AttractCommonerAction.Report.Detail">My lord,\n I finished attracting [[COMMONER_TYPE]] after [[ELAPSED_DURATION]], and you should notice [[GROWTH_ADVERB]] improved migration soon thanks to me.\n\n Your servant, [[ACTOR_NAME]]</LocString>
 
   <!--AVAILABLE_FOOD | FOOD_TO_MOVE-->
   <LocString key="DeliverFoodAction.Name">Deliver Food</LocString>
   <LocString key="DeliverFoodAction.Tutorial">If one of our settlements is running out of Food, we can supply them manually. It takes time, and troops help to carry more Food at once.</LocString>
-  <LocString key="DeliverFoodAction.Setup">My lord, there is [[AVAILABLE_FOOD]] in [[SETTLEMENT_NAME]]. How much should we move to [[LOCATION_NAME]]?</LocString>
+  <LocString key="DeliverFoodAction.Setup.Destination">My lord, to where should I deliver Food to?</LocString>
+  <LocString key="DeliverFoodAction.Setup.FoodAmount">My lord, there is [[AVAILABLE_FOOD]] in [[SETTLEMENT_NAME]]. How much should we move to [[LOCATION_NAME]]?\n Food: [[FOOT_TO_MOVE]]</LocString>
   <LocString key="DeliverFoodAction.Confirm">Should I attempt to deliver [[FOOD_TO_MOVE]] from [[SETTLEMENT_NAME]] to [[LOCATION_NAME]], sire?\nI should report back in [[TIME_UNTIL_COMPLETE]]</LocString>
   <LocString key="DeliverFoodAction.Running">My lord,\n[[ACTOR_NAME]] is delivering [[FOOD_TO_MOVE]] to [[LOCATION_NAME]].\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="DeliverFoodAction.Report.Title">Deliver Food Report</LocString>
@@ -264,7 +265,8 @@
   -->
   <LocString key="RecruitTroopsAction.Name">Recruit Troops</LocString>
   <LocString key="RecruitTroopsAction.Tutorial">Each of us can lead their own troops. We can recruit from the Serfs or the Freemen of the settlement. The wealth level of the recruit determines their starting quality.</LocString>
-  <LocString key="RecruitTroopsAction.Setup">My lord, should I recruit Serfs or Freemen? A Tavern makes it easier to recruit troops.</LocString>
+  <LocString key="RecruitTroopsAction.Setup.RecruitType">My lord, should I recruit Serfs or Freemen? The Lord has a bonus to recruit Serfs.A Tavern makes it easier to recruit from Freemen.</LocString>
+  <LocString key="RecruitTroopsAction.Setup.TroopGoal">My lord, how many troops should I recruit from the [[RECRUIT_PRIORITY]]?\n Troops: [[TROOP_GOAL]] </LocString>
   <LocString key="RecruitTroopsAction.Confirm">My lord, I will attempt to recruit [[TROOP_GOAL]] [[RECRUIT_PRIORITY]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_ROLL_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
   <LocString key="RecruitTroopsAction.Running">My lord,\n[[ACTOR_NAME]] is recruiting troops.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="RecruitTroopsAction.Report.Title">Retinue Recruiting</LocString>
