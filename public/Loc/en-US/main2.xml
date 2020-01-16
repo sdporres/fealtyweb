@@ -4,8 +4,8 @@
   <!-- TUTORIAL -->
   <LocString key="Tutorial.FeedbackButton">This button is the best way to let me know what you think. It will send me logs, a screenshot, and whatever you write.</LocString>
   <LocString key="Tutorial.FamilyButton">This button shows your family tree. Nice.</LocString>
-  <LocString key="Settlement.Detail.Tutorial">Settlements are made up of 'Commoners'. Tap the blue buttons to learn more.</LocString>
-  <LocString key="Settlement.Commands.Tutorial">The command panel is how you can make changes to the settlement policies.</LocString>
+  <LocString key="Settlement.Detail.Tutorial">The heart of your settlement are the Serfs. These hard working people will plant and harvest your fields in exhchange for a place to live.\nGrow your Serf population to 65.\nTap the blue buttons to learn more.</LocString>
+  <LocString key="Settlement.Commands.Tutorial">The command panel is how you can manage the settlement.\nClick on an empty grid to construct a Cottage.</LocString>
 
   <!-- NOUNS -->
   <LocString key="Noun.Serf">Serf</LocString>
@@ -70,13 +70,13 @@
 
   <!-- BUILDING PROPERTIES -->
   <LocString key="Manor.Name">Manor</LocString>
-  <LocString key="Manor.Description">This is your house. The buck stops with you.</LocString>
+  <LocString key="Manor.Description">This is your house. The buck stops with you.\n(1 Max)\n+20 Serf Jobs</LocString>
   <LocString key="Cottage.Name">Cottage</LocString>
-  <LocString key="Cottage.Description">Cottages provides homes for Serfs. Serfs will grow plant and grow Food on your lands</LocString>
+  <LocString key="Cottage.Description">Cottages provides homes for Serfs. Serfs will grow plant and grow Food on your lands\n+30 Serf Jobs</LocString>
   <LocString key="Workshop.Name">Workshop</LocString>
-  <LocString key="Workshop.Description">Workshops create Tradesmen job. Tradesmen pay Coin every day to you in taxes</LocString>
+  <LocString key="Workshop.Description">Workshops create Tradesmen job. Tradesmen pay Coin every day to you in taxes.\n+10 Tradesmen Jobs</LocString>
   <LocString key="Tavern.Name">Tavern</LocString>
-  <LocString key="Tavern.Description">A Tavern makes recruiting civilians easier</LocString>
+  <LocString key="Tavern.Description">A Tavern makes recruiting civilians easier.\n(1 Max)</LocString>
 
   <!--
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// COMMANDS
