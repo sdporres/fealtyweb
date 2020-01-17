@@ -201,7 +201,7 @@
   <LocString key="DeliverMessageAction.Running">My lord,\n[[ACTOR_NAME]] is delivering a message.</LocString>
   <LocString key="DeliverMessageAction.Report.Title">Message Delivered by [[ACTOR_NAME]]</LocString>
   <LocString key="DeliverMessageAction.Report.Detail">My lord, I delivered your message to [[RECIPIENT_NAME]] on [[COMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
-  
+
 
   <!--TRAVEL_TIME_DAYS-->
   <LocString key="MoveCharacterAction.Name">Travel</LocString>
@@ -219,7 +219,7 @@
   <LocString key="InspireCommonersAction.Confirm">Should I oversee the commoners, sire?</LocString>
   <LocString key="InspireCommonersAction.Running">My lord,\n[[ACTOR_NAME]] is overseeing the commoners. So far it seems they have [[INSPIRED_ADVERB]] inspired them.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="InspireCommonersAction.Report.Title">Inspire Report</LocString>
-  <LocString key="InspireCommonersAction.Report.Detail">My lord,\n I began to inspire the commoners in [[SETTLEMENT_NAME]], and they indeed seemed [INSPIRED_ADVERB]] inspired at my efforts. I finished at at [[COMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  <LocString key="InspireCommonersAction.Report.Detail">My lord,\n I began to inspire the commoners in [[SETTLEMENT_NAME]], and they indeed seemed [[INSPIRED_ADVERB]] inspired at my efforts. I finished at at [[COMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
 
   <!--COMMONER_TYPE | GROWTH_ADVERB { almost barely, slightly, noticeably, greatly, mightily }-->
   <LocString key="AttractCommonerAction.Name">Inspire</LocString>
@@ -322,7 +322,7 @@
   <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender">\n\nWe killed many of them and put them to flight!</LocString>
   <LocString key="RaidSettlementAction.Report.EndState.BugOut.Attacker">\n\nThe odds didn't look good and the troops didn't think it was worth the risk, so we called off the raid.</LocString>
   <LocString key="RaidSettlementAction.Report.EndState.BugOut.Defender">\n\nI guess they didn't like their chances - the raiders fled!</LocString>
-    <!--RESPONDER_NAME | DETECTION_TIME | loccontext-->
+  <!--RESPONDER_NAME | DETECTION_TIME | loccontext-->
   <LocString key="RaidSettlementAction.Report.RaidDetected.Attacker">\n\nWe heard shouting, and knew they had detected us. I recognized [[RESPONDER_NAME]] among them.</LocString>
   <LocString key="RaidSettlementAction.Report.RaidDetected.Defender">\n\n[[RESPONDER_NAME]] noticed the raiders and raised the alarm at [[DETECTION_TIME]].</LocString>
   <!--RESPONDER_NAME | RALLY_STRENGTH | loccontext-->
@@ -341,8 +341,8 @@
   <LocString key="RaidSettlementAction.Report.AttackerCaptainCaughtFleeing.Defender">[[ROUTED_NAME]] tried to flee but was caught and killed!</LocString>
   <LocString key="RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Attacker">[[ROUTED_NAME]] tried to flee but was caught and killed!</LocString>
   <LocString key="RaidSettlementAction.Report.DefenderCaptainCaughtFleeing.Defender">[[ROUTED_NAME]] tried to flee but was caught and killed!</LocString>
-<!-- GARRISON_NAME -->
-   <LocString key="RaidSettlementAction.Report.GarrisonDestroyed.Attacker">\n[[GARRISON_NAME]] was destroyed down to the last man!</LocString>
-   <LocString key="RaidSettlementAction.Report.GarrisonDestroyed.Defender">\n[[GARRISON_NAME]] was destroyed down to the last man!</LocString>
+  <!-- GARRISON_NAME -->
+  <LocString key="RaidSettlementAction.Report.GarrisonDestroyed.Attacker">\n[[GARRISON_NAME]] was destroyed down to the last man!</LocString>
+  <LocString key="RaidSettlementAction.Report.GarrisonDestroyed.Defender">\n[[GARRISON_NAME]] was destroyed down to the last man!</LocString>
 </List>
 
