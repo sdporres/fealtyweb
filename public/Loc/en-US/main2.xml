@@ -1,6 +1,6 @@
 <List>
   <LocString key="Itch.NewVersion.Body">A new version is available on Itch!\nNew version: [[VERSION_MSG]]</LocString>
-  <LocString key="Game.Intro">You are [[LEADER_NAME]], and you control the settlement of [[FAMILY_NAME]] - from where your family gets its name.\nGrow your settlement, defend your lands, and defeat the other families. When a family has gained control over the entire map the game will end, your family will earn Prestige, and you can play the same characters in a new game.\n Have fun!</LocString>
+  <LocString key="Game.Intro">You are [[LEADER_NAME]], and you control the settlement of [[FAMILY_NAME]] - from where your family gets its name.\n\nWhen a family has gained control over the entire map the game will end, your family will earn Prestige, and you can play a new game with the same family.\n\nGrow your settlement, defend your lands, and defeat the other families.\n      Have fun!</LocString>
   <!-- TUTORIAL -->
   <LocString key="Tutorial.UIBasics.FeedbackButton">This button is the best way to let me know what you think. It will send me logs, a screenshot, and whatever you write.</LocString>
   <LocString key="Tutorial.UIBasics.FamilyButton">This button shows your family tree. Nice.</LocString>
@@ -277,11 +277,11 @@
   <LocString key="RecruitTroopsAction.Setup.RecruitType">My lord, should I recruit Serfs or Freemen? The Lord has a bonus to recruit Serfs.A Tavern makes it easier to recruit from Freemen.</LocString>
   <LocString key="RecruitTroopsAction.Setup.TroopGoal">My lord, how many troops should I recruit from the [[RECRUIT_PRIORITY]]?\n Troops: [[TROOP_GOAL]] </LocString>
   <LocString key="RecruitTroopsAction.Confirm">My lord, I will attempt to recruit [[TROOP_GOAL]] [[RECRUIT_PRIORITY]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_ROLL_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
-  <LocString key="RecruitTroopsAction.Running">My lord,\n[[ACTOR_NAME]] is recruiting troops.\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="RecruitTroopsAction.Running">My lord,\n[[ACTOR_NAME]] has recruited [[RECRUITED_COUNT]] out of [[TROOP_GOAL]].\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="RecruitTroopsAction.Report.Title">Retinue Recruiting</LocString>
-  <LocString key="RecruitTroopsAction.Report.Detail">My lord,\nI finished recruiting [[RECRUIT_PRIORITY]] after [[ELAPSED_DURATION]], and raised the strength of my retinue by [[TROOP_GOAL]][[FAILURE_FRAGMENT]]\n\n Your servant, [[ACTOR_NAME]]</LocString>
-  <LocString key="RecruitTroopsAction.Fragment.NoRecruitsLeft">\nI stopped because there was no one left to recruit.</LocString>
-  <LocString key="RecruitTroopsAction.Fragment.AtTroopCapacity">\nI stopped beecause I cannot command any more troops.</LocString>
+  <LocString key="RecruitTroopsAction.Report.Detail">My lord,\nI recruited [[TROOP_GOAL]] troops to my retinue after [[ELAPSED_DURATION]].[[FAILURE_FRAGMENT]]\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  <LocString key="RecruitTroopsAction.Fragment.NoRecruitsLeft">\n\nI stopped because there was no one left to recruit.</LocString>
+  <LocString key="RecruitTroopsAction.Fragment.AtTroopCapacity">\n\nI stopped beecause I cannot command any more troops.</LocString>
 
   <!-- REPORT -->
   <LocString key="RaidSettlementAction.Name">Raid</LocString>
