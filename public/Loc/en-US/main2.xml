@@ -10,7 +10,7 @@
   <LocString key="Tutorial.SettlementBasics.SettlementResources">These are the resources in this Settlement:\nPopulation\nUnrest (ignore it)\nTroops\nFood\nDaily Coin (from Workshops)</LocString>
 
   <LocString key="Tutorial.BuildingConstructionWindow">These are the buildings available for construction. Construction takes Coin for the workers, and Time.\nMore buildings are available as the settlement grows.</LocString>
-  <LocString key="Tutorial.SettlementBasics.Yeomen">'Yeomen' are commoners that own their own land. To increase Yeomen in the settlement, you can sell a Serf Cottage.\nYeomen will not Farm for you any longer, but will pay taxes every month.</LocString>
+  <LocString key="Tutorial.SettlementBasics.Cottages">'Yeomen' are commoners that own their own land. To increase Yeomen in the settlement, you can sell a Serf Cottage.\nYeomen will not Farm for you any longer, but will pay taxes every month.</LocString>
   <LocString key="Tutorial.Retinues">Retinues are the troops attached to a character. They need to be paid and supplied to fight well. You can also train them.\nEventually you will be able to give them equipment.</LocString>
 
   <!-- NOUNS -->
@@ -185,7 +185,7 @@
   <LocString key="TrainTroopsAction.Tutorial">By training hard we will triumph in combat! We should not train for more than {0}, but a couple of days won't cut it either.</LocString>
   <LocString key="TrainTroopsAction.Setup">My lord, how long should the training last? Longer training can be more effective, but everyone has their limit.\n[[TRAINING_LENGTH_DAYS]] days</LocString>
   <LocString key="TrainTroopsAction.Confirm">Should we begin training [[RETINUE_NAME]] for [[TRAINING_LENGTH_DAYS]] days, sire?</LocString>
-  <LocString key="TrainTroopsAction.Running">My lord,\n[[ACTOR_NAME]] has been training the troops for [[TRAINING_DONE_DAYS]]. The retinue's Skill has increased by [[SKILL_DELTA]] so far.</LocString>
+  <LocString key="TrainTroopsAction.Running">My lord,[[ACTOR_NAME]] has been training the troops for [[ELAPSED_DURATION]] out of [[TRAINING_LENGTH_DAYS]]. The retinue's Skill has increased by [[SKILL_DELTA]] so far.</LocString>
   <LocString key="TrainTroopsAction.Report.Title">Unit Training</LocString>
   <LocString key="TrainTroopsAction.Report.Detail">My lord,\n I trained my troops as you wished. We trained for [[TRAINING_DONE_DAYS]] and improved our Skill by [[SKILL_DELTA]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
 
