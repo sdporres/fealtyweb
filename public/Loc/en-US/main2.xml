@@ -8,6 +8,10 @@
   <LocString key="Tutorial.SettlementBasics.SerfCommands">The command panel is how you can manage the settlement. You can increase how many Serfs are assigned to Farming and Support.\nClick on an empty grid to construct a Cottage.</LocString>
   <LocString key="Tutorial.SettlementBasics.SettlementResources">These are the resources in this Settlement:\nPopulation\nUnrest (ignore it)\nTroops\nFood\nDaily Coin (from Workshops)</LocString>
 
+  <LocString key="Tutorial.BuildingConstructionWindow">These are the buildings available for construction. Construction takes Coin for the workers, and Time.\nMore buildings are available as the settlement grows.</LocString>
+  <LocString key="Tutorial.SettlementBasics.Yeomen">'Yeomen' are commoners that own their own land. To increase Yeomen in the settlement, you can sell a Serf Cottage.\nYeomen will not Farm for you any longer, but will pay taxes every month.</LocString>
+  <LocString key="Tutorial.Retinues">Retinues are the troops attached to a character. They need to be paid and supplied to fight well. You can also train them.\nEventually you will be able to give them equipment.</LocString>
+
   <!-- NOUNS -->
   <LocString key="Noun.Serf">Serf</LocString>
   <LocString key="Noun.Serfs">Serfs</LocString>
