@@ -14,14 +14,14 @@
   <LocString key="Tutorial.Retinues">Retinues are the troops attached to a character. They need to be paid and supplied to fight well. You can also train them.\nEventually you will be able to give them equipment.</LocString>
 
   <!-- NOUNS -->
-  <LocString key="Noun.Serf">Serf</LocString>
-  <LocString key="Noun.Serfs">Serfs</LocString>
+  <LocString key="Noun.Serf.Singular">Serf</LocString>
+  <LocString key="Noun.Serf.Plural">Serfs</LocString>
   <LocString key="Noun.Freeman">Freeman</LocString>
   <LocString key="Noun.Freemen">Freemen</LocString>
   <LocString key="Noun.Tradesman">Tradesman</LocString>
   <LocString key="Noun.Tradesmen">Tradesmen</LocString>
-  <LocString key="Noun.Retinue">Retinue</LocString>
-  <LocString key="Noun.Retinues">Retinues</LocString>
+  <LocString key="Noun.Retinue.Singular">Retinue</LocString>
+  <LocString key="Noun.Retinue.Plural">Retinues</LocString>
 
   <!-- APP -->
   <LocString key="Itch.NewVersion.Title">New Version Available</LocString>
