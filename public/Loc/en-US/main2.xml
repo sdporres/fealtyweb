@@ -6,7 +6,7 @@
   <LocString key="Tutorial.UIBasics.FamilyButton">This button shows your family tree. Nice.</LocString>
   <LocString key="Tutorial.SettlementBasics.SerfDetails">The heart of your settlement are the Serfs. These hard working people will plant and harvest your fields in exhchange for a place to live.\nGrow your Serf population to 65.\nTap the blue buttons to learn more.</LocString>
   <LocString key="Tutorial.SettlementBasics.SerfCommands">The command panel is how you can manage the settlement. You can increase how many Serfs are assigned to Farming and Support.\nClick on an empty grid to construct a Cottage.</LocString>
-  <LocString key="Tutorial.SettlementBasics.SettlementResources">Population\nUnrest\nTroops\nFood\nDaily Coin</LocString>
+  <LocString key="Tutorial.SettlementBasics.SettlementResources">These are the resources in this Settlement:\nPopulation\nUnrest (ignore it)\nTroops\nFood\nDaily Coin (from Workshops)</LocString>
 
   <!-- NOUNS -->
   <LocString key="Noun.Serf">Serf</LocString>
@@ -253,7 +253,7 @@
   <LocString key="ConstructBuildingAction.Name">Construct</LocString>
   <LocString key="ConstructBuildingAction.Tutorial">We can construct new buildings to develop our settlements. Serfs can be assigned to a construction project to help complete it. Construction will take time and money, my lord.</LocString>
   <LocString key="ConstructBuildingAction.Setup">What building do you want constructed?</LocString>
-  <LocString key="ConstructBuildingAction.Confirm">Should we construct a [[BUILDING_NAME]], sire?\n It will cost [[COST_COIN]] Coin, and take [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="ConstructBuildingAction.Confirm">Should we construct a [[BUILDING_NAME]], sire?\n It will cost [[COIN_COST]] Coin, and take [[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="ConstructBuildingAction.Running">Progress: [[PERCENT_COMPLETED]]\n Time Left:[[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="ConstructBuildingAction.Report.Title">Construction</LocString>
   <LocString key="ConstructBuildingAction.Report.Detail">My lord,\n A [[BUILDING_NAME]] in [[SETTLEMENT_NAME]] was constructed after [[ELAPSED_DURATION]].</LocString>
