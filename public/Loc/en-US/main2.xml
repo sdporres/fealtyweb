@@ -1,9 +1,9 @@
 <List>
   <LocString key="Itch.NewVersion.Body">A new version is available on Itch!\nNew version: [[VERSION_MSG]]</LocString>
-  <LocString key="Game.Intro">You are [[LEADER_NAME]], and you control the settlement of [[FAMILY_NAME]] - from where your family gets its name.\n\nWhen a family has gained control over the entire map the game will end, your family will earn Prestige, and you can play a new game with the same family.\n\nGrow your settlement, defend your lands, and defeat the other families.\n      Have fun!</LocString>
+  <LocString key="Game.Intro">You are [[LEADER_NAME]], and you control the settlement of [[FAMILY_NAME]] - from where your family gets its name.\nWhen one family has gained control over the region the game will end and Prestige (score) will be awarded to the survivors. Afterwards you can play a new game with the same family.\n\nYour goals: grow your initial settlement, defeat the other families, and defend your lands.\n      Have fun!</LocString>
   <!-- TUTORIAL -->
   <LocString key="Tutorial.UIBasics.FeedbackButton">This button is the best way to let me know what you think. It will send me logs, a screenshot, and whatever you write.</LocString>
-  <LocString key="Tutorial.UIBasics.FamilyButton">This button shows your family tree. Nice.</LocString>  
+  <LocString key="Tutorial.UIBasics.FamilyButton">This button shows your family tree. Nice.</LocString>
   <LocString key="Tutorial.UIBasics.FamilyResources">This summarizes your family's status:\nPrestige (score) and # of characters\nCoin\nTroops\nSettlements and population</LocString>
   <LocString key="Tutorial.SettlementBasics.SerfDetails">The heart of your settlement are the Serfs. These hard working people will plant and harvest your fields in exhchange for a place to live.\nGrow your Serf population to 65.\nTap the blue buttons to learn more.</LocString>
   <LocString key="Tutorial.SettlementBasics.SerfCommands">The command panel is how you can manage the settlement. You can increase how many Serfs are assigned to Farming and Support.\nClick on an empty grid to construct a Cottage.</LocString>
@@ -31,6 +31,9 @@
 
   <LocString key="UI.Button.ClearData.Title">Delete Data?</LocString>
   <LocString key="UI.Button.ClearData.Body">Are you sure you want to delete ALL your game data?</LocString>
+
+  <LocString key="UI.Auth.Fail.Title">Wrong username or password</LocString>
+  <LocString key="UI.Auth.Fail.Body">The username and/or password you entered was incorrect.\n\nTry again!</LocString>
 
   <LocString key="PasswordReset.Error.Title">Missing something?</LocString>
 
@@ -68,14 +71,16 @@
   <LocString key="TabPageSerfs.Support.Body">Serfs in the Support job perform construction, shuttle resources where they are needed, and... ahem... help the population grow faster.</LocString>
   <LocString key="TabPageSerfs.Farmers.Title">Farmer Job</LocString>
   <LocString key="TabPageSerfs.Farmers.Body">Serfs in the Farmer job are necessary to plant the crops and harvest the food. The greater the number of farmers, however, the slower the serf population and wealth level will grow.</LocString>
+  <LocString key="TabPageSerfs.WealthLevel.Title">Serf Wealth</LocString>
+  <LocString key="TabPageSerfs.WealthLevel.Body">Serf wealth will increase or decrease depending on the number that are Farmers. This is most important during Harvest time.\n\nWealth level modifies the Skill when recruiting troops from that type of commoner.</LocString>
 
   <!-- COMPANY PROPERTIES -->
   <LocString key="Company.Property.CurrentLocation">Currently in [[SETTLEMENT_NAME]]</LocString>
-  <LocString key="Company.Property.Paid">Paid\n Next Payment in [[NEXT_PAYMENT]] days\nMorale +[[MORALE_CHANGE]]</LocString>
+  <LocString key="Company.Property.Paid">Paid\n Next Payment in [[NEXT_PAYMENT]] days\nMorale +[[MORALE_CHANGE]]/day</LocString>
   <LocString key="Company.Property.NeedsPayment">Last Payment [[LAST_PAYMENT]]\nDays Unpaid [[DAYS_UNPAID]]</LocString>
-  <LocString key="Company.Property.InSupply">In Supply\n Next Supply in [[NEXT_SUPPLY]] days\nMorale +[[MORALE_CHANGE]]</LocString>
+  <LocString key="Company.Property.InSupply">In Supply\n Next Supply in [[NEXT_SUPPLY]] days\nMorale +[[MORALE_CHANGE]]/day</LocString>
   <LocString key="Company.Property.OutOfSupply">Last Supply [[LAST_SUPPLY]]\nDays OOS [[DAYS_OUT_OF_SUPPLY]]</LocString>
-  <LocString key="Company.Property.MoraleCapModifiers">Morale Modifier [[MODIFIERS]]</LocString>
+  <LocString key="Company.Property.MoraleCapModifiers">Morale Max [[CAP]] ([[MODIFIERS]])</LocString>
 
   <!-- BUILDING PROPERTIES -->
   <LocString key="Manor.Name">Manor</LocString>
@@ -313,20 +318,17 @@
   <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Header">\n\n-- Buildings Destroyed --</LocString>
   <LocString key="RaidSettlementAction.Report.BuildingsDestroyed.Building">\n ->[[BUILDING_TYPE]] [[COUNT]]x</LocString>
 
-  <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Attacker">\n\nWe slayed all the defenders and captured [[LOCATION_NAME]] for you, my lord!</LocString>
-  <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Defender">\n\nWe lost the settlement of [[LOCATION_NAME]] my lord, it was captured by [[ACTOR_NAME]] of [[ACTOR_FAMILY_NAME]]!</LocString>
-  <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Attacker">\n\nWe looted all we could carry, and got out while we had the chance.</LocString>
-  <!--locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Defender">\n\nThe raiders had their fill and finally departed.</LocString>
-  <!--CASUALTIES | locContext-->
-  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker">\n\nWe lost too many troops! We had to get out of there!</LocString>
-  <!--locContext-->
   <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Defender">\n\nWe killed many of them and put them to flight!</LocString>
   <LocString key="RaidSettlementAction.Report.EndState.BugOut.Attacker">\n\nThe odds didn't look good and the troops didn't think it was worth the risk, so we called off the raid.</LocString>
   <LocString key="RaidSettlementAction.Report.EndState.BugOut.Defender">\n\nI guess they didn't like their chances - the raiders fled!</LocString>
+
+  <!--locContext-->
+  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Attacker">\n\nWe slayed all the defenders and captured [[LOCATION_NAME]] for you, my lord!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.SettlementTaken.Defender">\n\nWe lost the settlement of [[LOCATION_NAME]] my lord, it was captured by [[ACTOR_NAME]] of [[ACTOR_FAMILY_NAME]]!</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Attacker">\n\nWe looted all we could carry, and got out while we had the chance.</LocString>
+  <LocString key="RaidSettlementAction.Report.EndState.LootGoalMet.Defender">\n\nThe raiders had their fill and finally departed.</LocString>
+  <!--CASUALTIES | locContext-->
+  <LocString key="RaidSettlementAction.Report.EndState.CasualtiesSustained.Attacker">\n\nWe lost too many troops! We had to get out of there!</LocString>
   <!--RESPONDER_NAME | DETECTION_TIME | loccontext-->
   <LocString key="RaidSettlementAction.Report.RaidDetected.Attacker">\n\nWe heard shouting, and knew they had detected us. I recognized [[RESPONDER_NAME]] among them.</LocString>
   <LocString key="RaidSettlementAction.Report.RaidDetected.Defender">\n\n[[RESPONDER_NAME]] noticed the raiders and raised the alarm at [[DETECTION_TIME]].</LocString>
