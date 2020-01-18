@@ -5,6 +5,7 @@
   <LocString key="Tutorial.UIBasics.FeedbackButton">This button is the best way to let me know what you think. It will send me logs, a screenshot, and whatever you write.</LocString>
   <LocString key="Tutorial.UIBasics.FamilyButton">This button shows your family tree. Nice.</LocString>
   <LocString key="Tutorial.UIBasics.FamilyResources">This summarizes your family's status:\nPrestige (score) and # of characters\nCoin\nTroops\nSettlements and population</LocString>
+  <LocString key="Tutorial.UIBasics.ManageSettlementButton">You can 'enter' settlements that you control to manage them. Press the 'Enter' button next to your settlement on the map.</LocString>
   <LocString key="Tutorial.SettlementBasics.SerfDetails">The heart of your settlement are the Serfs. These hard working people will plant and harvest your fields in exhchange for a place to live.\nGrow your Serf population to 65.\nTap the blue buttons to learn more.</LocString>
   <LocString key="Tutorial.SettlementBasics.SerfCommands">The command panel is how you can manage the settlement. You can increase how many Serfs are assigned to Farming and Support.\nClick on an empty grid to construct a Cottage.</LocString>
   <LocString key="Tutorial.SettlementBasics.SettlementResources">These are the resources in this Settlement:\nPopulation\nUnrest (ignore it)\nTroops\nFood\nDaily Coin (from Workshops)</LocString>
