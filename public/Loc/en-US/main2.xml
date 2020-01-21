@@ -42,17 +42,17 @@
   <LocString key="CharacterInteraction.SelectSelf1">What do I need to do right now?</LocString>
   <LocString key="CharacterInteraction.SelectSelf2">If you want something done right you need to do it yourself.</LocString>
   <LocString key="CharacterInteraction.SelectOther1">[[CHARACTER_NAME]], I have a task for you.</LocString>
-  <LocString key="CharacterInteraction.SelectOther2">I need you to do something for me, [[CHARACTER_NAME]]</LocString>
+  <LocString key="CharacterInteraction.SelectOther2">I need you to do something for me, [[CHARACTER_NAME]].</LocString>
   <LocString key="CharacterInteraction.OtherIsSelected1">What do you want from me, [[RELATIONSHIP]]?</LocString>
   <LocString key="CharacterInteraction.OtherIsSelected2">Hello [[RELATIONSHIP]]...\nHow can I be of service?</LocString>
   <LocString key="CharacterInteraction.SelectedIsDead">My lord, your [[RELATIONSHIP]] is dead.</LocString>
-  <LocString key="CharacterInteraction.Category.Personal1">I can do whatever you need</LocString>
-  <LocString key="CharacterInteraction.Category.Personal2">I want to see the world</LocString>
-  <LocString key="CharacterInteraction.Category.Retinue1">Tough and well-trained troops are necessary for victory</LocString>
+  <LocString key="CharacterInteraction.Category.Personal1">I can do whatever you need.</LocString>
+  <LocString key="CharacterInteraction.Category.Personal2">I want to see the world.</LocString>
+  <LocString key="CharacterInteraction.Category.Retinue1">Tough and well-trained troops are necessary for victory.</LocString>
   <LocString key="CharacterInteraction.Category.Retinue2">Not everyone is cut out to be a captain. Do you think I am?</LocString>
   <LocString key="CharacterInteraction.Category.Settlement1">Do the Serfs need Inspiring?</LocString>
-  <LocString key="CharacterInteraction.Category.Settlement2">Buildings will determing what type of commoners come to the settlement</LocString>
-  <LocString key="CharacterInteraction.Category.Settlement3">Wealthier commoners will have better equipment and be better soldiers</LocString>
+  <LocString key="CharacterInteraction.Category.Settlement2">Buildings will determing what type of commoners come to the settlement.</LocString>
+  <LocString key="CharacterInteraction.Category.Settlement3">Wealthier commoners will have better equipment and be better soldiers.</LocString>
 
   <!-- SETTLEMENT INTERACTION-->
   <LocString key="SettlementInteraction.SlotIsBrush.Title">Brush</LocString>
@@ -63,17 +63,24 @@
 
   <!-- SETTLEMENT PROPERTIES -->
   <LocString key="TabPageSerfs.Population.Title">Serf Population</LocString>
-  <LocString key="TabPageSerfs.Population.Body">This is the total number of Serfs in the settlement. Serfs are your direct servants, and the population will grow as long as there is room in a Cottage</LocString>
+  <LocString key="TabPageSerfs.Population.Body">This is the total number of Serfs in the settlement. Serfs are your direct servants, and their population will grow as long as there are empty Cottages.</LocString>
   <LocString key="TabPageSerfs.Crops.Title">Crops</LocString>
-  <LocString key="TabPageSerfs.Crops.Body">Crops are planted by Serfs throughout the year. Crops are harvested in March and Octoboer, yielding Food. You need Food to feed your troops (Commoners can take care of themselves).</LocString>
+  <LocString key="TabPageSerfs.Crops.Body">Crops are planted by Serfs throughout the year, and harvested in March and October, yielding Food. You need Food to feed your troops (Commoners can take care of themselves).</LocString>
   <LocString key="TabPageSerfs.DaysLeft.Title">Days In the Season</LocString>
-  <LocString key="TabPageSerfs.DaysLeft.Body">This tells you the number of days left in the current season. Make sure you have enough farmers to plan enough crops to have a great harvest. Also, make sure you have enough farmers to harvest all the crops you planted!</LocString>
+  <LocString key="TabPageSerfs.DaysLeft.Body">The number of days left in the current season. Make sure you have enough farmers to plant enough crops to yield a great harvest. Then make sure you have enough farmers to harvest all the crops you planted!</LocString>
   <LocString key="TabPageSerfs.Support.Title">Support Job</LocString>
   <LocString key="TabPageSerfs.Support.Body">Serfs in the Support job perform construction, shuttle resources where they are needed, and... ahem... help the population grow faster.</LocString>
   <LocString key="TabPageSerfs.Farmers.Title">Farmer Job</LocString>
   <LocString key="TabPageSerfs.Farmers.Body">Serfs in the Farmer job are necessary to plant the crops and harvest the food. The greater the number of farmers, however, the slower the serf population and wealth level will grow.</LocString>
   <LocString key="TabPageSerfs.WealthLevel.Title">Serf Wealth</LocString>
-  <LocString key="TabPageSerfs.WealthLevel.Body">Serf wealth will increase or decrease depending on the number that are Farmers. This is most important during Harvest time.\n\nWealth level modifies the Skill when recruiting troops from that type of commoner.</LocString>
+  <LocString key="TabPageSerfs.WealthLevel.Body">Serf wealth will increase or decrease depending on how many Serfs are Farmers. This is most important during Harvest time.\n\n    This value modifies the Skill level of recruited troops when you recruit commoners.</LocString>
+
+  <LocString key="TaxWidget.Yeomen.Population">This is the number of Yeomen in the settlement. Yeomen are created when you sell Cottages to the Serfs, and then their population will slow increase over time.</LocString>
+  <LocString key="TaxWidget.Tradesmen.Population">This is the number of TRadesmen in the settlement. Tradesmen will come to the settlement if there are available Workshop jobs.</LocString>
+  <LocString key="TaxWidget.WealthLevel">This is the Wealth of the group. Lower taxes means less income for you, but your people will prosper. High taxes will slow down and possibly lower wealth.</LocString>
+  <LocString key="TaxWidget.Rate">There are five levels of taxation: None, Low, Normal, High and Crushing.</LocString>
+  <LocString key="TaxWidget.Yeomen.Yield">This is the amount of coin you will collect in rent taxes from the Yeomen at the beginning of every Month.</LocString>
+  <LocString key="TaxWidget.Tradesmen.Yield">This is the amount of coin you will collect in daily taxes from the Tradesmen.</LocString>
 
   <!-- COMPANY PROPERTIES -->
   <LocString key="Company.Property.CurrentLocation">Currently in [[SETTLEMENT_NAME]]</LocString>
@@ -87,7 +94,7 @@
   <LocString key="Manor.Name">Manor</LocString>
   <LocString key="Manor.Description">This is your house. The buck stops with you.\n(1 Max)\n+20 Serf Jobs</LocString>
   <LocString key="Cottage.Name">Cottage</LocString>
-  <LocString key="Cottage.Description">Cottages provides homes for Serfs. Serfs will grow plant and grow Food on your lands\n+30 Serf Jobs</LocString>
+  <LocString key="Cottage.Description">Cottages provides homes for Serfs. Serfs will plant, tend, and harvest food on your lands.\n    +30 Serf Jobs</LocString>
   <LocString key="Workshop.Name">Workshop</LocString>
   <LocString key="Workshop.Description">Workshops create Tradesmen job. Tradesmen pay Coin every day to you in taxes.\n+10 Tradesmen Jobs</LocString>
   <LocString key="Tavern.Name">Tavern</LocString>
@@ -101,25 +108,25 @@
 
   <!-- COMMAND VALIDATION -->
   <!-- ACTION -->
-  <LocString key="Validation.Action.NotFound">Action not found</LocString>
-  <LocString key="Validation.Action.CannotCancel">I cannot stop that, its too late</LocString>
+  <LocString key="Validation.Action.NotFound">Action not found.</LocString>
+  <LocString key="Validation.Action.CannotCancel">I cannot stop that, its too late.</LocString>
 
   <!-- RESOURCES -->
-  <LocString key="Validation.Cottage.NotAvailable">There isn't a Serf cottage to sellc, my lord</LocString>
-  <LocString key="Validation.Yeomen.NotAvailable">There isn't a Yeoman cottage to buy, my lord</LocString>
-  <LocString key="Validation.Serfs.NotAvailable">There aren't Serfs available to work there, my lord</LocString>
-  <LocString key="Validation.Mercenaries.NotAvailable">There aren't Mercenaries available here</LocString>
-  <LocString key="Validation.Coin.NotEnough">We do not have enough Coin</LocString>
-  <LocString key="Validation.Food.NotEnough">We do not have enough Food</LocString>
+  <LocString key="Validation.Cottage.NotAvailable">There isn't a Serf cottage to sellc, my lord.</LocString>
+  <LocString key="Validation.Yeomen.NotAvailable">There isn't a Yeoman cottage to buy, my lord.</LocString>
+  <LocString key="Validation.Serfs.NotAvailable">There aren't Serfs available to work there, my lord.</LocString>
+  <LocString key="Validation.Mercenaries.NotAvailable">There aren't Mercenaries available here.</LocString>
+  <LocString key="Validation.Coin.NotEnough">We do not have enough Coin.</LocString>
+  <LocString key="Validation.Food.NotEnough">We do not have enough Food.</LocString>
 
   <!-- BUILDING -->
-  <LocString key="Validation.Building.NotFound">Building not found</LocString>
-  <LocString key="Validation.Building.Full">That building cannot accomodate any more workers</LocString>
-  <LocString key="Validation.Building.Empty">That building does not have any workers</LocString>
+  <LocString key="Validation.Building.NotFound">Building not found.</LocString>
+  <LocString key="Validation.Building.Full">That building cannot accomodate any more workers.</LocString>
+  <LocString key="Validation.Building.Empty">That building does not have any workers.</LocString>
 
   <!-- SETTLEMENT -->
-  <LocString key="Validation.Settlement.SlotInUse">There is already a building there</LocString>
-  <LocString key="Validation.Settlement.NotRightLevelForSlot">We cannot build there yet</LocString>
+  <LocString key="Validation.Settlement.SlotInUse">There is already a building there.</LocString>
+  <LocString key="Validation.Settlement.NotRightLevelForSlot">We cannot build there yet.</LocString>
   <LocString key="Validation.Settlement.IsFriendly">That is a friendly settlement, my lord!</LocString>
   <LocString key="Validation.Settlement.IsNotFriendly">My lord! That settlement is not under our control.</LocString>
   <LocString key="Validation.Settlement.AtPopulationLimit">My lord! We cannot accomodate any more people at the moment.</LocString>
@@ -129,7 +136,7 @@
   <LocString key="Validation.Character.IsCaptain">I am *already* in command of a company!</LocString>
 
   <!-- COMPANIES -->
-  <LocString key="Validation.Company.Busy">The company is not free to perform this task at this moment</LocString>
+  <LocString key="Validation.Company.Busy">The company is not free to perform this task at this moment.</LocString>
 
   <!-- 
   //////////////////////////////////// COMMANDS 
@@ -161,11 +168,11 @@
 
   <LocString key="SetCommonerTaxRateCommand.Name">Change Tax Rate</LocString>
   <LocString key="SetCommonerTaxRateCommand.Tutorial">The tax rate determines how much Coin we receive, and impacts the wealth of that type of commoner. If we tax less now, our people could be wealthier later.\nHigher taxes might be helpful now but hurt us in the long run.</LocString>
-  <LocString key="SetCommonerTaxRateCommand.Start">My lord, we can set the tax rate of [[COMMONER_TYPE]] to [[NEW_TAX_RATE]]</LocString>
+  <LocString key="SetCommonerTaxRateCommand.Start">My lord, we can set the tax rate of [[COMMONER_TYPE]] to [[NEW_TAX_RATE]].</LocString>
   <LocString key="SetCommonerTaxRateCommand.Confirm">Should we set [[COMMONER_TYPE]] tax rate to [[NEW_TAX_RATE]]?</LocString>
 
   <LocString key="SetSerfFarmerPercentage.Name">Change Serf Jobs</LocString>
-  <LocString key="SetSerfFarmerPercentage.Tutorial">Serfs can be assigned as Farmers to plant and harvest Food, or to Support which will increase their wealth and population growth. The key thing is to make sure we have enough Food for our troops</LocString>
+  <LocString key="SetSerfFarmerPercentage.Tutorial">Serfs can be assigned as Farmers to plant and harvest Food, or to Support which will increase their wealth and population growth. The key thing is to make sure we have enough Food for our troops.</LocString>
   <LocString key="SetSerfFarmerPercentage.Start">My lord, you can determine how many Serfs should be farming.</LocString>
   <LocString key="SetSerfFarmerPercentage.Confirm">Should we set [[NEW_PERCENTAGE]] of the Serfs to farming, sire??</LocString>
 
