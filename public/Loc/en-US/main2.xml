@@ -148,7 +148,7 @@
   -->
   <LocString key="PayCompanyCommand.Name">Pay Troops</LocString>
   <LocString key="PayCompanyCommand.Tutorial">Troops should be paid at least every 6 months, or they will not fight as hard. We can pay them now, if you wish.</LocString>
-  <LocString key="PayCompanyCommand.Start">My lord, oaying these troops will cost [[PAY_COST]] Coin from our treasury.</LocString>
+  <LocString key="PayCompanyCommand.Start">My lord, paying these troops will cost [[PAY_COST]] Coin from our treasury.</LocString>
   <LocString key="PayCompanyCommand.Confirm">Should we pay the troops [[PAY_COST]], sire?</LocString>
 
   <LocString key="SellCottageToYeoman.Name">Sell Cottage</LocString>
@@ -174,7 +174,7 @@
   <LocString key="SetSerfFarmerPercentage.Name">Change Serf Jobs</LocString>
   <LocString key="SetSerfFarmerPercentage.Tutorial">Serfs can be assigned as Farmers to plant and harvest Food, or to Support which will increase their wealth and population growth. The key thing is to make sure we have enough Food for our troops.</LocString>
   <LocString key="SetSerfFarmerPercentage.Start">My lord, you can determine how many Serfs should be farming.</LocString>
-  <LocString key="SetSerfFarmerPercentage.Confirm">Should we set [[NEW_PERCENTAGE]] of the Serfs to farming, sire??</LocString>
+  <LocString key="SetSerfFarmerPercentage.Confirm">Should we set [[NEW_PERCENTAGE]] of the Serfs to farming, sire?</LocString>
 
   <!--
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ACTIONS
@@ -198,7 +198,7 @@
   <LocString key="TrainTroopsAction.Tutorial">By training hard we will triumph in combat! We should not train for more than {0}, but a couple of days won't cut it either.</LocString>
   <LocString key="TrainTroopsAction.Setup">My lord, how long should the training last? Longer training can be more effective, but everyone has their limit.\n[[TRAINING_LENGTH_DAYS]] days</LocString>
   <LocString key="TrainTroopsAction.Confirm">Should we begin training [[RETINUE_NAME]] for [[TRAINING_LENGTH_DAYS]] days, sire?</LocString>
-  <LocString key="TrainTroopsAction.Running">My lord,[[ACTOR_NAME]] has been training the troops for [[ELAPSED_DURATION]] out of [[TRAINING_LENGTH_DAYS]]. The retinue's Skill has increased by [[SKILL_DELTA]] so far.</LocString>
+  <LocString key="TrainTroopsAction.Running">My lord,[[ACTOR_NAME]] has been training the troops for [[ELAPSED_DURATION]] out of [[TRAINING_LENGTH_DAYS]] days. The retinue's Skill has increased by [[SKILL_DELTA]] so far.</LocString>
   <LocString key="TrainTroopsAction.Report.Title">Unit Training</LocString>
   <LocString key="TrainTroopsAction.Report.Detail">My lord,\n I trained my troops as you wished. We trained for [[TRAINING_DONE_DAYS]] and improved our Skill by [[SKILL_DELTA]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
 
