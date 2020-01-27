@@ -110,13 +110,13 @@
 
   <!-- BUILDING PROPERTIES -->
   <LocString key="Manor.Name">Manor</LocString>
-  <LocString key="Manor.Description">This is your house. The buck stops with you.\n(1 Max)\n+20 Serf Jobs</LocString>
+  <LocString key="Manor.Description">This is your house. The buck stops with you.\n&lt;color=#FFD700&gt;Unique&lt;/color&gt;\n+8 Housing</LocString>
   <LocString key="Cottage.Name">Cottage</LocString>
-  <LocString key="Cottage.Description">Cottages provides homes for Serfs. Serfs will plant, tend, and harvest food on your lands.\n    +30 Serf Jobs</LocString>
+  <LocString key="Cottage.Description">Cottages provides homes for Serfs. Serfs will plant, tend, and harvest food on your lands.\n    +6 Housing</LocString>
   <LocString key="Workshop.Name">Workshop</LocString>
-  <LocString key="Workshop.Description">Workshops create Tradesmen job. Tradesmen pay Coin every day to you in taxes.\n+10 Tradesmen Jobs</LocString>
+  <LocString key="Workshop.Description">Workshops create Tradesmen job. Tradesmen pay Coin every day to you in taxes.\n+6 Tradesmen Jobs</LocString>
   <LocString key="Tavern.Name">Tavern</LocString>
-  <LocString key="Tavern.Description">A Tavern makes recruiting civilians easier.\n(1 Max)</LocString>
+  <LocString key="Tavern.Description">A Tavern makes recruiting civilians easier.\n&lt;color=#FFD700&gt;Unique&lt;/color&gt;</LocString>
 
   <!--
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// REQUIREMENTS
