@@ -14,6 +14,9 @@
   <LocString key="Tutorial.SettlementBasics.Cottages">'Yeomen' are commoners that own their own land. To increase Yeomen in the settlement, you can sell a Serf Cottage.\nYeomen will not Farm for you any longer, but will pay taxes every month.</LocString>
   <LocString key="Tutorial.Retinues">Retinues are the troops attached to a character. They need to be paid and supplied to fight well. You can also train them.\nEventually you will be able to give them equipment.</LocString>
 
+  <LocString key="Register.EmailEmpty">E-mail is empty</LocString>
+  <LocString key="Register.PasswordEmpty">Password is empty</LocString>
+
   <!-- NOUNS -->
   <LocString key="Noun.Serf.Singular">Serf</LocString>
   <LocString key="Noun.Serf.Plural">Serfs</LocString>
