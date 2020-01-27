@@ -16,6 +16,21 @@
 
   <LocString key="Register.EmailEmpty">E-mail is empty</LocString>
   <LocString key="Register.PasswordEmpty">Password is empty</LocString>
+  <!--RESULT [None, Won, Eliminated, Lost]-->
+  <LocString key="PostGameResult.Result.Title">Result - [[RESULT]]</LocString>
+  <!--RESULT, FAMILY_NAME, LEADER_NAME, SETTLEMENT_COUNT, PREGAME_PRESTIGE, HONOR, POWER, COIN, FOOD, FINAL_PRESTIGE-->
+  <LocString key="PostGameResult.Result.Body">
+    Leader: [[LEADER_NAME]]\n
+    Family: [[FAMILYNAME]]\n
+    Power: [[POWER]]\n
+    Honor: [[HONOR]]\n
+    Settlements: [[SETTLEMENT_COUNT]]\n
+    Food: [[FOOD]]\n
+    Coin: [[COIN]]\n
+    Starting Prestige:[[PREGAME_PRESTIGE]]\n
+    Final Prestige: [[FINAL_PRESTIGE]]
+  </LocString>
+
 
   <!-- NOUNS -->
   <LocString key="Noun.Serf.Singular">Serf</LocString>
