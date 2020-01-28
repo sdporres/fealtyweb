@@ -56,6 +56,8 @@
 
   <LocString key="PasswordReset.Error.Title">Missing something?</LocString>
 
+  
+
   <!-- CHARACTER INTERACTION-->
   <LocString key="CharacterInteraction.SelectSelf1">What do I need to do right now?</LocString>
   <LocString key="CharacterInteraction.SelectSelf2">If you want something done right you need to do it yourself.</LocString>
@@ -293,7 +295,8 @@
   <LocString key="TearDownBuildingAction.Name">Demolish</LocString>
   <LocString key="TearDownBuildingAction.Tutorial">We can demolish buildings to make room for new ones. This will take time, however, and cost some Coin.</LocString>
   <LocString key="TearDownBuildingAction.Setup">My lord, what building do you want demolished?</LocString>
-  <LocString key="TearDownBuildingAction.Confirm">Should we demolist this [[BUILDING_NAME]], sire?\n It will cost [[DEMOLISH_COST_COIN]] Coin, and take [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="TearDownBuildingAction.Confirm">Should we demolish this [[BUILDING_NAME]], sire?\n It will cost [[DEMOLISH_COST_COIN]] Coin, and take [[TIME_UNTIL_COMPLETE]].</LocString>
+  <LocString key="TearDownBuildingAction.DoubleConfirm">Sire! Are you *absolutely* certain you wish us to demolist this [[BUILDING_NAME]]?</LocString>
   <LocString key="TearDownBuildingAction.Running">Progress: [[PERCENT_COMPLETED]]\n Time Left:[[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="TearDownBuildingAction.Report.Title">Demolition</LocString>
   <LocString key="TearDownBuildingAction.Report.Detail">My lord,\n The [[BUILDING_NAME]] in [[SETTLEMENT_NAME]] was demolished after [[ELAPSED_DURATION]].</LocString>
