@@ -323,7 +323,7 @@
   <LocString key="RecruitTroopsAction.Confirm">My lord, I will attempt to recruit [[TROOP_GOAL]] [[RECRUIT_PRIORITY]] from [[SETTLEMENT_NAME]]. Based on my Leadership skill, I have a [[RECRUIT_ROLL_CHANCE]]% chance when recruiting, and it should take me [[TIME_UNTIL_COMPLETE]] to complete this task.</LocString>
   <LocString key="RecruitTroopsAction.Running">My lord,\n[[ACTOR_NAME]] has recruited [[RECRUITED_COUNT]] out of [[TROOP_GOAL]].\nI believe [[ACTOR_NAME]] will finish in [[TIME_UNTIL_COMPLETE]].</LocString>
   <LocString key="RecruitTroopsAction.Report.Title">Retinue Recruiting</LocString>
-  <LocString key="RecruitTroopsAction.Report.Detail">My lord,\nI recruited [[TROOP_GOAL]] troops to my retinue after [[ELAPSED_DURATION]].[[FAILURE_FRAGMENT]]\n\n Your servant, [[ACTOR_NAME]]</LocString>
+  <LocString key="RecruitTroopsAction.Report.Detail">My lord,\nI recruited [[TROOP_GOAL]] troops to my retinue after [[ELAPSED_DURATION]].\n\n  Skill change: [[SKILL_DELTA]]\n  Morale change: [[MORALE_DELTA]].\n\n[[FAILURE_FRAGMENT]]\n\n Your servant, [[ACTOR_NAME]]</LocString>
   <LocString key="RecruitTroopsAction.Fragment.NoRecruitsLeft">\n\nI stopped because there was no one left to recruit.</LocString>
   <LocString key="RecruitTroopsAction.Fragment.AtTroopCapacity">\n\nI stopped beecause I cannot command any more troops.</LocString>
 
