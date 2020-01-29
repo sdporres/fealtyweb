@@ -16,8 +16,7 @@
         <h2> > Join the mailing list < </h2> 
       </a> 
     </div>  -->
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="/{{ site.baseurl }}">Home</a>
+    <nav class="sidebar-nav">      
       {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
@@ -27,8 +26,9 @@
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
-            <span class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">>
+            <span class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
             <a href="/{{ site.baseurl }}{{ node.url  | remove_first: '/' }}">{{ node.title }}</a>
+            </span>
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -39,11 +39,9 @@
         <span class="sidebar-nav-item">> <a href="https://fealtydev.itch.io/fealty"> Get the game</a></span>
       </div>
     </div>
-    </p>
     <div>
       <span class="sidebar-nav-item">> <a href="https://discord.gg/dKJP7bY"> Discord</a></span>
     </div>
-    </p>
     <div>
       <span class="sidebar-nav-item">> <a href="https://twitter.com/FealtyDev"> Twitter</a></span>
       <!-- <span class="sidebar-nav-item">> <a href="https://www.instagram.com/fealtydev/"> Instagram</a></span> -->
