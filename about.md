@@ -3,14 +3,30 @@ layout: page
 title: About
 ---
 
-<center><b><i>Fealty</i></b> is a real-time strategy-rpg set in a world inspired by the early middle ages. You take control of a family of characters and it is your task to expand your domains, manage your settlements, and muster your forces. The characters in the world are how you interact. They can carry out your will, and just as importantly, report on what is happening in the realm that you need to be aware of. Fealty is played  over a series of "kingdom games". Each kingdom game represents a geographical area over which families compete for control of the settlements in the game. Once a player has achieved dominance over the kingdom, then  he game ends.</center>
+<center>In <b><i>Fealty</i></b> a "game" is played on a map representing one of the regions in the game. When a player has established control of the region (directly, or through allegiances) the game ends and those left standing are rewarded with <b>Prestige</b>.
+</center>
+<br>
+<center>
+<i><b>Prestige</b> is the running score of each family, and how the greatest are distinguised from the weakest.</i>
+</center>
 
 <img src="{{ site.baseurl }}/public/images/fealty-hr.png" class="center bottom-margin top-margin" />
 
-<center>Once a game is over, each family gains Prestige earned from their actions and choices during the game. Prestige can be earned in different ways including: direct control of settlements, economic productivity, powerful/honorable characters, and diplomatic treatises. A family that does not control the map may still come out ahead in the final Prestige count.
-
-The Prestige players earn carries between games and determines their placement on the Prestige Leaderboards - for all to see.</center>
+<center>
+Prestige can be gain in many ways: through combat and conquest, via diplomacy and securing effective treaties, or economically through production and trade agreements. Your family members will also accrue Honor from the actions they perform and that is converted into Prestige as well.
+</center>
+<br>
+<center>
+<i>A family that does not control the map may still come out ahead in the final <b>Prestige</b> count.</i>
+</center>
 
 <img src="{{ site.baseurl }}/public/images/fealty-hr.png" class="center bottom-margin top-margin" />
 
-<center><b><i>Fealty</i></b> is early in development with the current focus being the core real-time simulation and strategic elements.</center>
+<center>
+As long as you have surviving members in your family, you can join new "games" to vie for new regions. Your family will grow and change as characters will improve, have children and develop their stories over their lifetime.
+</center>
+<br>
+<center>
+<i><b>Fealty</b> is about the story of your family as much as about each individual game they participate in.</i>
+</center>
+
