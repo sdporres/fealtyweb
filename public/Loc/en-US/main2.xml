@@ -21,7 +21,7 @@
   <!--RESULT, FAMILY_NAME, LEADER_NAME, SETTLEMENT_COUNT, PREGAME_PRESTIGE, HONOR, POWER, COIN, FOOD, FINAL_PRESTIGE-->
   <LocString key="PostGameResult.Results.Body">
     Leader: [[LEADER_NAME]]\n
-    Family: [[FAMILYNAME]]\n
+    Family: [[FAMILY_NAME]]\n
     Power: [[POWER]]\n
     Honor: [[HONOR]]\n
     Settlements: [[SETTLEMENT_COUNT]]\n
