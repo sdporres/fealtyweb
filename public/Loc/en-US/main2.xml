@@ -19,7 +19,7 @@
   <!--RESULT [None, Won, Eliminated, Lost]-->
   <LocString key="PostGameResult.Result.Title">Result - [[RESULT]]</LocString>
   <!--RESULT, FAMILY_NAME, LEADER_NAME, SETTLEMENT_COUNT, PREGAME_PRESTIGE, HONOR, POWER, COIN, FOOD, FINAL_PRESTIGE-->
-  <LocString key="PostGameResult.Result.Body">
+  <LocString key="PostGameResult.Results.Body">
     Leader: [[LEADER_NAME]]\n
     Family: [[FAMILYNAME]]\n
     Power: [[POWER]]\n
