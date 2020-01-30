@@ -316,8 +316,11 @@
   <LocString key="ConstructBuildingAction.Report.Title">Construction</LocString>
   <LocString key="ConstructBuildingAction.Report.Detail">My lord,\n A [[BUILDING_NAME]] in [[SETTLEMENT_NAME]] was constructed after [[ELAPSED_DURATION]].</LocString>
 
-  <!--MORALE_DELTA  | SKILL_DELTA-->
-  <!--ApplyCombatExperience-->
+  <!--ApplyCombatExperience Context
+  [[STARTED_DATETIME]]: 01/01/0001 00:00:00  [[COMPLETED_DATETIME]]: 01/01/0001 00:00:00  [[ELAPSED_DURATION]]: less than an hour  [[TIME_UNTIL_COMPLETE]]: less than an hour
+  [[PERCENT_COMPLETED]]: 100 %  [[RETINUE_NAME]]: Walter's Retinue  [[CAPTAIN_NAME]]: Walter  [[CAPTAIN_FAMILY_NAME]]: Whitelight  [[MORALE_DELTA]]: 0  [[SKILL_DELTA]]: 1
+  -->
+  <LocString key="ApplyCombatExperience.Report.Detail">My lord,\n My troops have benefited from their recent combat experience. .\n\n  Skill change: [[SKILL_DELTA]]\n  Morale change: [[MORALE_DELTA]].\n\n Your servant, [[CAPTAIN_NAME]]</LocString>
 
   <!--
   TROOP_GOAL | RECRUIT_PRIORITY { Serfs, Freemen}
