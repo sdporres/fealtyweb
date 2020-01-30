@@ -95,12 +95,18 @@
   <LocString key="TabPageSerfs.WealthLevel.Title">Serf Wealth</LocString>
   <LocString key="TabPageSerfs.WealthLevel.Body">Serf wealth will increase or decrease depending on how many Serfs are Farmers. This is most important during Harvest time.\n\n    This value modifies the Skill level of recruited troops when you recruit commoners.</LocString>
 
-  <LocString key="TaxWidget.Yeomen.Population">This is the number of Yeomen in the settlement. Yeomen are created when you sell Cottages to the Serfs, and then their population will slow increase over time.</LocString>
-  <LocString key="TaxWidget.Tradesmen.Population">This is the number of TRadesmen in the settlement. Tradesmen will come to the settlement if there are available Workshop jobs.</LocString>
-  <LocString key="TaxWidget.WealthLevel">This is the Wealth of the group. Lower taxes means less income for you, but your people will prosper. High taxes will slow down and possibly lower wealth.</LocString>
-  <LocString key="TaxWidget.Rate">There are five levels of taxation: None, Low, Normal, High and Crushing.</LocString>
-  <LocString key="TaxWidget.Yeomen.Yield">This is the amount of coin you will collect in rent taxes from the Yeomen at the beginning of every Month.</LocString>
-  <LocString key="TaxWidget.Tradesmen.Yield">This is the amount of coin you will collect in daily taxes from the Tradesmen.</LocString>
+  <LocString key="TaxWidget.Yeomen.Population.Title">Yeomen Population</LocString>
+  <LocString key="TaxWidget.Yeomen.Population.Body">This is the number of Yeomen in the settlement. Yeomen are created when you sell Cottages to the Serfs, and then their population will slow increase over time.</LocString>
+  <LocString key="TaxWidget.Tradesmen.Population.Title">Tradesmen Population</LocString>
+  <LocString key="TaxWidget.Tradesmen.Population.Body">This is the number of TRadesmen in the settlement. Tradesmen will come to the settlement if there are available Workshop jobs.</LocString>
+  <LocString key="TaxWidget.WealthLevel.Title">Wealth Level</LocString>
+  <LocString key="TaxWidget.WealthLevel.Body">This is the Wealth of the group. Lower taxes means less income for you, but your people will prosper. High taxes will slow down and possibly lower wealth.</LocString>
+  <LocString key="TaxWidget.Rate.Title">Tax Rate</LocString>
+  <LocString key="TaxWidget.Rate.Body">There are five levels of taxation: None, Low, Normal, High and Crushing.</LocString>
+  <LocString key="TaxWidget.Yeomen.Yield.Title">Yeomen Tax</LocString>
+  <LocString key="TaxWidget.Yeomen.Yield.Body">This is the amount of coin you will collect in rent taxes from the Yeomen at the beginning of every Month.</LocString>
+  <LocString key="TaxWidget.Tradesmen.Yield.Title">Tradesmen Tax</LocString>
+  <LocString key="TaxWidget.Tradesmen.Yield.Body">This is the amount of coin you will collect in daily taxes from the Tradesmen.</LocString>
 
   <!-- COMPANY PROPERTIES -->
   <LocString key="Company.Property.CurrentLocation">Currently in [[SETTLEMENT_NAME]]</LocString>
