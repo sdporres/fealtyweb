@@ -270,7 +270,7 @@
   <LocString key="MoveCharacterAction.Report.Detail">My lord,\n I left [[SETTLEMENT_NAME]] at [[STARTED_DATETIME]] for [[LOCATION_NAME]].\nI arrived after [[ELAPSED_DURATION]] at [[COMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
 
   <!--INSPIRED_ADVERB { amused instead of, slightly, greatly }-->
-  <LocString key="InspireCommonersAction.Name">Inspire</LocString>
+  <LocString key="InspireCommonersAction.Name">Inspire Commoners</LocString>
   <LocString key="InspireCommonersAction.Tutorial">It's sometimes possible to get a little extra productivity by paying a close eye to the commoners.</LocString>
   <LocString key="InspireCommonersAction.Setup">My lord, I can oversee the work to you satisfaction.</LocString>
   <LocString key="InspireCommonersAction.Confirm">Should I oversee the commoners, sire?</LocString>
@@ -279,7 +279,7 @@
   <LocString key="InspireCommonersAction.Report.Detail">My lord,\n I began to inspire the commoners in [[SETTLEMENT_NAME]], and they indeed seemed [[INSPIRED_ADVERB]] inspired at my efforts. I finished at at [[COMPLETED_DATETIME]].\n\n Your servant, [[ACTOR_NAME]]</LocString>
 
   <!--COMMONER_TYPE | GROWTH_ADVERB { almost barely, slightly, noticeably, greatly, mightily }-->
-  <LocString key="AttractCommonerAction.Name">Inspire</LocString>
+  <LocString key="AttractCommonerAction.Name">Attract Commoners</LocString>
   <LocString key="AttractCommonerAction.Tutorial">We can attract new people to our settlements by word of mouth.</LocString>
   <LocString key="AttractCommonerAction.Setup">My lord, I can attempt to attract new Serfs or Tradesmen to [[SETTLEMENT_NAME]].</LocString>
   <LocString key="AttractCommonerAction.Confirm">Should I attempt to attract new [[COMMONER_TYPE]] to [[SETTLEMENT_NAME]], sire?\nI should report back in [[TIME_UNTIL_COMPLETE]]</LocString>
