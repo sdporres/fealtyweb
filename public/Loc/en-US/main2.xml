@@ -361,7 +361,7 @@
   <LocString key="RaidSettlementAction.Report.RaiderStealth.Fail">We made a lot of noise, and it seemed likely they heard us.</LocString>
   <LocString key="RaidSettlementAction.Report.RaiderStealth.Success">We approached the outskirts of the settlements without alerting them.</LocString>
   <LocString key="RaidSettlementAction.Report.RaiderStealth.Critical">In the middle of a moonless night, we approached the settlement entirely undetected.</LocString>
-  <LocString key="RaidSettlementAction.Report.RaiderReturn">We left [[LOCATION_NAME]] and will return to [[SETTLEMENT_NAME]] by [[RETURN_END_ON]]</LocString>
+  <LocString key="RaidSettlementAction.Report.RaiderReturn">\n\nWe left [[LOCATION_NAME]] and will return to [[SETTLEMENT_NAME]] by [[RETURN_END_ON]]</LocString>
   <LocString key="RaidSettlementAction.Report.RaidingUnitSummary.Unit">\n ->[[UNIT_NAME]]\n Casualties: [[CASUALTIES]]/[[STRENGTH]] | Enemy Killed: [[CASUALTIES_INFLICTED]]\n</LocString>
   <LocString key="RaidSettlementAction.Report.GarrisonUnitSummary.Unit">\n ->[[UNIT_NAME]]\n Casualties: [[CASUALTIES]]/[[STRENGTH]] | Enemy Killed: [[CASUALTIES_INFLICTED]]\n</LocString>
   <LocString key="RaidSettlementAction.Report.RaidingUnitSummary.Header">\n\n-- Unit Status --</LocString>
