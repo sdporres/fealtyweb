@@ -172,6 +172,7 @@
   <LocString key="Validation.Settlement.IsFriendly">That is a friendly settlement, my lord!</LocString>
   <LocString key="Validation.Settlement.IsNotFriendly">My lord! That settlement is not under our control.</LocString>
   <LocString key="Validation.Settlement.AtPopulationLimit">My lord! We cannot accomodate any more people at the moment.</LocString>
+  <LocString key="Validation.Settlement.IsAlreadyInspired">My lord, the people of this settlement are already being inspired'</LocString>
   <!-- CHARACTERS -->
   <LocString key="Validation.Character.Busy">I cannot take on another task at this moment!</LocString>
   <LocString key="Validation.Character.IsNotCaptain">I am not in command of a company!</LocString>
