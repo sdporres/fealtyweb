@@ -56,7 +56,10 @@
 
   <LocString key="PasswordReset.Error.Title">Missing something?</LocString>
 
-  
+  <LocString key="ConstructionCard.Cost.Time.Title">Construction Time</LocString>
+  <LocString key="ConstructionCard.Cost.Time.Body">This is how long construction of this building will take. The speed of construction is determined by the number of Serfs not farming, and how many construction projects are active at once.</LocString>
+  <LocString key="ConstructionCard.Cost.Coin.Title">Construction Cost</LocString>
+  <LocString key="ConstructionCard.Cost.Coin.Body">This is the amount of Coin required to construct the building.</LocString>
 
   <!-- CHARACTER INTERACTION-->
   <LocString key="CharacterInteraction.SelectSelf1">What do I need to do right now?</LocString>
