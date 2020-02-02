@@ -141,7 +141,8 @@
   <LocString key="Validation.SettlementResourceRequirement">&lt;color=#CF0000&gt;Need&lt;/color&gt; [[VALUE]] [[RESOURCE_TYPE]]</LocString>
   <!--LEVEL-->
   <LocString key="Validation.SettlementLevelRequirement">&lt;color=#CF0000&gt;Reach&lt;/color&gt; Manor level [[LEVEL]]</LocString>
-
+  
+  
   <!--
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// COMMANDS
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// COMMANDS
@@ -177,9 +178,7 @@
   <LocString key="Validation.Character.Busy">I cannot take on another task at this moment!</LocString>
   <LocString key="Validation.Character.IsNotCaptain">I am not in command of a company!</LocString>
   <LocString key="Validation.Character.IsCaptain">I am *already* in command of a company!</LocString>
-
-  <!-- COMPANIES -->
-  <LocString key="Validation.Company.Busy">The company is not free to perform this task at this moment.</LocString>
+ 
 
   <!-- 
   //////////////////////////////////// COMMANDS 
