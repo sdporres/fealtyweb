@@ -5,7 +5,9 @@ title: About
 
 <center>In <b><i>Fealty</i></b> a "game" is played on a map representing one of the regions in the game. When a player has established control of the region (directly, or through allegiances) the game ends and those left standing are rewarded with <b>Prestige</b>.
 </center>
-<br>
+
+<img src="{{ site.baseurl }}/public/images/the-game.png" class="center" />
+
 <center>
 <i><b>Prestige</b> is the running score of each family, and how the greatest are distinguised from the weakest.</i>
 </center>

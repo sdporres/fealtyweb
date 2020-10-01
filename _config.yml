@@ -5,7 +5,10 @@ highlighter:      rouge
 # Setup
 title:            The Official Fealty Site
 tagline:          
-description:      "A real-time strategy-RPG about the rise and fall of mighty dynasties"
+description:      "<b>Plan</b> your strategy.</br>
+                   <b>Act</b> through your family.</br>
+                   <b>Lead</b> your dynasty.
+                   <center></p><a href='/about.html'>Learn more</a></center>"
 url:              https://fealtygame.com
 baseurl:          
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
